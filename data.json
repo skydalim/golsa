@@ -1,1 +1,5773 @@
-{"members":[{"id":"admin","name":"admin","email":"","phone":"","role":"admin","pwd":"admin"},{"id":"김정모","name":"김정모","email":"icdental03@gmail.com","phone":"973-980-4422","role":"user","pwd":"1234"},{"id":"양준홍","name":"양준홍","email":"danyjeny@gmail.com","phone":"201-349-1950","role":"user","pwd":"1234"},{"id":"오정헌","name":"오정헌","email":"ojh1225@gmail.com","phone":"314-239-0297","role":"user","pwd":"1234"},{"id":"임동안","name":"임동안","email":"skydalim@gmail.com","phone":"516-384-7755","role":"admin","pwd":"1234"},{"id":"장계만","name":"장계만","email":"gchang1955@gmail.com","phone":"201-572-1974","role":"user","pwd":"1234"},{"id":"장홍연","name":"장홍연","email":"sewoltara@gmail.com","phone":"973-216-6996","role":"user","pwd":"1234"},{"id":"최석문","name":"최석문","email":"Jsmchoi000@gmail.com","phone":"636-485-5951","role":"user","pwd":"1234"},{"id":"황인호","name":"황인호","email":"ihhwang61@gmail.com","phone":"973-970-8061","role":"user","pwd":"1234"},{"id":"방인태","name":"방인태","email":"greenpasture72@gmail.com","phone":"201-452-9251","role":"user","pwd":"1234"},{"id":"박인혁","name":"박인혁","email":"go2pih@gmail.com","phone":"201-725-4266","role":"user","pwd":"1234"},{"id":"김현유","name":"김현유","email":"skydalim@gmail.com","phone":"917-609-3540","role":"user","pwd":"1234"}],"handicaps":[{"year":2022,"type":"정기","name":"김정모","handicap":18,"avgScore":22.2},{"year":2022,"type":"정기","name":"오정헌","handicap":38,"avgScore":50.6},{"year":2022,"type":"정기","name":"최석문","handicap":20,"avgScore":26.33},{"year":2022,"type":"정기","name":"장홍연","handicap":26,"avgScore":28},{"year":2022,"type":"정기","name":"양준홍","handicap":29,"avgScore":34.67},{"year":2022,"type":"정기","name":"황인호","handicap":22,"avgScore":27.4},{"year":2022,"type":"정기","name":"임동안","handicap":22,"avgScore":24.5},{"year":2022,"type":"정기","name":"장계만","handicap":30,"avgScore":35.33},{"year":2021,"type":"정기","name":"김정모","handicap":19,"avgScore":23.57},{"year":2021,"type":"정기","name":"오정헌","handicap":38,"avgScore":52.57},{"year":2021,"type":"정기","name":"최석문","handicap":20,"avgScore":25.14},{"year":2021,"type":"정기","name":"장홍연","handicap":23,"avgScore":32.86},{"year":2021,"type":"정기","name":"양준홍","handicap":30,"avgScore":35.5},{"year":2021,"type":"정기","name":"황인호","handicap":21,"avgScore":28.17},{"year":2021,"type":"정기","name":"임동안","handicap":23,"avgScore":27.14},{"year":2021,"type":"정기","name":"장계만","handicap":30,"avgScore":39.67},{"year":2023,"type":"전반기","name":"장홍연","handicap":20.75,"avgScore":28.75},{"year":2023,"type":"전반기","name":"임동안","handicap":19.4,"avgScore":23},{"year":2023,"type":"전반기","name":"김정모","handicap":18.8,"avgScore":25},{"year":2023,"type":"전반기","name":"황인호","handicap":19.8,"avgScore":29.25},{"year":2023,"type":"전반기","name":"양준홍","handicap":26.15,"avgScore":34.5},{"year":2023,"type":"전반기","name":"최석문","handicap":20.3,"avgScore":27.33},{"year":2023,"type":"전반기","name":"오정헌","handicap":34.8,"avgScore":42.33},{"year":2023,"type":"전반기","name":"장계만","handicap":27,"avgScore":44},{"year":2023,"type":"후반기","name":"임동안","handicap":19.4,"avgScore":20},{"year":2023,"type":"후반기","name":"양준홍","handicap":26.15,"avgScore":31.25},{"year":2023,"type":"후반기","name":"장홍연","handicap":20.75,"avgScore":28.25},{"year":2023,"type":"후반기","name":"황인호","handicap":19.8,"avgScore":28},{"year":2023,"type":"후반기","name":"최석문","handicap":20.3,"avgScore":27},{"year":2023,"type":"후반기","name":"오정헌","handicap":34.8,"avgScore":50.25},{"year":2024,"type":"전반기","name":"임동안","handicap":17.47,"avgScore":19.5},{"year":2024,"type":"전반기","name":"장홍연","handicap":23.07,"avgScore":31.75},{"year":2024,"type":"전반기","name":"황인호","handicap":22.74,"avgScore":34},{"year":2024,"type":"전반기","name":"양준홍","handicap":25.75,"avgScore":34.75},{"year":2024,"type":"전반기","name":"최석문","handicap":21.2,"avgScore":27},{"year":2024,"type":"전반기","name":"김정모","handicap":19.1,"avgScore":27.33},{"year":2024,"type":"전반기","name":"오정헌","handicap":36.04,"avgScore":55.33},{"year":2024,"type":"후반기","name":"임동안","handicap":17.47,"avgScore":24.25},{"year":2024,"type":"후반기","name":"장홍연","handicap":23.07,"avgScore":27},{"year":2024,"type":"후반기","name":"황인호","handicap":22.74,"avgScore":28.5},{"year":2024,"type":"후반기","name":"양준홍","handicap":25.75,"avgScore":33.25},{"year":2024,"type":"후반기","name":"최석문","handicap":21.2,"avgScore":24.25},{"year":2024,"type":"후반기","name":"김정모","handicap":19.1,"avgScore":21.75},{"year":2024,"type":"후반기","name":"오정헌","handicap":36.04,"avgScore":48.25},{"year":2025,"type":"전반기","name":"장홍연","handicap":22.95,"avgScore":33},{"year":2025,"type":"전반기","name":"임동안","handicap":18.28,"avgScore":21},{"year":2025,"type":"전반기","name":"김정모","handicap":20.22,"avgScore":18.75},{"year":2025,"type":"전반기","name":"황인호","handicap":23.86,"avgScore":31.25},{"year":2025,"type":"전반기","name":"양준홍","handicap":27.03,"avgScore":37.33},{"year":2025,"type":"전반기","name":"최석문","handicap":20.15,"avgScore":31.5},{"year":2025,"type":"전반기","name":"오정헌","handicap":34,"avgScore":51.25},{"year":2025,"type":"후반기","name":"장홍연","handicap":22.95,"avgScore":24.75},{"year":2025,"type":"후반기","name":"임동안","handicap":18.28,"avgScore":18},{"year":2025,"type":"후반기","name":"김정모","handicap":20.22,"avgScore":15.75},{"year":2025,"type":"후반기","name":"황인호","handicap":23.86,"avgScore":29.25},{"year":2025,"type":"후반기","name":"양준홍","handicap":27.03,"avgScore":27.25},{"year":2025,"type":"후반기","name":"최석문","handicap":20.15,"avgScore":25.5},{"year":2025,"type":"후반기","name":"오정헌","handicap":34,"avgScore":49.25},{"year":2026,"type":"전반기","name":"장홍연","handicap":24.42,"avgScore":24},{"year":2026,"type":"전반기","name":"임동안","handicap":16.72,"avgScore":26},{"year":2026,"type":"전반기","name":"김정모","handicap":14.62,"avgScore":34},{"year":2026,"type":"전반기","name":"황인호","handicap":23.86,"avgScore":26},{"year":2026,"type":"전반기","name":"양준홍","handicap":25.93,"avgScore":39},{"year":2026,"type":"전반기","name":"최석문","handicap":22.74,"avgScore":0},{"year":2026,"type":"전반기","name":"오정헌","handicap":34,"avgScore":44},{"year":2026,"type":"전반기","name":"김현유","handicap":18.72,"avgScore":0}],"events":[{"id":"2021정기2021-04-04","year":2021,"type":"정기","name":"2021 정기 04/04","date":"2021-04-04","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2021정기2021-05-02","year":2021,"type":"정기","name":"2021 정기 05/02","date":"2021-05-02","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2021정기2021-06-06","year":2021,"type":"정기","name":"2021 정기 06/06","date":"2021-06-06","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2021정기2021-07-04","year":2021,"type":"정기","name":"2021 정기 07/04","date":"2021-07-04","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2021정기2021-09-04","year":2021,"type":"정기","name":"2021 정기 09/04","date":"2021-09-04","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2021정기2021-10-23","year":2021,"type":"정기","name":"2021 정기 10/23","date":"2021-10-23","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2021정기2021-11-06","year":2021,"type":"정기","name":"2021 정기 11/06","date":"2021-11-06","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2022정기2022-04-02","year":2022,"type":"정기","name":"2022 정기 04/02","date":"2022-04-02","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2022정기2022-07-02","year":2022,"type":"정기","name":"2022 정기 07/02","date":"2022-07-02","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2022정기2022-08-06","year":2022,"type":"정기","name":"2022 정기 08/06","date":"2022-08-06","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2022정기2022-09-03","year":2022,"type":"정기","name":"2022 정기 09/03","date":"2022-09-03","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2022정기2022-10-08","year":2022,"type":"정기","name":"2022 정기 10/08","date":"2022-10-08","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2022정기2022-11-05","year":2022,"type":"정기","name":"2022 정기 11/05","date":"2022-11-05","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2023전반기2023-04-08","year":2023,"type":"전반기","name":"2023 전반기 04/08","date":"2023-04-08","course":"Sunset Valley","address":"47 W Sunset Rd, Pompton Plains, NJ 07444","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2023전반기2023-05-06","year":2023,"type":"전반기","name":"2023 전반기 05/06","date":"2023-05-06","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2023전반기2023-06-03","year":2023,"type":"전반기","name":"2023 전반기 06/03","date":"2023-06-03","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2023후반기2023-09-02","year":2023,"type":"후반기","name":"2023 후반기 09/02","date":"2023-09-02","course":"Sunset Valley","address":"47 W Sunset Rd, Pompton Plains, NJ 07444, USA","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2023후반기2023-10-07","year":2023,"type":"후반기","name":"2023 후반기 10/07","date":"2023-10-07","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2023후반기2023-11-04","year":2023,"type":"후반기","name":"2023 후반기 11/04","date":"2023-11-04","course":"","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2023후반기2023-08-05","year":2023,"type":"후반기","name":"2023 후반기 08/05","date":"2023-08-05","course":"Flanders Valley","address":"81 Pleasant Hill Rd, Flanders, NJ 07836","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2023전반기2023-07-22","year":2023,"type":"전반기","name":"2023 전반기 07/22","date":"2023-07-22","course":"Sunset Valley","address":"47 W Sunset Rd, Pompton Plains, NJ 07444","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2023후반기2023-11-11","year":2023,"type":"후반기","name":"2023 후반기 11/11","date":"2023-11-11","course":"Sunset Valley","address":"47 W Sunset Rd, Pompton Plains, NJ 07444","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2024전반기2024-04-07","year":2024,"type":"전반기","name":"2024 전반기 04/07","date":"2024-04-07","course":"Sunset Valley","address":"47 W Sunset Rd, Pompton Plains, NJ 07444","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2024전반기2024-06-15","year":2024,"type":"전반기","name":"2024 전반기 06/15","date":"2024-06-15","course":"Flanders Valley","address":"81 Pleasant Hill Rd, Flanders, NJ 07836","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2024전반기2024-07-06","year":2024,"type":"전반기","name":"2024 전반기 07/06","date":"2024-07-06","course":"Sunset valley","address":"47 W Sunset Rd, Pompton Plains, NJ 07444","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2024전반기2024-08-24","year":2024,"type":"전반기","name":"2024 전반기 08/24","date":"2024-08-24","course":"Sunset Valley","address":"47 W Sunset Rd, Pompton Plains, NJ 07444","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2024후반기2024-09-01","year":2024,"type":"후반기","name":"2024 후반기 09/01","date":"2024-09-01","course":"Birkshire Valley","address":"28 Cozy Lake Rd, Oak Ridge,NJ","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2024후반기2024-09-02","year":2024,"type":"후반기","name":"2024 후반기 09/02","date":"2024-09-02","course":"Flanders Valley","address":"81 Pleasant Hill Rd, Flanders, NJ 07836","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2024후반기2024-10-06","year":2024,"type":"후반기","name":"2024 후반기 10/06","date":"2024-10-06","course":"Sunset Valley","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2024후반기2024-10-27","year":2024,"type":"후반기","name":"2024 후반기 10/27","date":"2024-10-27","course":"Sunset Valley","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2025전반기2025-04-06","year":2025,"type":"전반기","name":"2025 전반기 04/06","date":"2025-04-06","course":"Sunset Valley","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2025전반기2025-05-26","year":2025,"type":"전반기","name":"2025 전반기 05/26","date":"2025-05-26","course":"Fox Hollow CC","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2025전반기2025-06-08","year":2025,"type":"전반기","name":"2025 전반기 06/08","date":"2025-06-08","course":"Sunset Valley","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2025전반기2025-07-06","year":2025,"type":"전반기","name":"2025 전반기 07/06","date":"2025-07-06","course":"Flanders valley","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2025후반기2025-08-03","year":2025,"type":"후반기","name":"2025 후반기 08/03","date":"2025-08-03","course":"Francis A. Byrne Golf Course","address":"1100 Pleasant Valley Way, West Orange, NJ 07052","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2025후반기2025-09-07","year":2025,"type":"후반기","name":"2025 후반기 09/07","date":"2025-09-07","course":"Sunset Valley","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2025후반기2025-11-02","year":2025,"type":"후반기","name":"2025 후반기 11/02","date":"2025-11-02","course":"Sunset valley","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2025후반기2025-10-04","year":2025,"type":"후반기","name":"2025 후반기 10/04","date":"2025-10-04","course":"Sunset virtual","address":"","note":"","noPenalty":false,"noHandicapCalc":false},{"id":"2026전반기2026-03-29","year":2026,"type":"전반기","name":"2026 전반기 03/29","date":"2026-03-29","course":"Sunset Valley","address":"","note":"","noPenalty":false,"noHandicapCalc":false}],"scores":{"2021정기2021-04-04":{"장홍연":{"score":41,"attended":"Y","rank":7,"diff":18,"penalty":10,"penaltyPaid":false},"황인호":{"score":25,"attended":"Y","rank":3,"diff":4,"penalty":5,"penaltyPaid":false},"최석문":{"score":30,"attended":"Y","rank":5,"diff":10,"penalty":10,"penaltyPaid":false},"오정헌":{"score":50,"attended":"Y","rank":6,"diff":12,"penalty":10,"penaltyPaid":false},"양준홍":{"score":37,"attended":"Y","rank":4,"diff":7,"penalty":10,"penaltyPaid":false},"김정모":{"score":19,"attended":"Y","rank":1,"diff":0,"penalty":0,"penaltyPaid":false},"임동안":{"score":26,"attended":"Y","rank":2,"diff":3,"penalty":5,"penaltyPaid":false}},"2021정기2021-05-02":{"장홍연":{"score":37,"attended":"Y","rank":5,"diff":14,"penalty":10,"penaltyPaid":false},"황인호":{"score":32,"attended":"Y","rank":4,"diff":11,"penalty":10,"penaltyPaid":false},"최석문":{"score":21,"attended":"Y","rank":1,"diff":1,"penalty":0,"penaltyPaid":false},"오정헌":{"score":57,"attended":"Y","rank":7,"diff":19,"penalty":10,"penaltyPaid":false},"양준홍":{"score":34,"attended":"Y","rank":2,"diff":4,"penalty":5,"penaltyPaid":false},"김정모":{"score":33,"attended":"Y","rank":5,"diff":14,"penalty":10,"penaltyPaid":false},"임동안":{"score":32,"attended":"Y","rank":3,"diff":9,"penalty":10,"penaltyPaid":false}},"2021정기2021-06-06":{"장홍연":{"score":29,"attended":"Y","rank":4,"diff":6,"penalty":10,"penaltyPaid":false},"황인호":{"score":26,"attended":"Y","rank":2,"diff":5,"penalty":10,"penaltyPaid":false},"최석문":{"score":26,"attended":"Y","rank":4,"diff":6,"penalty":10,"penaltyPaid":false},"오정헌":{"score":60,"attended":"Y","rank":6,"diff":22,"penalty":10,"penaltyPaid":false},"양준홍":{"score":0,"attended":"Y","rank":0,"diff":0,"penalty":10,"penaltyPaid":false},"김정모":{"score":23,"attended":"Y","rank":1,"diff":4,"penalty":5,"penaltyPaid":false},"임동안":{"score":28,"attended":"Y","rank":2,"diff":5,"penalty":10,"penaltyPaid":false}},"2021정기2021-07-04":{"장홍연":{"score":30,"attended":"Y","rank":5,"diff":7,"penalty":10,"penaltyPaid":false},"황인호":{"score":25,"attended":"Y","rank":3,"diff":4,"penalty":5,"penaltyPaid":false},"최석문":{"score":26,"attended":"Y","rank":4,"diff":6,"penalty":10,"penaltyPaid":false},"오정헌":{"score":49,"attended":"Y","rank":7,"diff":11,"penalty":10,"penaltyPaid":false},"양준홍":{"score":37,"attended":"Y","rank":5,"diff":7,"penalty":10,"penaltyPaid":false},"김정모":{"score":22,"attended":"Y","rank":2,"diff":3,"penalty":5,"penaltyPaid":false},"임동안":{"score":23,"attended":"Y","rank":1,"diff":0,"penalty":0,"penaltyPaid":false}},"2021정기2021-09-04":{"장홍연":{"score":28,"attended":"Y","rank":5,"diff":5,"penalty":10,"penaltyPaid":false},"황인호":{"score":32,"attended":"Y","rank":6,"diff":11,"penalty":10,"penaltyPaid":false},"최석문":{"score":24,"attended":"Y","rank":3,"diff":4,"penalty":5,"penaltyPaid":false},"오정헌":{"score":57,"attended":"Y","rank":8,"diff":19,"penalty":10,"penaltyPaid":false},"양준홍":{"score":32,"attended":"Y","rank":1,"diff":2,"penalty":5,"penaltyPaid":false},"김정모":{"score":21,"attended":"Y","rank":1,"diff":2,"penalty":5,"penaltyPaid":false},"임동안":{"score":27,"attended":"Y","rank":3,"diff":4,"penalty":5,"penaltyPaid":false},"장계만":{"score":45,"attended":"Y","rank":7,"diff":15,"penalty":10,"penaltyPaid":false}},"2021정기2021-10-23":{"장홍연":{"score":28,"attended":"Y","rank":2,"diff":5,"penalty":10,"penaltyPaid":false},"황인호":{"score":29,"attended":"Y","rank":5,"diff":8,"penalty":10,"penaltyPaid":false},"최석문":{"score":27,"attended":"Y","rank":4,"diff":7,"penalty":10,"penaltyPaid":false},"오정헌":{"score":43,"attended":"Y","rank":2,"diff":5,"penalty":10,"penaltyPaid":false},"양준홍":{"score":42,"attended":"Y","rank":9,"diff":12,"penalty":10,"penaltyPaid":false},"김정모":{"score":20,"attended":"Y","rank":1,"diff":1,"penalty":0,"penaltyPaid":false},"임동안":{"score":31,"attended":"Y","rank":5,"diff":8,"penalty":10,"penaltyPaid":false},"장계만":{"score":41,"attended":"Y","rank":7,"diff":11,"penalty":10,"penaltyPaid":false}},"2021정기2021-11-06":{"장홍연":{"score":37,"attended":"Y","rank":6,"diff":14,"penalty":10,"penaltyPaid":false},"황인호":{"score":0,"attended":"Y","rank":0,"diff":0,"penalty":10,"penaltyPaid":false},"최석문":{"score":22,"attended":"Y","rank":2,"diff":2,"penalty":5,"penaltyPaid":false},"오정헌":{"score":52,"attended":"Y","rank":6,"diff":14,"penalty":10,"penaltyPaid":false},"양준홍":{"score":34,"attended":"Y","rank":4,"diff":4,"penalty":5,"penaltyPaid":false},"김정모":{"score":27,"attended":"Y","rank":5,"diff":8,"penalty":10,"penaltyPaid":false},"임동안":{"score":23,"attended":"Y","rank":1,"diff":0,"penalty":0,"penaltyPaid":false},"장계만":{"score":33,"attended":"Y","rank":3,"diff":3,"penalty":5,"penaltyPaid":false}},"2022정기2022-04-02":{"김정모":{"score":24,"attended":"Y","rank":5,"diff":6,"penalty":10,"penaltyPaid":false},"임동안":{"score":27,"attended":"Y","rank":4,"diff":5,"penalty":10,"penaltyPaid":false},"최석문":{"score":23,"attended":"Y","rank":3,"diff":3,"penalty":5,"penaltyPaid":false},"양준홍":{"score":37,"attended":"Y","rank":6,"diff":8,"penalty":10,"penaltyPaid":false},"황인호":{"score":22,"attended":"Y","rank":1,"diff":0,"penalty":0,"penaltyPaid":false},"장홍연":{"score":28,"attended":"Y","rank":2,"diff":2,"penalty":5,"penaltyPaid":false},"오정헌":{"score":64,"attended":"Y","rank":8,"diff":26,"penalty":10,"penaltyPaid":false},"장계만":{"score":42,"attended":"Y","rank":7,"diff":12,"penalty":10,"penaltyPaid":false}},"2022정기2022-07-02":{"김정모":{"score":21,"attended":"Y","rank":5,"diff":3,"penalty":5,"penaltyPaid":false},"양준홍":{"score":27,"attended":"Y","rank":2,"diff":-2,"penalty":0,"penaltyPaid":false},"오정헌":{"score":0,"attended":"Y","rank":0,"diff":0,"penalty":10,"penaltyPaid":false},"임동안":{"score":23,"attended":"Y","rank":3,"diff":1,"penalty":0,"penaltyPaid":false},"장계만":{"score":34,"attended":"Y","rank":6,"diff":4,"penalty":5,"penaltyPaid":false},"장홍연":{"score":23,"attended":"Y","rank":1,"diff":-3,"penalty":0,"penaltyPaid":false},"최석문":{"score":34,"attended":"Y","rank":7,"diff":14,"penalty":10,"penaltyPaid":false},"황인호":{"score":24,"attended":"Y","rank":4,"diff":2,"penalty":5,"penaltyPaid":false}},"2022정기2022-08-06":{"양준홍":{"score":34,"attended":"Y","rank":8,"diff":5,"penalty":10,"penaltyPaid":false},"장홍연":{"score":24,"attended":"Y","rank":3,"diff":-2,"penalty":0,"penaltyPaid":false},"황인호":{"score":21,"attended":"Y","rank":4,"diff":-1,"penalty":0,"penaltyPaid":false},"임동안":{"score":16,"attended":"Y","rank":1,"diff":-6,"penalty":0,"penaltyPaid":false},"김정모":{"score":15,"attended":"Y","rank":2,"diff":-3,"penalty":0,"penaltyPaid":false},"장계만":{"score":30,"attended":"Y","rank":5,"diff":0,"penalty":0,"penaltyPaid":false},"오정헌":{"score":40,"attended":"Y","rank":6,"diff":2,"penalty":5,"penaltyPaid":false},"최석문":{"score":22,"attended":"Y","rank":6,"diff":2,"penalty":5,"penaltyPaid":false}},"2022정기2022-09-03":{"임동안":{"score":34,"attended":"Y","rank":6,"diff":12,"penalty":10,"penaltyPaid":false},"장홍연":{"score":27,"attended":"Y","rank":1,"diff":1,"penalty":0,"penaltyPaid":false},"황인호":{"score":28,"attended":"Y","rank":4,"diff":6,"penalty":10,"penaltyPaid":false},"김정모":{"score":0,"attended":"Y","rank":0,"diff":0,"penalty":10,"penaltyPaid":false},"장계만":{"score":0,"attended":"Y","rank":0,"diff":0,"penalty":10,"penaltyPaid":false},"최석문":{"score":22,"attended":"Y","rank":2,"diff":2,"penalty":5,"penaltyPaid":false},"오정헌":{"score":41,"attended":"Y","rank":3,"diff":3,"penalty":5,"penaltyPaid":false},"양준홍":{"score":40,"attended":"Y","rank":5,"diff":11,"penalty":10,"penaltyPaid":false}},"2022정기2022-10-08":{"오정헌":{"score":58,"attended":"Y","rank":6,"diff":20,"penalty":10,"penaltyPaid":false},"임동안":{"score":27,"attended":"Y","rank":1,"diff":5,"penalty":10,"penaltyPaid":false},"양준홍":{"score":35,"attended":"Y","rank":2,"diff":6,"penalty":10,"penaltyPaid":false},"김정모":{"score":27,"attended":"Y","rank":3,"diff":9,"penalty":10,"penaltyPaid":false},"장홍연":{"score":40,"attended":"Y","rank":5,"diff":14,"penalty":10,"penaltyPaid":false},"최석문":{"score":30,"attended":"Y","rank":4,"diff":10,"penalty":10,"penaltyPaid":false},"황인호":{"score":0,"attended":"Y","rank":0,"diff":0,"penalty":10,"penaltyPaid":false},"장계만":{"score":0,"attended":"Y","rank":0,"diff":0,"penalty":10,"penaltyPaid":false}},"2022정기2022-11-05":{"장홍연":{"score":26,"attended":"Y","rank":2,"diff":0,"penalty":0,"penaltyPaid":false},"오정헌":{"score":50,"attended":"Y","rank":6,"diff":12,"penalty":10,"penaltyPaid":false},"임동안":{"score":20,"attended":"Y","rank":1,"diff":-2,"penalty":0,"penaltyPaid":false},"김정모":{"score":24,"attended":"Y","rank":3,"diff":6,"penalty":10,"penaltyPaid":false},"최석문":{"score":27,"attended":"Y","rank":5,"diff":7,"penalty":10,"penaltyPaid":false},"양준홍":{"score":35,"attended":"Y","rank":3,"diff":6,"penalty":10,"penaltyPaid":false},"황인호":{"score":42,"attended":"Y","rank":7,"diff":20,"penalty":10,"penaltyPaid":false},"장계만":{"score":0,"attended":"Y","rank":0,"diff":0,"penalty":10,"penaltyPaid":false}},"2023전반기2023-04-08":{"임동안":{"score":33,"attended":"Y","rank":5,"diff":13.6,"penalty":15,"penaltyPaid":false},"김정모":{"score":31,"attended":"Y","rank":2,"diff":12.2,"penalty":15,"penaltyPaid":false},"양준홍":{"score":39,"attended":"Y","rank":3,"diff":12.85,"penalty":15,"penaltyPaid":false},"오정헌":{"score":0,"attended":"Y","rank":8,"diff":0,"penalty":20,"penaltyPaid":false},"장계만":{"score":43,"attended":"Y","rank":6,"diff":16,"penalty":15,"penaltyPaid":false},"장홍연":{"score":28,"attended":"Y","rank":1,"diff":7.25,"penalty":15,"penaltyPaid":false},"최석문":{"score":40,"attended":"Y","rank":7,"diff":19.7,"penalty":15,"penaltyPaid":false},"황인호":{"score":33,"attended":"Y","rank":4,"diff":13.2,"penalty":15,"penaltyPaid":false}},"2023전반기2023-05-06":{"김정모":{"score":24,"attended":"Y","rank":3,"diff":5.2,"penalty":15,"penaltyPaid":false},"양준홍":{"score":31,"attended":"Y","rank":2,"diff":4.85,"penalty":15,"penaltyPaid":false},"오정헌":{"score":41,"attended":"Y","rank":4,"diff":6.2,"penalty":15,"penaltyPaid":false},"임동안":{"score":19,"attended":"Y","rank":1,"diff":-0.4,"penalty":0,"penaltyPaid":false},"장계만":{"score":50,"attended":"Y","rank":7,"diff":23,"penalty":15,"penaltyPaid":false},"장홍연":{"score":33,"attended":"Y","rank":6,"diff":12.25,"penalty":15,"penaltyPaid":false},"최석문":{"score":0,"attended":"Y","rank":8,"diff":0,"penalty":20,"penaltyPaid":false},"황인호":{"score":30,"attended":"Y","rank":5,"diff":10.2,"penalty":15,"penaltyPaid":false}},"2023전반기2023-06-03":{"김정모":{"score":20,"attended":"Y","rank":3,"diff":1.2,"penalty":0,"penaltyPaid":false},"양준홍":{"score":34,"attended":"Y","rank":6,"diff":7.85,"penalty":15,"penaltyPaid":false},"오정헌":{"score":46,"attended":"Y","rank":7,"diff":11.2,"penalty":15,"penaltyPaid":false},"임동안":{"score":15,"attended":"Y","rank":1,"diff":-4.4,"penalty":0,"penaltyPaid":false},"장계만":{"score":39,"attended":"Y","rank":8,"diff":12,"penalty":20,"penaltyPaid":false},"장홍연":{"score":23,"attended":"Y","rank":4,"diff":2.25,"penalty":5,"penaltyPaid":false},"최석문":{"score":20,"attended":"Y","rank":2,"diff":-0.3,"penalty":0,"penaltyPaid":false},"황인호":{"score":23,"attended":"Y","rank":5,"diff":3.2,"penalty":10,"penaltyPaid":false}},"2023전반기2023-07-22":{"김정모":{"score":0,"attended":"Y","rank":8,"diff":0,"penalty":20,"penaltyPaid":false},"양준홍":{"score":34,"attended":"Y","rank":4,"diff":7.85,"penalty":15,"penaltyPaid":false},"오정헌":{"score":40,"attended":"Y","rank":2,"diff":5.2,"penalty":15,"penaltyPaid":false},"임동안":{"score":25,"attended":"Y","rank":3,"diff":5.6,"penalty":15,"penaltyPaid":false},"장계만":{"score":0,"attended":"Y","rank":8,"diff":0,"penalty":20,"penaltyPaid":false},"장홍연":{"score":31,"attended":"Y","rank":5,"diff":10.25,"penalty":15,"penaltyPaid":false},"최석문":{"score":22,"attended":"Y","rank":1,"diff":1.7,"penalty":5,"penaltyPaid":false},"황인호":{"score":31,"attended":"Y","rank":6,"diff":11.2,"penalty":15,"penaltyPaid":false}},"2023후반기2023-08-05":{"양준홍":{"score":29,"attended":"Y","rank":4,"diff":2.85,"penalty":10,"penaltyPaid":false},"임동안":{"score":17,"attended":"Y","rank":1,"diff":-2.4,"penalty":0,"penaltyPaid":false},"오정헌":{"score":51,"attended":"Y","rank":6,"diff":16.2,"penalty":15,"penaltyPaid":false},"최석문":{"score":21,"attended":"Y","rank":2,"diff":0.7,"penalty":0,"penaltyPaid":false},"황인호":{"score":21,"attended":"Y","rank":3,"diff":1.2,"penalty":0,"penaltyPaid":false},"장홍연":{"score":25,"attended":"Y","rank":5,"diff":4.25,"penalty":15,"penaltyPaid":false}},"2023후반기2023-09-02":{"양준홍":{"score":28,"attended":"Y","rank":2,"diff":1.85,"penalty":5,"penaltyPaid":false},"오정헌":{"score":46,"attended":"Y","rank":6,"diff":11.2,"penalty":15,"penaltyPaid":false},"임동안":{"score":17,"attended":"Y","rank":1,"diff":-2.4,"penalty":0,"penaltyPaid":false},"장홍연":{"score":26,"attended":"Y","rank":4,"diff":5.25,"penalty":15,"penaltyPaid":false},"최석문":{"score":31,"attended":"Y","rank":5,"diff":10.7,"penalty":15,"penaltyPaid":false},"황인호":{"score":24,"attended":"Y","rank":3,"diff":4.2,"penalty":15,"penaltyPaid":false},"방인태":{"score":25,"attended":"Y","rank":0,"diff":25,"penalty":15,"penaltyPaid":false}},"2023후반기2023-11-04":{"양준홍":{"score":25,"attended":"Y","rank":1,"diff":-1.15,"penalty":0,"penaltyPaid":false},"오정헌":{"score":52,"attended":"Y","rank":5,"diff":17.2,"penalty":15,"penaltyPaid":false},"임동안":{"score":21,"attended":"Y","rank":2,"diff":1.6,"penalty":5,"penaltyPaid":false},"장홍연":{"score":30,"attended":"Y","rank":4,"diff":9.25,"penalty":15,"penaltyPaid":false},"최석문":{"score":27,"attended":"Y","rank":3,"diff":6.7,"penalty":15,"penaltyPaid":false},"황인호":{"score":39,"attended":"Y","rank":6,"diff":19.2,"penalty":15,"penaltyPaid":false},"방인태":{"score":27,"attended":"Y","rank":0,"diff":27,"penalty":15,"penaltyPaid":false}},"2023후반기2023-11-11":{"임동안":{"score":25,"attended":"Y","rank":1,"diff":5.6,"penalty":15,"penaltyPaid":false},"양준홍":{"score":43,"attended":"Y","rank":4,"diff":16.85,"penalty":15,"penaltyPaid":false},"최석문":{"score":29,"attended":"Y","rank":2,"diff":8.7,"penalty":15,"penaltyPaid":false},"장홍연":{"score":32,"attended":"Y","rank":3,"diff":11.25,"penalty":15,"penaltyPaid":false},"황인호":{"score":0,"attended":"Y","rank":6,"diff":0,"penalty":20,"penaltyPaid":false},"오정헌":{"score":52,"attended":"Y","rank":5,"diff":17.2,"penalty":15,"penaltyPaid":false}},"2024전반기2024-04-07":{"김정모":{"score":30,"attended":"Y","rank":4,"diff":10.9,"penalty":15,"penaltyPaid":false},"양준홍":{"score":34,"attended":"Y","rank":3,"diff":8.25,"penalty":15,"penaltyPaid":false},"오정헌":{"score":48,"attended":"Y","rank":5,"diff":11.96,"penalty":15,"penaltyPaid":false},"임동안":{"score":22,"attended":"Y","rank":2,"diff":4.53,"penalty":15,"penaltyPaid":false},"장홍연":{"score":41,"attended":"Y","rank":6,"diff":17.93,"penalty":15,"penaltyPaid":false},"최석문":{"score":24,"attended":"Y","rank":1,"diff":2.8,"penalty":10,"penaltyPaid":false},"황인호":{"score":42,"attended":"Y","rank":7,"diff":19.26,"penalty":15,"penaltyPaid":false}},"2024전반기2024-06-15":{"김정모":{"score":24,"attended":"Y","rank":5,"diff":4.9,"penalty":15,"penaltyPaid":false},"양준홍":{"score":34,"attended":"Y","rank":6,"diff":8.25,"penalty":15,"penaltyPaid":false},"오정헌":{"score":60,"attended":"Y","rank":7,"diff":23.96,"penalty":15,"penaltyPaid":false},"임동안":{"score":19,"attended":"Y","rank":1,"diff":1.53,"penalty":0,"penaltyPaid":false},"장홍연":{"score":26,"attended":"Y","rank":3,"diff":2.93,"penalty":5,"penaltyPaid":false},"최석문":{"score":26,"attended":"Y","rank":4,"diff":4.8,"penalty":15,"penaltyPaid":false},"황인호":{"score":25,"attended":"Y","rank":2,"diff":2.26,"penalty":5,"penaltyPaid":false}},"2024전반기2024-07-06":{"장홍연":{"score":31,"attended":"Y","rank":3,"diff":7.93,"penalty":15,"penaltyPaid":false},"황인호":{"score":35,"attended":"Y","rank":6,"diff":12.26,"penalty":15,"penaltyPaid":false},"임동안":{"score":16,"attended":"Y","rank":1,"diff":-1.47,"penalty":0,"penaltyPaid":false},"최석문":{"score":22,"attended":"Y","rank":2,"diff":0.8,"penalty":0,"penaltyPaid":false},"김정모":{"score":28,"attended":"Y","rank":5,"diff":8.9,"penalty":15,"penaltyPaid":false},"양준홍":{"score":34,"attended":"Y","rank":4,"diff":8.25,"penalty":15,"penaltyPaid":false},"오정헌":{"score":0,"attended":"Y","rank":7,"diff":0,"penalty":15,"penaltyPaid":false}},"2024전반기2024-08-24":{"김정모":{"score":0,"attended":"Y","rank":7,"diff":0,"penalty":15,"penaltyPaid":false},"양준홍":{"score":37,"attended":"Y","rank":3,"diff":11.25,"penalty":15,"penaltyPaid":false},"오정헌":{"score":58,"attended":"Y","rank":5,"diff":21.96,"penalty":15,"penaltyPaid":false},"임동안":{"score":21,"attended":"Y","rank":1,"diff":3.53,"penalty":10,"penaltyPaid":false},"장홍연":{"score":29,"attended":"Y","rank":2,"diff":5.93,"penalty":15,"penaltyPaid":false},"최석문":{"score":36,"attended":"Y","rank":4,"diff":14.8,"penalty":15,"penaltyPaid":false},"황인호":{"score":0,"attended":"Y","rank":7,"diff":0,"penalty":15,"penaltyPaid":false}},"2024후반기2024-09-01":{"김정모":{"score":24,"attended":"Y","rank":5,"diff":4.9,"penalty":15,"penaltyPaid":false},"양준홍":{"score":34,"attended":"Y","rank":6,"diff":8.25,"penalty":15,"penaltyPaid":false},"오정헌":{"score":45,"attended":"Y","rank":7,"diff":8.96,"penalty":15,"penaltyPaid":false},"임동안":{"score":22,"attended":"Y","rank":4,"diff":4.53,"penalty":15,"penaltyPaid":false},"장홍연":{"score":27,"attended":"Y","rank":3,"diff":3.93,"penalty":10,"penaltyPaid":false},"최석문":{"score":23,"attended":"Y","rank":1,"diff":1.8,"penalty":0,"penaltyPaid":false},"황인호":{"score":25,"attended":"Y","rank":2,"diff":2.26,"penalty":5,"penaltyPaid":false}},"2024후반기2024-09-02":{"김정모":{"score":24,"attended":"Y","rank":5,"diff":4.9,"penalty":15,"penaltyPaid":false},"양준홍":{"score":34,"attended":"Y","rank":6,"diff":8.25,"penalty":15,"penaltyPaid":false},"오정헌":{"score":45,"attended":"Y","rank":7,"diff":8.96,"penalty":15,"penaltyPaid":false},"임동안":{"score":22,"attended":"Y","rank":4,"diff":4.53,"penalty":15,"penaltyPaid":false},"장홍연":{"score":27,"attended":"Y","rank":3,"diff":3.93,"penalty":10,"penaltyPaid":false},"최석문":{"score":23,"attended":"Y","rank":1,"diff":1.8,"penalty":0,"penaltyPaid":false},"황인호":{"score":25,"attended":"Y","rank":2,"diff":2.26,"penalty":5,"penaltyPaid":false}},"2024후반기2024-10-06":{"김정모":{"score":23,"attended":"Y","rank":3,"diff":3.9,"penalty":10,"penaltyPaid":false},"양준홍":{"score":29,"attended":"Y","rank":2,"diff":3.25,"penalty":10,"penaltyPaid":false},"오정헌":{"score":52,"attended":"Y","rank":7,"diff":15.96,"penalty":15,"penaltyPaid":false},"임동안":{"score":25,"attended":"Y","rank":5,"diff":7.53,"penalty":15,"penaltyPaid":false},"장홍연":{"score":31,"attended":"Y","rank":6,"diff":7.93,"penalty":15,"penaltyPaid":false},"최석문":{"score":23,"attended":"Y","rank":1,"diff":1.8,"penalty":0,"penaltyPaid":false},"황인호":{"score":30,"attended":"Y","rank":4,"diff":7.26,"penalty":15,"penaltyPaid":false}},"2024후반기2024-10-27":{"황인호":{"score":34,"attended":"Y","rank":6,"diff":11.26,"penalty":15,"penaltyPaid":false},"김정모":{"score":16,"attended":"Y","rank":1,"diff":-3.1,"penalty":0,"penaltyPaid":false},"최석문":{"score":28,"attended":"Y","rank":3,"diff":6.8,"penalty":15,"penaltyPaid":false},"양준홍":{"score":36,"attended":"Y","rank":4,"diff":10.25,"penalty":15,"penaltyPaid":false},"장홍연":{"score":23,"attended":"Y","rank":2,"diff":-0.07,"penalty":0,"penaltyPaid":false},"임동안":{"score":28,"attended":"Y","rank":5,"diff":10.53,"penalty":15,"penaltyPaid":false},"오정헌":{"score":51,"attended":"Y","rank":7,"diff":14.96,"penalty":15,"penaltyPaid":false}},"2025전반기2025-04-06":{"김정모":{"score":25,"attended":"Y","rank":2,"diff":4.78,"penalty":15,"penaltyPaid":false},"양준홍":{"score":39,"attended":"Y","rank":3,"diff":11.97,"penalty":15,"penaltyPaid":false},"오정헌":{"score":52,"attended":"Y","rank":7,"diff":18,"penalty":15,"penaltyPaid":false},"임동안":{"score":23,"attended":"Y","rank":1,"diff":4.72,"penalty":15,"penaltyPaid":false},"장홍연":{"score":35,"attended":"Y","rank":4,"diff":12.05,"penalty":15,"penaltyPaid":false},"최석문":{"score":38,"attended":"Y","rank":6,"diff":17.85,"penalty":15,"penaltyPaid":false},"황인호":{"score":38,"attended":"Y","rank":5,"diff":14.14,"penalty":15,"penaltyPaid":false}},"2025전반기2025-05-26":{"김정모":{"score":18,"attended":"Y","rank":1,"diff":-2.22,"penalty":0,"penaltyPaid":false},"양준홍":{"score":38,"attended":"Y","rank":6,"diff":10.97,"penalty":15,"penaltyPaid":false},"오정헌":{"score":53,"attended":"Y","rank":7,"diff":19,"penalty":15,"penaltyPaid":false},"임동안":{"score":23,"attended":"Y","rank":3,"diff":4.72,"penalty":15,"penaltyPaid":false},"장홍연":{"score":30,"attended":"Y","rank":4,"diff":7.05,"penalty":15,"penaltyPaid":false},"최석문":{"score":24,"attended":"Y","rank":2,"diff":3.85,"penalty":10,"penaltyPaid":false},"황인호":{"score":31,"attended":"Y","rank":5,"diff":7.14,"penalty":15,"penaltyPaid":false},"박인혁":{"score":29,"attended":"Y","rank":8,"diff":20,"penalty":15,"penaltyPaid":false}},"2025전반기2025-06-08":{"장홍연":{"score":32,"attended":"Y","rank":5,"diff":9.05,"penalty":15,"penaltyPaid":false},"김정모":{"score":16,"attended":"Y","rank":1,"diff":-4.22,"penalty":0,"penaltyPaid":false},"임동안":{"score":20,"attended":"Y","rank":2,"diff":1.72,"penalty":0,"penaltyPaid":false},"최석문":{"score":38,"attended":"Y","rank":7,"diff":17.85,"penalty":15,"penaltyPaid":false},"양준홍":{"score":35,"attended":"Y","rank":4,"diff":7.97,"penalty":15,"penaltyPaid":false},"오정헌":{"score":49,"attended":"Y","rank":6,"diff":15,"penalty":15,"penaltyPaid":false},"황인호":{"score":28,"attended":"Y","rank":3,"diff":4.14,"penalty":15,"penaltyPaid":false}},"2025전반기2025-07-06":{"김정모":{"score":16,"attended":"Y","rank":1,"diff":-4.22,"penalty":0,"penaltyPaid":false},"임동안":{"score":18,"attended":"Y","rank":2,"diff":-0.28,"penalty":0,"penaltyPaid":false},"황인호":{"score":28,"attended":"Y","rank":3,"diff":4.14,"penalty":15,"penaltyPaid":false},"오정헌":{"score":51,"attended":"Y","rank":6,"diff":17,"penalty":15,"penaltyPaid":false},"장홍연":{"score":35,"attended":"Y","rank":5,"diff":12.05,"penalty":15,"penaltyPaid":false},"최석문":{"score":26,"attended":"Y","rank":4,"diff":5.85,"penalty":15,"penaltyPaid":false},"양준홍":{"score":0,"attended":"Y","rank":7,"diff":0,"penalty":15,"penaltyPaid":false}},"2025후반기2025-08-03":{"김정모":{"score":14,"attended":"Y","rank":2,"diff":-6.22,"penalty":0,"penaltyPaid":false},"양준홍":{"score":19,"attended":"Y","rank":1,"diff":-8.03,"penalty":0,"penaltyPaid":false},"오정헌":{"score":51,"attended":"Y","rank":7,"diff":17,"penalty":15,"penaltyPaid":false},"임동안":{"score":17,"attended":"Y","rank":4,"diff":-1.28,"penalty":0,"penaltyPaid":false},"장홍연":{"score":19,"attended":"Y","rank":3,"diff":-3.95,"penalty":0,"penaltyPaid":false},"최석문":{"score":22,"attended":"Y","rank":6,"diff":1.85,"penalty":0,"penaltyPaid":false},"황인호":{"score":24,"attended":"Y","rank":5,"diff":0.14,"penalty":0,"penaltyPaid":false}},"2025후반기2025-09-07":{"장홍연":{"score":32,"attended":"Y","rank":7,"diff":9.05,"penalty":15,"penaltyPaid":false},"김정모":{"score":11,"attended":"Y","rank":1,"diff":-9.22,"penalty":0,"penaltyPaid":false},"양준홍":{"score":26,"attended":"Y","rank":3,"diff":-1.03,"penalty":0,"penaltyPaid":false},"임동안":{"score":15,"attended":"Y","rank":2,"diff":-3.28,"penalty":0,"penaltyPaid":false},"황인호":{"score":31,"attended":"Y","rank":6,"diff":7.14,"penalty":15,"penaltyPaid":false},"오정헌":{"score":40,"attended":"Y","rank":5,"diff":6,"penalty":15,"penaltyPaid":false},"최석문":{"score":26,"attended":"Y","rank":4,"diff":5.85,"penalty":15,"penaltyPaid":false}},"2025후반기2025-11-02":{"김정모":{"score":19,"attended":"Y","rank":1,"diff":-1.22,"penalty":0,"penaltyPaid":false},"임동안":{"score":20,"attended":"Y","rank":3,"diff":1.72,"penalty":0,"penaltyPaid":false},"양준홍":{"score":32,"attended":"Y","rank":4,"diff":4.97,"penalty":15,"penaltyPaid":false},"최석문":{"score":27,"attended":"Y","rank":5,"diff":6.85,"penalty":15,"penaltyPaid":false},"장홍연":{"score":24,"attended":"Y","rank":2,"diff":1.05,"penalty":0,"penaltyPaid":false},"황인호":{"score":31,"attended":"Y","rank":6,"diff":7.14,"penalty":15,"penaltyPaid":false},"오정헌":{"score":53,"attended":"Y","rank":7,"diff":19,"penalty":15,"penaltyPaid":false}},"2025후반기2025-10-04":{"김정모":{"score":19,"attended":"Y","rank":1,"diff":-1.22,"penalty":0,"penaltyPaid":false},"장홍연":{"score":24,"attended":"Y","rank":2,"diff":1.05,"penalty":0,"penaltyPaid":false},"오정헌":{"score":53,"attended":"Y","rank":7,"diff":19,"penalty":15,"penaltyPaid":false},"임동안":{"score":20,"attended":"Y","rank":3,"diff":1.72,"penalty":0,"penaltyPaid":false},"양준홍":{"score":32,"attended":"Y","rank":4,"diff":4.97,"penalty":15,"penaltyPaid":false},"최석문":{"score":27,"attended":"Y","rank":5,"diff":6.85,"penalty":15,"penaltyPaid":false},"황인호":{"score":31,"attended":"Y","rank":6,"diff":7.14,"penalty":15,"penaltyPaid":false}},"2026전반기2026-03-29":{"김정모":{"score":34,"attended":"Y","rank":6,"diff":19.38,"penalty":15,"penaltyPaid":false},"양준홍":{"score":39,"attended":"Y","rank":5,"diff":13.07,"penalty":15,"penaltyPaid":false},"오정헌":{"score":44,"attended":"Y","rank":4,"diff":10,"penalty":15,"penaltyPaid":false},"임동안":{"score":26,"attended":"Y","rank":3,"diff":9.28,"penalty":15,"penaltyPaid":false},"장홍연":{"score":24,"attended":"Y","rank":1,"diff":-0.42,"penalty":0,"penaltyPaid":false},"최석문":{"score":0,"attended":"Y","rank":8,"diff":0,"penalty":15,"penaltyPaid":false},"김현유":{"score":0,"attended":"Y","rank":8,"diff":0,"penalty":15,"penaltyPaid":false},"황인호":{"score":26,"attended":"Y","rank":2,"diff":2.14,"penalty":5,"penaltyPaid":false}}},"penalties":[{"year":2021,"name":"임동안","date":"2021-10-29","penalty":10,"award":0,"balance":10},{"year":2021,"name":"장홍연","date":"2021-10-30","penalty":10,"award":0,"balance":20},{"year":2021,"name":"김정모","date":"2021-11-06","penalty":10,"award":0,"balance":30},{"year":2021,"name":"양준홍","date":"2021-11-07","penalty":15,"award":0,"balance":45},{"year":2021,"name":"최석문","date":"2021-11-07","penalty":15,"award":0,"balance":60},{"year":2021,"name":"황인호","date":"2021-11-07","penalty":20,"award":0,"balance":80},{"year":2021,"name":"오정헌","date":"2021-11-07","penalty":20,"award":0,"balance":100},{"year":2021,"name":"장홍연","date":"2021-11-07","penalty":10,"award":0,"balance":110},{"year":2022,"name":"황인호","date":"2022-04-02","penalty":0,"award":80,"balance":30},{"year":2022,"name":"장계만","date":"2022-04-02","penalty":10,"award":10,"balance":30},{"year":2022,"name":"임동안","date":"2022-04-02","penalty":10,"award":0,"balance":40},{"year":2022,"name":"김정모","date":"2022-04-02","penalty":10,"award":0,"balance":50},{"year":2022,"name":"장홍연","date":"2022-04-02","penalty":5,"award":0,"balance":55},{"year":2022,"name":"최석문","date":"2022-04-02","penalty":5,"award":0,"balance":60},{"year":2022,"name":"양준홍","date":"2022-04-02","penalty":10,"award":0,"balance":70},{"year":2022,"name":"오정헌","date":"2022-04-02","penalty":10,"award":0,"balance":80},{"year":2022,"name":"장홍연","date":"2022-07-02","penalty":0,"award":70,"balance":10},{"year":2022,"name":"장계만","date":"2022-07-02","penalty":5,"award":10,"balance":5},{"year":2022,"name":"황인호","date":"2022-07-02","penalty":5,"award":0,"balance":10},{"year":2022,"name":"김정모","date":"2022-07-02","penalty":5,"award":0,"balance":15},{"year":2022,"name":"오정헌","date":"2022-07-02","penalty":10,"award":0,"balance":25},{"year":2022,"name":"최석문","date":"2022-07-02","penalty":10,"award":0,"balance":35},{"year":2022,"name":"임동안","date":"2022-08-06","penalty":0,"award":25,"balance":10},{"year":2022,"name":"최석문","date":"2022-08-06","penalty":5,"award":5,"balance":10},{"year":2022,"name":"오정헌","date":"2022-08-06","penalty":5,"award":5,"balance":10},{"year":2022,"name":"양준홍","date":"2022-08-06","penalty":10,"award":0,"balance":20},{"year":2022,"name":"황인호","date":"2022-09-03","penalty":10,"award":0,"balance":30},{"year":2022,"name":"임동안","date":"2022-09-03","penalty":10,"award":0,"balance":40},{"year":2022,"name":"양준홍","date":"2022-09-03","penalty":10,"award":0,"balance":50},{"year":2022,"name":"최석문","date":"2022-09-03","penalty":5,"award":0,"balance":55},{"year":2022,"name":"오정헌","date":"2022-09-03","penalty":5,"award":0,"balance":60},{"year":2022,"name":"김정모","date":"2022-09-03","penalty":10,"award":0,"balance":70},{"year":2022,"name":"장계만","date":"2022-09-03","penalty":10,"award":0,"balance":80},{"year":2022,"name":"김정모","date":"2022-10-08","penalty":10,"award":0,"balance":90},{"year":2022,"name":"임동안","date":"2022-10-08","penalty":10,"award":70,"balance":30},{"year":2022,"name":"장홍연","date":"2022-10-08","penalty":10,"award":10,"balance":30},{"year":2022,"name":"최석문","date":"2022-10-08","penalty":10,"award":0,"balance":40},{"year":2022,"name":"오정헌","date":"2022-10-08","penalty":10,"award":0,"balance":50},{"year":2022,"name":"장계만","date":"2022-10-08","penalty":10,"award":0,"balance":60},{"year":2022,"name":"황인호","date":"2022-10-08","penalty":10,"award":0,"balance":70},{"year":2022,"name":"양준홍","date":"2022-10-08","penalty":10,"award":0,"balance":80},{"year":2022,"name":"임동안","date":"2022-11-05","penalty":0,"award":70,"balance":10},{"year":2022,"name":"오정헌","date":"2022-11-05","penalty":10,"award":10,"balance":10},{"year":2022,"name":"김정모","date":"2022-11-05","penalty":10,"award":0,"balance":20},{"year":2022,"name":"최석문","date":"2022-11-05","penalty":10,"award":0,"balance":30},{"year":2022,"name":"양준홍","date":"2022-11-05","penalty":10,"award":0,"balance":40},{"year":2022,"name":"황인호","date":"2022-11-05","penalty":10,"award":0,"balance":50},{"year":2022,"name":"장계만","date":"2022-11-05","penalty":10,"award":0,"balance":60},{"year":2023,"name":"장홍연","date":"2023-04-08","penalty":15,"award":45,"balance":30},{"year":2023,"name":"임동안","date":"2023-04-08","penalty":15,"award":0,"balance":45},{"year":2023,"name":"황인호","date":"2023-04-08","penalty":15,"award":15,"balance":45},{"year":2023,"name":"양준홍","date":"2023-04-08","penalty":15,"award":0,"balance":60},{"year":2023,"name":"김정모","date":"2023-04-08","penalty":15,"award":0,"balance":75},{"year":2023,"name":"장계만","date":"2023-04-08","penalty":15,"award":0,"balance":90},{"year":2023,"name":"오정헌","date":"2023-04-08","penalty":20,"award":0,"balance":110},{"year":2023,"name":"최석문","date":"2023-04-08","penalty":15,"award":0,"balance":125},{"year":2023,"name":"임동안","date":"2023-05-06","penalty":0,"award":95,"balance":30},{"year":2023,"name":"김정모","date":"2023-05-06","penalty":15,"award":30,"balance":15},{"year":2023,"name":"양준홍","date":"2023-05-06","penalty":15,"award":0,"balance":30},{"year":2023,"name":"장홍연","date":"2023-05-06","penalty":15,"award":0,"balance":45},{"year":2023,"name":"오정헌","date":"2023-05-06","penalty":15,"award":0,"balance":60},{"year":2023,"name":"황인호","date":"2023-05-06","penalty":15,"award":0,"balance":75},{"year":2023,"name":"최석문","date":"2023-05-06","penalty":20,"award":0,"balance":95},{"year":2023,"name":"장홍연","date":"2023-06-03","penalty":5,"award":25,"balance":75},{"year":2023,"name":"임동안","date":"2023-06-03","penalty":0,"award":70,"balance":5},{"year":2023,"name":"양준홍","date":"2023-06-03","penalty":15,"award":0,"balance":20},{"year":2023,"name":"황인호","date":"2023-06-03","penalty":10,"award":0,"balance":30},{"year":2023,"name":"오정헌","date":"2023-06-03","penalty":15,"award":0,"balance":45},{"year":2023,"name":"최석문","date":"2023-07-22","penalty":5,"award":30,"balance":20},{"year":2023,"name":"양준홍","date":"2023-07-22","penalty":15,"award":15,"balance":20},{"year":2023,"name":"임동안","date":"2023-07-22","penalty":15,"award":0,"balance":35},{"year":2023,"name":"장홍연","date":"2023-07-22","penalty":15,"award":0,"balance":50},{"year":2023,"name":"오정헌","date":"2023-07-22","penalty":15,"award":0,"balance":65},{"year":2023,"name":"황인호","date":"2023-07-22","penalty":15,"award":0,"balance":80},{"year":2023,"name":"김정모","date":"2023-07-22","penalty":20,"award":0,"balance":100},{"year":2023,"name":"장홍연","date":"2023-08-05","penalty":15,"award":0,"balance":115},{"year":2023,"name":"양준홍","date":"2023-08-05","penalty":10,"award":0,"balance":125},{"year":2023,"name":"오정헌","date":"2023-08-05","penalty":15,"award":0,"balance":140},{"year":2023,"name":"임동안","date":"2023-08-05","penalty":0,"award":75,"balance":65},{"year":2023,"name":"황인호","date":"2023-08-05","penalty":0,"award":25,"balance":40},{"year":2023,"name":"황인호","date":"2023-09-02","penalty":15,"award":10,"balance":45},{"year":2023,"name":"오정헌","date":"2023-09-02","penalty":15,"award":0,"balance":60},{"year":2023,"name":"임동안","date":"2023-09-02","penalty":0,"award":30,"balance":30},{"year":2023,"name":"양준홍","date":"2023-09-02","penalty":5,"award":0,"balance":35},{"year":2023,"name":"장홍연","date":"2023-09-02","penalty":15,"award":0,"balance":50},{"year":2023,"name":"최석문","date":"2023-09-02","penalty":15,"award":0,"balance":65},{"year":2023,"name":"최석문","date":"2023-11-04","penalty":15,"award":20,"balance":60},{"year":2023,"name":"양준홍","date":"2023-11-04","penalty":0,"award":45,"balance":15},{"year":2023,"name":"임동안","date":"2023-11-04","penalty":5,"award":0,"balance":20},{"year":2023,"name":"장홍연","date":"2023-11-04","penalty":15,"award":0,"balance":35},{"year":2023,"name":"황인호","date":"2023-11-04","penalty":15,"award":0,"balance":50},{"year":2023,"name":"오정헌","date":"2023-11-04","penalty":15,"award":0,"balance":65},{"year":2023,"name":"임동안","date":"2023-11-11","penalty":15,"award":45,"balance":35},{"year":2023,"name":"최석문","date":"2023-11-11","penalty":15,"award":0,"balance":50},{"year":2023,"name":"양준홍","date":"2023-11-11","penalty":15,"award":0,"balance":65},{"year":2023,"name":"장홍연","date":"2023-11-11","penalty":15,"award":20,"balance":60},{"year":2023,"name":"오정헌","date":"2023-11-11","penalty":15,"award":0,"balance":75},{"year":2023,"name":"황인호","date":"2023-11-11","penalty":20,"award":0,"balance":95},{"year":2024,"name":"오정헌","date":"2024-04-07","penalty":15,"award":0,"balance":110},{"year":2024,"name":"임동안","date":"2024-04-07","penalty":15,"award":0,"balance":125},{"year":2024,"name":"황인호","date":"2024-04-07","penalty":15,"award":0,"balance":140},{"year":2024,"name":"양준홍","date":"2024-04-07","penalty":15,"award":0,"balance":155},{"year":2024,"name":"장홍연","date":"2024-04-07","penalty":15,"award":0,"balance":170},{"year":2024,"name":"최석문","date":"2024-04-07","penalty":10,"award":70,"balance":110},{"year":2024,"name":"김정모","date":"2024-04-07","penalty":15,"award":25,"balance":100},{"year":2024,"name":"양준홍","date":"2024-06-15","penalty":15,"award":0,"balance":115},{"year":2024,"name":"최석문","date":"2024-06-15","penalty":15,"award":0,"balance":130},{"year":2024,"name":"임동안","date":"2024-06-15","penalty":0,"award":75,"balance":55},{"year":2024,"name":"장홍연","date":"2024-06-15","penalty":5,"award":0,"balance":60},{"year":2024,"name":"김정모","date":"2024-06-15","penalty":15,"award":25,"balance":50},{"year":2024,"name":"오정헌","date":"2024-06-15","penalty":15,"award":0,"balance":65},{"year":2024,"name":"황인호","date":"2024-06-15","penalty":5,"award":0,"balance":70},{"year":2024,"name":"장홍연","date":"2024-07-06","penalty":15,"award":20,"balance":65},{"year":2024,"name":"임동안","date":"2024-07-06","penalty":0,"award":50,"balance":15},{"year":2024,"name":"오정헌","date":"2024-07-06","penalty":15,"award":0,"balance":30},{"year":2024,"name":"김정모","date":"2024-07-06","penalty":15,"award":0,"balance":45},{"year":2024,"name":"양준홍","date":"2024-07-06","penalty":15,"award":0,"balance":60},{"year":2024,"name":"황인호","date":"2024-07-06","penalty":15,"award":0,"balance":75},{"year":2024,"name":"양준홍","date":"2024-08-24","penalty":15,"award":20,"balance":70},{"year":2024,"name":"임동안","date":"2024-08-24","penalty":10,"award":55,"balance":25},{"year":2024,"name":"김정모","date":"2024-08-24","penalty":15,"award":0,"balance":40},{"year":2024,"name":"오정헌","date":"2024-08-24","penalty":15,"award":0,"balance":55},{"year":2024,"name":"장홍연","date":"2024-08-24","penalty":15,"award":0,"balance":70},{"year":2024,"name":"최석문","date":"2024-08-24","penalty":15,"award":0,"balance":85},{"year":2024,"name":"황인호","date":"2024-08-24","penalty":15,"award":0,"balance":100},{"year":2024,"name":"최석문","date":"2024-09-02","penalty":0,"award":75,"balance":25},{"year":2024,"name":"임동안","date":"2024-09-02","penalty":15,"award":25,"balance":15},{"year":2024,"name":"오정헌","date":"2024-09-02","penalty":15,"award":0,"balance":30},{"year":2024,"name":"양준홍","date":"2024-09-02","penalty":15,"award":0,"balance":45},{"year":2024,"name":"김정모","date":"2024-09-02","penalty":15,"award":0,"balance":60},{"year":2024,"name":"황인호","date":"2024-09-02","penalty":5,"award":0,"balance":65},{"year":2024,"name":"장홍연","date":"2024-09-02","penalty":10,"award":0,"balance":75},{"year":2024,"name":"장홍연","date":"2024-10-06","penalty":15,"award":0,"balance":90},{"year":2024,"name":"김정모","date":"2024-10-06","penalty":10,"award":20,"balance":80},{"year":2024,"name":"최석문","date":"2024-10-06","penalty":0,"award":55,"balance":25},{"year":2024,"name":"임동안","date":"2024-10-06","penalty":15,"award":0,"balance":40},{"year":2024,"name":"양준홍","date":"2024-10-06","penalty":10,"award":0,"balance":50},{"year":2024,"name":"오정헌","date":"2024-10-06","penalty":15,"award":0,"balance":65},{"year":2024,"name":"황인호","date":"2024-10-06","penalty":15,"award":0,"balance":80},{"year":2024,"name":"김정모","date":"2024-10-27","penalty":0,"award":60,"balance":20},{"year":2024,"name":"장홍연","date":"2024-10-27","penalty":0,"award":20,"balance":0},{"year":2024,"name":"양준홍","date":"2024-10-28","penalty":15,"award":0,"balance":15},{"year":2024,"name":"오정헌","date":"2024-10-28","penalty":15,"award":0,"balance":30},{"year":2024,"name":"임동안","date":"2024-10-28","penalty":15,"award":0,"balance":45},{"year":2024,"name":"최석문","date":"2024-10-28","penalty":15,"award":0,"balance":60},{"year":2024,"name":"황인호","date":"2024-10-28","penalty":15,"award":0,"balance":75},{"year":2025,"name":"임동안","date":"2025-04-06","penalty":15,"award":75,"balance":15},{"year":2025,"name":"장홍연","date":"2025-04-06","penalty":15,"award":0,"balance":30},{"year":2025,"name":"양준홍","date":"2025-04-06","penalty":15,"award":0,"balance":45},{"year":2025,"name":"최석문","date":"2025-04-06","penalty":15,"award":0,"balance":60},{"year":2025,"name":"황인호","date":"2025-04-06","penalty":15,"award":0,"balance":75},{"year":2025,"name":"오정헌","date":"2025-04-06","penalty":15,"award":0,"balance":90},{"year":2025,"name":"김정모","date":"2025-04-06","penalty":15,"award":0,"balance":105},{"year":2025,"name":"김정모","date":"2025-05-26","penalty":0,"award":75,"balance":30},{"year":2025,"name":"장홍연","date":"2025-05-26","penalty":15,"award":30,"balance":15},{"year":2025,"name":"임동안","date":"2025-05-26","penalty":15,"award":0,"balance":30},{"year":2025,"name":"양준홍","date":"2025-05-26","penalty":15,"award":0,"balance":45},{"year":2025,"name":"오정헌","date":"2025-05-26","penalty":15,"award":0,"balance":60},{"year":2025,"name":"황인호","date":"2025-05-26","penalty":15,"award":0,"balance":75},{"year":2025,"name":"최석문","date":"2025-05-26","penalty":10,"award":0,"balance":85},{"year":2025,"name":"김정모","date":"2025-06-08","penalty":0,"award":60,"balance":25},{"year":2025,"name":"장홍연","date":"2025-06-08","penalty":15,"award":25,"balance":15},{"year":2025,"name":"최석문","date":"2025-06-08","penalty":15,"award":0,"balance":30},{"year":2025,"name":"양준홍","date":"2025-06-08","penalty":15,"award":0,"balance":45},{"year":2025,"name":"오정헌","date":"2025-06-08","penalty":15,"award":0,"balance":60},{"year":2025,"name":"황인호","date":"2025-06-08","penalty":15,"award":0,"balance":75},{"year":2025,"name":"김정모","date":"2025-07-06","penalty":0,"award":55,"balance":20},{"year":2025,"name":"황인호","date":"2025-07-06","penalty":15,"award":20,"balance":15},{"year":2025,"name":"장홍연","date":"2025-07-06","penalty":15,"award":0,"balance":30},{"year":2025,"name":"최석문","date":"2025-07-06","penalty":15,"award":0,"balance":45},{"year":2025,"name":"양준홍","date":"2025-07-06","penalty":15,"award":0,"balance":60},{"year":2025,"name":"오정헌","date":"2025-07-06","penalty":15,"award":0,"balance":75},{"year":2025,"name":"양준홍","date":"2025-08-03","penalty":0,"award":55,"balance":20},{"year":2025,"name":"임동안","date":"2025-08-03","penalty":0,"award":20,"balance":0},{"year":2025,"name":"오정헌","date":"2025-08-03","penalty":15,"award":0,"balance":15},{"year":2025,"name":"김정모","date":"2025-09-07","penalty":0,"award":10,"balance":5},{"year":2025,"name":"임동안","date":"2025-09-07","penalty":0,"award":5,"balance":0},{"year":2025,"name":"최석문","date":"2025-09-07","penalty":15,"award":0,"balance":15},{"year":2025,"name":"오정헌","date":"2025-09-07","penalty":15,"award":0,"balance":30},{"year":2025,"name":"황인호","date":"2025-09-07","penalty":15,"award":0,"balance":45},{"year":2025,"name":"장홍연","date":"2025-09-07","penalty":15,"award":0,"balance":60},{"year":2025,"name":"김정모","date":"2025-11-02","penalty":0,"award":45,"balance":15},{"year":2025,"name":"임동안","date":"2025-11-02","penalty":0,"award":15,"balance":0},{"year":2025,"name":"양준홍","date":"2025-11-02","penalty":15,"award":0,"balance":15},{"year":2025,"name":"최석문","date":"2025-11-02","penalty":15,"award":0,"balance":30},{"year":2025,"name":"황인호","date":"2025-11-02","penalty":15,"award":0,"balance":45},{"year":2025,"name":"오정헌","date":"2025-11-02","penalty":15,"award":0,"balance":60},{"year":2026,"name":"장홍연","date":"2026-03-29","penalty":0,"award":45,"balance":15},{"year":2026,"name":"오정헌","date":"2026-03-29","penalty":15,"award":15,"balance":15},{"year":2026,"name":"임동안","date":"2026-03-29","penalty":15,"award":0,"balance":30},{"year":2026,"name":"양준홍","date":"2026-03-29","penalty":15,"award":0,"balance":45}],"transactions":[{"id":"tr_0","year":2022,"type":"이월","desc":"전년이월","date":"2022-01-01","amount":224,"balance":224},{"id":"tr_1","year":2022,"type":"회비","desc":"오정헌","date":"2022-03-05","amount":100,"balance":324},{"id":"tr_2","year":2022,"type":"회비","desc":"임동안","date":"2022-03-17","amount":100,"balance":424},{"id":"tr_3","year":2022,"type":"회비","desc":"오정헌","date":"2022-03-26","amount":100,"balance":524},{"id":"tr_4","year":2022,"type":"참가비","desc":"장홍연","date":"2022-03-27","amount":100,"balance":624},{"id":"tr_5","year":2022,"type":"참가비","desc":"임동안","date":"2022-03-27","amount":100,"balance":724},{"id":"tr_6","year":2022,"type":"참가비","desc":"황인호","date":"2022-04-02","amount":100,"balance":824},{"id":"tr_7","year":2022,"type":"참가비","desc":"최석문","date":"2022-03-31","amount":100,"balance":924},{"id":"tr_8","year":2022,"type":"참가비","desc":"김정모","date":"2022-04-02","amount":100,"balance":1024},{"id":"tr_9","year":2022,"type":"참가비","desc":"양준홍","date":"2022-04-08","amount":100,"balance":1124},{"id":"tr_10","year":2022,"type":"참가비","desc":"장계만","date":"2022-04-26","amount":100,"balance":1224},{"id":"tr_11","year":2022,"type":"회비","desc":"장계만","date":"2022-05-23","amount":300,"balance":1524},{"id":"tr_12","year":2022,"type":"회비","desc":"임동안","date":"2022-05-23","amount":100,"balance":1624},{"id":"tr_13","year":2022,"type":"회비","desc":"황인호","date":"2022-05-23","amount":300,"balance":1924},{"id":"tr_14","year":2022,"type":"회비","desc":"오정헌","date":"2022-05-23","amount":100,"balance":2024},{"id":"tr_15","year":2022,"type":"참가비","desc":"오정헌","date":"2022-05-23","amount":100,"balance":2124},{"id":"tr_16","year":2022,"type":"회비","desc":"김정모","date":"2022-05-23","amount":300,"balance":2424},{"id":"tr_17","year":2022,"type":"회비","desc":"양준홍","date":"2022-05-23","amount":300,"balance":2724},{"id":"tr_18","year":2022,"type":"회비","desc":"장홍연","date":"2022-05-24","amount":300,"balance":3024},{"id":"tr_19","year":2022,"type":"회비","desc":"최석문","date":"2022-05-24","amount":100,"balance":3124},{"id":"tr_20","year":2022,"type":"비용","desc":"경비","date":"2022-05-30","amount":-11.28,"balance":3112.72},{"id":"tr_21","year":2022,"type":"참가비","desc":"상금","date":"2022-12-10","amount":-800,"balance":2312.72},{"id":"tr_22","year":2023,"type":"전반기 참가비","desc":"양준홍","date":"2023-03-30","amount":100,"balance":2412.72},{"id":"tr_23","year":2023,"type":"전반기 참가비","desc":"오정헌","date":"2023-03-30","amount":100,"balance":2512.72},{"id":"tr_24","year":2023,"type":"전반기 참가비","desc":"임동안","date":"2023-03-31","amount":100,"balance":2612.72},{"id":"tr_25","year":2023,"type":"전반기 참가비","desc":"김정모","date":"2023-04-03","amount":100,"balance":2712.72},{"id":"tr_26","year":2023,"type":"전반기 참가비","desc":"황인호","date":"2023-04-08","amount":100,"balance":2812.72},{"id":"tr_27","year":2023,"type":"전반기 참가비","desc":"장홍연","date":"2023-04-08","amount":100,"balance":2912.72},{"id":"tr_28","year":2023,"type":"전반기 참가비","desc":"장계만","date":"2023-04-11","amount":100,"balance":3012.72},{"id":"tr_29","year":2023,"type":"전반기 참가비","desc":"최석문","date":"2023-04-08","amount":100,"balance":3112.72},{"id":"tr_30","year":2023,"type":"회비","desc":"최석문","date":"2023-05-28","amount":200,"balance":3312.72},{"id":"tr_31","year":2023,"type":"회비","desc":"임동안","date":"2023-05-28","amount":100,"balance":3412.72},{"id":"tr_32","year":2023,"type":"비용","desc":"경비","date":"2023-05-29","amount":-2233,"balance":1179.72},{"id":"tr_33","year":2023,"type":"회비","desc":"장계만","date":"2023-05-29","amount":-152,"balance":1027.72},{"id":"tr_34","year":2023,"type":"비용","desc":"상금","date":"2023-07-23","amount":-800,"balance":227.72},{"id":"tr_35","year":2023,"type":"후반기 참가비","desc":"임동안","date":"2023-07-23","amount":100,"balance":327.72},{"id":"tr_36","year":2023,"type":"후반기 참가비","desc":"황인호","date":"2023-08-04","amount":100,"balance":427.72},{"id":"tr_37","year":2023,"type":"후반기 참가비","desc":"장홍연","date":"2023-08-04","amount":100,"balance":527.72},{"id":"tr_38","year":2023,"type":"후반기 참가비","desc":"오정헌","date":"2023-08-14","amount":100,"balance":627.72},{"id":"tr_39","year":2023,"type":"후반기 참가비","desc":"최석문","date":"2023-09-01","amount":100,"balance":727.72},{"id":"tr_40","year":2023,"type":"후반기 참가비","desc":"양준홍","date":"2023-09-02","amount":100,"balance":827.72},{"id":"tr_41","year":2023,"type":"비용","desc":"상금","date":"2023-12-09","amount":-600,"balance":227.72},{"id":"tr_42","year":2024,"type":"전반기 참가비","desc":"장홍연","date":"2024-04-01","amount":100,"balance":327.72},{"id":"tr_43","year":2024,"type":"전반기 참가비","desc":"오정헌","date":"2024-03-30","amount":100,"balance":427.72},{"id":"tr_44","year":2024,"type":"전반기 참가비","desc":"최석문","date":"2024-03-30","amount":100,"balance":527.72},{"id":"tr_45","year":2024,"type":"전반기 참가비","desc":"임동안","date":"2024-04-02","amount":100,"balance":627.72},{"id":"tr_46","year":2024,"type":"전반기 참가비","desc":"김정모","date":"2024-04-02","amount":100,"balance":727.72},{"id":"tr_47","year":2024,"type":"전반기 참가비","desc":"황인호","date":"2024-04-02","amount":100,"balance":827.72},{"id":"tr_48","year":2024,"type":"전반기 참가비","desc":"양준홍","date":"2024-04-04","amount":100,"balance":927.72},{"id":"tr_49","year":2024,"type":"비용","desc":"상금","date":"2024-08-24","amount":-700,"balance":227.72},{"id":"tr_50","year":2024,"type":"후반기 참가비","desc":"장홍연","date":"2024-08-25","amount":100,"balance":327.72},{"id":"tr_51","year":2024,"type":"후반기 참가비","desc":"임동안","date":"2024-08-27","amount":100,"balance":427.72},{"id":"tr_52","year":2024,"type":"후반기 참가비","desc":"최석문","date":"2024-08-27","amount":100,"balance":527.72},{"id":"tr_53","year":2024,"type":"후반기 참가비","desc":"황인호","date":"2024-08-27","amount":100,"balance":627.72},{"id":"tr_54","year":2024,"type":"후반기 참가비","desc":"오정헌","date":"2024-08-27","amount":100,"balance":727.72},{"id":"tr_55","year":2024,"type":"후반기 참가비","desc":"양준홍","date":"2024-08-29","amount":100,"balance":827.72},{"id":"tr_56","year":2024,"type":"후반기 참가비","desc":"김정모","date":"2024-10-06","amount":100,"balance":927.72},{"id":"tr_57","year":2024,"type":"비용","desc":"상금","date":"2024-11-16","amount":-700,"balance":227.72},{"id":"tr_58","year":2025,"type":"전반기 참가비","desc":"임동안","date":"2025-04-06","amount":100,"balance":100},{"id":"tr_59","year":2025,"type":"전반기 참가비","desc":"양준홍","date":"2025-04-06","amount":100,"balance":200},{"id":"tr_60","year":2025,"type":"전반기 참가비","desc":"최석문","date":"2025-04-06","amount":100,"balance":300},{"id":"tr_61","year":2025,"type":"전반기 참가비","desc":"오정헌","date":"2025-04-06","amount":100,"balance":400},{"id":"tr_62","year":2025,"type":"전반기 참가비","desc":"황인호","date":"2025-04-06","amount":100,"balance":500},{"id":"tr_63","year":2025,"type":"전반기 참가비","desc":"김정모","date":"2025-04-06","amount":100,"balance":600},{"id":"tr_64","year":2025,"type":"전반기 참가비","desc":"장홍연","date":"2025-04-06","amount":100,"balance":700},{"id":"tr_65","year":2025,"type":"비용","desc":"상금","date":"2025-05-26","amount":-150,"balance":550},{"id":"tr_66","year":2025,"type":"비용","desc":"상금","date":"2025-07-06","amount":-700,"balance":-150},{"id":"tr_67","year":0,"type":"","desc":"","date":"","amount":0,"balance":0},{"id":"tr_68","year":0,"type":"","desc":"","date":"","amount":0,"balance":0},{"id":"tr_69","year":0,"type":"","desc":"","date":"","amount":0,"balance":0},{"id":"tr_70","year":2025,"type":"후반기 참가비","desc":"임동안","date":"2025-07-12","amount":100,"balance":-50},{"id":"tr_71","year":2025,"type":"후반기 참가비","desc":"김정모","date":"2025-07-12","amount":100,"balance":50},{"id":"tr_72","year":2025,"type":"후반기 참가비","desc":"장홍연","date":"2025-07-21","amount":100,"balance":150},{"id":"tr_73","year":2025,"type":"후반기 참가비","desc":"오정헌","date":"2025-07-26","amount":100,"balance":250},{"id":"tr_74","year":2025,"type":"후반기 참가비","desc":"최석문","date":"2025-07-26","amount":100,"balance":350},{"id":"tr_75","year":2025,"type":"후반기 참가비","desc":"양준홍","date":"2025-08-02","amount":100,"balance":450},{"id":"tr_76","year":2025,"type":"후반기 참가비","desc":"황인호","date":"2025-08-02","amount":100,"balance":550},{"id":"tr_77","year":2026,"type":"전반기 참가비","desc":"장홍연","date":"2026-03-30","amount":100,"balance":800},{"id":"tr_78","year":2026,"type":"전반기 참가비","desc":"양준홍","date":"2026-03-31","amount":100,"balance":900},{"id":"tr_79","year":2026,"type":"전반기 참가비","desc":"임동안","date":"2026-03-31","amount":100,"balance":1000},{"id":"modeln2wqbfs","year":2025,"type":"비용","desc":"수상","date":"2025-12-29","amount":-700,"balance":-150}],"board":[{"id":"rule_0","title":"Course Rating and Slope","content":"PPT","author":"관리자","date":"2022-01-01","url":"https://docs.google.com/presentation/d/1YscENRqa1PzsXK6dkZLAb_lx2z8Io9XC/edit?usp=share_link&ouid=117420382681474774324&rtpof=true&sd=true"},{"id":"rule_1","title":"2022 룰","content":"PPT","author":"관리자","date":"2022-03-29","url":"https://docs.google.com/presentation/d/1YKABAnbUZ6nReS51AMy3AoNcpIONdBsX/edit?usp=sharing&ouid=117420382681474774324&rtpof=true&sd=true"},{"id":"rule_2","title":"2021 순위","content":"1.김정모 2.임동안 3.최석문 4.양준홍 5.황인호 6.장홍연 7.오정헌  8.장계만","author":"관리자","date":"2022-03-29","url":""},{"id":"rule_3","title":"2022회비","content":"$650/Couple, Pay $100/Monthly, Need to be collected by Jul.","author":"관리자","date":"2022-03-29","url":""},{"id":"rule_4","title":"2022 참가비(game fee)","content":"$100/y, No eligibility of prize money if missed twice","author":"관리자","date":"2022-03-29","url":""},{"id":"rule_5","title":"2022 10 Year Foundation Outing","content":"1등. 총상금의 40% =$320,\n2등:잔금의40%=192, \n3등:잔금의40%=$115,\n4등:상동=$70\n5등.상동=$40\n6-8등. 각$21\n단, 규정대로 2번이상(2번포함)불참자는 5등까지 상금 수령자격 없습니다","author":"관리자","date":"2022-03-29","url":""},{"id":"rule_6","title":"Men’s Rounding","content":"1st Sat","author":"관리자","date":"2022-03-29","url":""},{"id":"rule_7","title":"Ladies.","content":"2nd Sat","author":"관리자","date":"2022-03-29","url":""},{"id":"rule_8","title":"Memorial","content":"5/30/2022,","author":"관리자","date":"2022-03-29","url":""},{"id":"rule_9","title":"2023 핸디캡","content":"전년대비 최종점수(최고,최저제외한평균점수) * 0.6 + 5 >> 현 핸디캡과 비교 하여 낮은점수\n장홍연(20.75),임동안(19.40),김정모(18.80),황인호(19.80)\n양준홍(26.15)최석문(20.30),오정헌(34.80),장계만(25.40>>27)","author":"관리자","date":"2022-01-01","url":""},{"id":"rule_10","title":"2023 rule","content":"대회: 전 반기(4,5,6,7월), 후반기(8,9,10,11월) \n제일 잘 친 대회의 등수를 제외한다\n참가비:  $200/Year\n불참자: 꼴등처리 (8등)\n패널티: 2타$5, 3 타 $10, 4타 이상 $15 ,불참자 $20\n  >>우승자가 비공개로 선택한 등수(5~7등중)에게  패널티의 25% (5의배수 올림), 잔금은 1등에게\n    (선택등수는 다음대회 시작전 공개한다)\n상금: 총 $800/반기\n  1등. 총상금의 40% =$320,\n  2등:잔금의40%=$192, \n  3등:잔금의40%=$115,\n  4등:상동=$70\n  5등.상동=$40\n  6-8등. 각$21","author":"관리자","date":"2022-01-01","url":""},{"id":"rule_11","title":"핸디캡 계산","content":"핸디캡 계산된 내용입니다","author":"관리자","date":"2023-11-17","url":"https://docs.google.com/spreadsheets/d/1WcAgq-WtY5ZEJPMCokEBC_AG_qvwVkyU/edit#gid=1455127358"},{"id":"rule_12","title":"2023 순위 및 상금","content":"1.임동안($240) 2.양준홍($144) 3. 최석문(86) 4. 장홍연($52) 5. 황인호($39) 6. 오정헌 ($39)","author":"관리자","date":"2022-01-01","url":""},{"id":"rule_13","title":"2024 핸디캡","content":"임동안        17.47\n김정모        19.1\n최석문        21.2\n황인호        22.74\n장홍연        23.07\n양준홍        25.75\n오정헌        36.04","author":"관리자","date":"2024-04-01","url":""},{"id":"rule_14","title":"2024 전반기 순위및 상금","content":"1임동안($280), 2최석문($168), 3장홍연 ($101), 4양준홍($60), 5김정모($36), 6황인호($27), 7오정헌($27)","author":"관리자","date":"2022-01-01","url":""},{"id":"rule_15","title":"2024 후반기 순위빛 상금","content":"1최석문($280), 2김정모($168), 3황인호 ($101), 4장홍연($60), 5임동안($36), 6양준홍($27), 7오정헌($27)","author":"관리자","date":"2022-01-01","url":""},{"id":"rule_16","title":"2025 핸디캡","content":"지난해 제일 잘친대회와 제일 못친대회를 제외한 평균의70% + 3\n임동안        18.28\n최석문        20.15\n김정모        20.22\n장홍연        22.95\n황인호        23.86\n양준홍        27.03\n오정헌        34.00","author":"관리자","date":"2022-01-01","url":""},{"id":"rule_17","title":"2025년 룰","content":"1등이 다음 코스 정하여 예약한다. 상금은 1등이 50프로, 나머지는 적립한다","author":"관리자","date":"2024-11-16","url":""},{"id":"rule_18","title":"2025전반기상금","content":"1김정모($280), 2임동안($168), 3황인호 ($101), 4장홍연($60), 5최석문($36), 6양준홍($27), 7오정헌($27)","author":"관리자","date":"2025-07-12","url":""},{"id":"rule_19","title":"2025 후반기상금","content":"1김정모($280), 2임동안($168), 3양준홍 ($101), 4장홍연($60), 5최석문($36), 6황인호($27), 7오정헌($27)","author":"관리자","date":"2025-11-02","url":""}],"settings":{"fee":100,"season":2026},"_group":"골사부모 남성","_ts":1777129578304}
+{
+ "members": [
+  {
+   "id": "admin",
+   "name": "admin",
+   "email": "",
+   "phone": "",
+   "role": "admin",
+   "pwd": "admin"
+  },
+  {
+   "id": "김정모",
+   "name": "김정모",
+   "email": "icdental03@gmail.com",
+   "phone": "973-980-4422",
+   "role": "user",
+   "pwd": "1234"
+  },
+  {
+   "id": "양준홍",
+   "name": "양준홍",
+   "email": "danyjeny@gmail.com",
+   "phone": "201-349-1950",
+   "role": "user",
+   "pwd": "1234"
+  },
+  {
+   "id": "오정헌",
+   "name": "오정헌",
+   "email": "ojh1225@gmail.com",
+   "phone": "314-239-0297",
+   "role": "user",
+   "pwd": "1234"
+  },
+  {
+   "id": "임동안",
+   "name": "임동안",
+   "email": "skydalim@gmail.com",
+   "phone": "516-384-7755",
+   "role": "admin",
+   "pwd": "1234"
+  },
+  {
+   "id": "장계만",
+   "name": "장계만",
+   "email": "gchang1955@gmail.com",
+   "phone": "201-572-1974",
+   "role": "user",
+   "pwd": "1234"
+  },
+  {
+   "id": "장홍연",
+   "name": "장홍연",
+   "email": "sewoltara@gmail.com",
+   "phone": "973-216-6996",
+   "role": "user",
+   "pwd": "1234"
+  },
+  {
+   "id": "최석문",
+   "name": "최석문",
+   "email": "Jsmchoi000@gmail.com",
+   "phone": "636-485-5951",
+   "role": "user",
+   "pwd": "1234"
+  },
+  {
+   "id": "황인호",
+   "name": "황인호",
+   "email": "ihhwang61@gmail.com",
+   "phone": "973-970-8061",
+   "role": "user",
+   "pwd": "1234"
+  },
+  {
+   "id": "방인태",
+   "name": "방인태",
+   "email": "greenpasture72@gmail.com",
+   "phone": "201-452-9251",
+   "role": "user",
+   "pwd": "1234"
+  },
+  {
+   "id": "박인혁",
+   "name": "박인혁",
+   "email": "go2pih@gmail.com",
+   "phone": "201-725-4266",
+   "role": "user",
+   "pwd": "1234"
+  },
+  {
+   "id": "김현유",
+   "name": "김현유",
+   "email": "skydalim@gmail.com",
+   "phone": "917-609-3540",
+   "role": "user",
+   "pwd": "1234"
+  }
+ ],
+ "handicaps": [
+  {
+   "year": 2022,
+   "type": "정기",
+   "name": "김정모",
+   "handicap": 18,
+   "avgScore": 22.2
+  },
+  {
+   "year": 2022,
+   "type": "정기",
+   "name": "오정헌",
+   "handicap": 38,
+   "avgScore": 50.6
+  },
+  {
+   "year": 2022,
+   "type": "정기",
+   "name": "최석문",
+   "handicap": 20,
+   "avgScore": 26.33
+  },
+  {
+   "year": 2022,
+   "type": "정기",
+   "name": "장홍연",
+   "handicap": 26,
+   "avgScore": 28
+  },
+  {
+   "year": 2022,
+   "type": "정기",
+   "name": "양준홍",
+   "handicap": 29,
+   "avgScore": 34.67
+  },
+  {
+   "year": 2022,
+   "type": "정기",
+   "name": "황인호",
+   "handicap": 22,
+   "avgScore": 27.4
+  },
+  {
+   "year": 2022,
+   "type": "정기",
+   "name": "임동안",
+   "handicap": 22,
+   "avgScore": 24.5
+  },
+  {
+   "year": 2022,
+   "type": "정기",
+   "name": "장계만",
+   "handicap": 30,
+   "avgScore": 35.33
+  },
+  {
+   "year": 2021,
+   "type": "정기",
+   "name": "김정모",
+   "handicap": 19,
+   "avgScore": 23.57
+  },
+  {
+   "year": 2021,
+   "type": "정기",
+   "name": "오정헌",
+   "handicap": 38,
+   "avgScore": 52.57
+  },
+  {
+   "year": 2021,
+   "type": "정기",
+   "name": "최석문",
+   "handicap": 20,
+   "avgScore": 25.14
+  },
+  {
+   "year": 2021,
+   "type": "정기",
+   "name": "장홍연",
+   "handicap": 23,
+   "avgScore": 32.86
+  },
+  {
+   "year": 2021,
+   "type": "정기",
+   "name": "양준홍",
+   "handicap": 30,
+   "avgScore": 35.5
+  },
+  {
+   "year": 2021,
+   "type": "정기",
+   "name": "황인호",
+   "handicap": 21,
+   "avgScore": 28.17
+  },
+  {
+   "year": 2021,
+   "type": "정기",
+   "name": "임동안",
+   "handicap": 23,
+   "avgScore": 27.14
+  },
+  {
+   "year": 2021,
+   "type": "정기",
+   "name": "장계만",
+   "handicap": 30,
+   "avgScore": 39.67
+  },
+  {
+   "year": 2023,
+   "type": "전반기",
+   "name": "장홍연",
+   "handicap": 20.75,
+   "avgScore": 28.75
+  },
+  {
+   "year": 2023,
+   "type": "전반기",
+   "name": "임동안",
+   "handicap": 19.4,
+   "avgScore": 23
+  },
+  {
+   "year": 2023,
+   "type": "전반기",
+   "name": "김정모",
+   "handicap": 18.8,
+   "avgScore": 25
+  },
+  {
+   "year": 2023,
+   "type": "전반기",
+   "name": "황인호",
+   "handicap": 19.8,
+   "avgScore": 29.25
+  },
+  {
+   "year": 2023,
+   "type": "전반기",
+   "name": "양준홍",
+   "handicap": 26.15,
+   "avgScore": 34.5
+  },
+  {
+   "year": 2023,
+   "type": "전반기",
+   "name": "최석문",
+   "handicap": 20.3,
+   "avgScore": 27.33
+  },
+  {
+   "year": 2023,
+   "type": "전반기",
+   "name": "오정헌",
+   "handicap": 34.8,
+   "avgScore": 42.33
+  },
+  {
+   "year": 2023,
+   "type": "전반기",
+   "name": "장계만",
+   "handicap": 27,
+   "avgScore": 44
+  },
+  {
+   "year": 2023,
+   "type": "후반기",
+   "name": "임동안",
+   "handicap": 19.4,
+   "avgScore": 20
+  },
+  {
+   "year": 2023,
+   "type": "후반기",
+   "name": "양준홍",
+   "handicap": 26.15,
+   "avgScore": 31.25
+  },
+  {
+   "year": 2023,
+   "type": "후반기",
+   "name": "장홍연",
+   "handicap": 20.75,
+   "avgScore": 28.25
+  },
+  {
+   "year": 2023,
+   "type": "후반기",
+   "name": "황인호",
+   "handicap": 19.8,
+   "avgScore": 28
+  },
+  {
+   "year": 2023,
+   "type": "후반기",
+   "name": "최석문",
+   "handicap": 20.3,
+   "avgScore": 27
+  },
+  {
+   "year": 2023,
+   "type": "후반기",
+   "name": "오정헌",
+   "handicap": 34.8,
+   "avgScore": 50.25
+  },
+  {
+   "year": 2024,
+   "type": "전반기",
+   "name": "임동안",
+   "handicap": 17.47,
+   "avgScore": 19.5
+  },
+  {
+   "year": 2024,
+   "type": "전반기",
+   "name": "장홍연",
+   "handicap": 23.07,
+   "avgScore": 31.75
+  },
+  {
+   "year": 2024,
+   "type": "전반기",
+   "name": "황인호",
+   "handicap": 22.74,
+   "avgScore": 34
+  },
+  {
+   "year": 2024,
+   "type": "전반기",
+   "name": "양준홍",
+   "handicap": 25.75,
+   "avgScore": 34.75
+  },
+  {
+   "year": 2024,
+   "type": "전반기",
+   "name": "최석문",
+   "handicap": 21.2,
+   "avgScore": 27
+  },
+  {
+   "year": 2024,
+   "type": "전반기",
+   "name": "김정모",
+   "handicap": 19.1,
+   "avgScore": 27.33
+  },
+  {
+   "year": 2024,
+   "type": "전반기",
+   "name": "오정헌",
+   "handicap": 36.04,
+   "avgScore": 55.33
+  },
+  {
+   "year": 2024,
+   "type": "후반기",
+   "name": "임동안",
+   "handicap": 17.47,
+   "avgScore": 24.25
+  },
+  {
+   "year": 2024,
+   "type": "후반기",
+   "name": "장홍연",
+   "handicap": 23.07,
+   "avgScore": 27
+  },
+  {
+   "year": 2024,
+   "type": "후반기",
+   "name": "황인호",
+   "handicap": 22.74,
+   "avgScore": 28.5
+  },
+  {
+   "year": 2024,
+   "type": "후반기",
+   "name": "양준홍",
+   "handicap": 25.75,
+   "avgScore": 33.25
+  },
+  {
+   "year": 2024,
+   "type": "후반기",
+   "name": "최석문",
+   "handicap": 21.2,
+   "avgScore": 24.25
+  },
+  {
+   "year": 2024,
+   "type": "후반기",
+   "name": "김정모",
+   "handicap": 19.1,
+   "avgScore": 21.75
+  },
+  {
+   "year": 2024,
+   "type": "후반기",
+   "name": "오정헌",
+   "handicap": 36.04,
+   "avgScore": 48.25
+  },
+  {
+   "year": 2025,
+   "type": "전반기",
+   "name": "장홍연",
+   "handicap": 22.95,
+   "avgScore": 33
+  },
+  {
+   "year": 2025,
+   "type": "전반기",
+   "name": "임동안",
+   "handicap": 18.28,
+   "avgScore": 21
+  },
+  {
+   "year": 2025,
+   "type": "전반기",
+   "name": "김정모",
+   "handicap": 20.22,
+   "avgScore": 18.75
+  },
+  {
+   "year": 2025,
+   "type": "전반기",
+   "name": "황인호",
+   "handicap": 23.86,
+   "avgScore": 31.25
+  },
+  {
+   "year": 2025,
+   "type": "전반기",
+   "name": "양준홍",
+   "handicap": 27.03,
+   "avgScore": 37.33
+  },
+  {
+   "year": 2025,
+   "type": "전반기",
+   "name": "최석문",
+   "handicap": 20.15,
+   "avgScore": 31.5
+  },
+  {
+   "year": 2025,
+   "type": "전반기",
+   "name": "오정헌",
+   "handicap": 34,
+   "avgScore": 51.25
+  },
+  {
+   "year": 2025,
+   "type": "후반기",
+   "name": "장홍연",
+   "handicap": 22.95,
+   "avgScore": 24.75
+  },
+  {
+   "year": 2025,
+   "type": "후반기",
+   "name": "임동안",
+   "handicap": 18.28,
+   "avgScore": 18
+  },
+  {
+   "year": 2025,
+   "type": "후반기",
+   "name": "김정모",
+   "handicap": 20.22,
+   "avgScore": 15.75
+  },
+  {
+   "year": 2025,
+   "type": "후반기",
+   "name": "황인호",
+   "handicap": 23.86,
+   "avgScore": 29.25
+  },
+  {
+   "year": 2025,
+   "type": "후반기",
+   "name": "양준홍",
+   "handicap": 27.03,
+   "avgScore": 27.25
+  },
+  {
+   "year": 2025,
+   "type": "후반기",
+   "name": "최석문",
+   "handicap": 20.15,
+   "avgScore": 25.5
+  },
+  {
+   "year": 2025,
+   "type": "후반기",
+   "name": "오정헌",
+   "handicap": 34,
+   "avgScore": 49.25
+  },
+  {
+   "year": 2026,
+   "type": "전반기",
+   "name": "장홍연",
+   "handicap": 24.42,
+   "avgScore": 24
+  },
+  {
+   "year": 2026,
+   "type": "전반기",
+   "name": "임동안",
+   "handicap": 16.72,
+   "avgScore": 26
+  },
+  {
+   "year": 2026,
+   "type": "전반기",
+   "name": "김정모",
+   "handicap": 14.62,
+   "avgScore": 34
+  },
+  {
+   "year": 2026,
+   "type": "전반기",
+   "name": "황인호",
+   "handicap": 23.86,
+   "avgScore": 26
+  },
+  {
+   "year": 2026,
+   "type": "전반기",
+   "name": "양준홍",
+   "handicap": 25.93,
+   "avgScore": 39
+  },
+  {
+   "year": 2026,
+   "type": "전반기",
+   "name": "최석문",
+   "handicap": 22.74,
+   "avgScore": 0
+  },
+  {
+   "year": 2026,
+   "type": "전반기",
+   "name": "오정헌",
+   "handicap": 34,
+   "avgScore": 44
+  },
+  {
+   "year": 2026,
+   "type": "전반기",
+   "name": "김현유",
+   "handicap": 18.72,
+   "avgScore": 0
+  }
+ ],
+ "events": [
+  {
+   "id": "2021정기2021-04-04",
+   "year": 2021,
+   "type": "정기",
+   "name": "2021 정기 04/04",
+   "date": "2021-04-04",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2021정기2021-05-02",
+   "year": 2021,
+   "type": "정기",
+   "name": "2021 정기 05/02",
+   "date": "2021-05-02",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2021정기2021-06-06",
+   "year": 2021,
+   "type": "정기",
+   "name": "2021 정기 06/06",
+   "date": "2021-06-06",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2021정기2021-07-04",
+   "year": 2021,
+   "type": "정기",
+   "name": "2021 정기 07/04",
+   "date": "2021-07-04",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2021정기2021-09-04",
+   "year": 2021,
+   "type": "정기",
+   "name": "2021 정기 09/04",
+   "date": "2021-09-04",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2021정기2021-10-23",
+   "year": 2021,
+   "type": "정기",
+   "name": "2021 정기 10/23",
+   "date": "2021-10-23",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2021정기2021-11-06",
+   "year": 2021,
+   "type": "정기",
+   "name": "2021 정기 11/06",
+   "date": "2021-11-06",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2022정기2022-04-02",
+   "year": 2022,
+   "type": "정기",
+   "name": "2022 정기 04/02",
+   "date": "2022-04-02",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2022정기2022-07-02",
+   "year": 2022,
+   "type": "정기",
+   "name": "2022 정기 07/02",
+   "date": "2022-07-02",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2022정기2022-08-06",
+   "year": 2022,
+   "type": "정기",
+   "name": "2022 정기 08/06",
+   "date": "2022-08-06",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2022정기2022-09-03",
+   "year": 2022,
+   "type": "정기",
+   "name": "2022 정기 09/03",
+   "date": "2022-09-03",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2022정기2022-10-08",
+   "year": 2022,
+   "type": "정기",
+   "name": "2022 정기 10/08",
+   "date": "2022-10-08",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2022정기2022-11-05",
+   "year": 2022,
+   "type": "정기",
+   "name": "2022 정기 11/05",
+   "date": "2022-11-05",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2023전반기2023-04-08",
+   "year": 2023,
+   "type": "전반기",
+   "name": "2023 전반기 04/08",
+   "date": "2023-04-08",
+   "course": "Sunset Valley",
+   "address": "47 W Sunset Rd, Pompton Plains, NJ 07444",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2023전반기2023-05-06",
+   "year": 2023,
+   "type": "전반기",
+   "name": "2023 전반기 05/06",
+   "date": "2023-05-06",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2023전반기2023-06-03",
+   "year": 2023,
+   "type": "전반기",
+   "name": "2023 전반기 06/03",
+   "date": "2023-06-03",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2023후반기2023-09-02",
+   "year": 2023,
+   "type": "후반기",
+   "name": "2023 후반기 09/02",
+   "date": "2023-09-02",
+   "course": "Sunset Valley",
+   "address": "47 W Sunset Rd, Pompton Plains, NJ 07444, USA",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2023후반기2023-10-07",
+   "year": 2023,
+   "type": "후반기",
+   "name": "2023 후반기 10/07",
+   "date": "2023-10-07",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2023후반기2023-11-04",
+   "year": 2023,
+   "type": "후반기",
+   "name": "2023 후반기 11/04",
+   "date": "2023-11-04",
+   "course": "",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2023후반기2023-08-05",
+   "year": 2023,
+   "type": "후반기",
+   "name": "2023 후반기 08/05",
+   "date": "2023-08-05",
+   "course": "Flanders Valley",
+   "address": "81 Pleasant Hill Rd, Flanders, NJ 07836",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2023전반기2023-07-22",
+   "year": 2023,
+   "type": "전반기",
+   "name": "2023 전반기 07/22",
+   "date": "2023-07-22",
+   "course": "Sunset Valley",
+   "address": "47 W Sunset Rd, Pompton Plains, NJ 07444",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2023후반기2023-11-11",
+   "year": 2023,
+   "type": "후반기",
+   "name": "2023 후반기 11/11",
+   "date": "2023-11-11",
+   "course": "Sunset Valley",
+   "address": "47 W Sunset Rd, Pompton Plains, NJ 07444",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2024전반기2024-04-07",
+   "year": 2024,
+   "type": "전반기",
+   "name": "2024 전반기 04/07",
+   "date": "2024-04-07",
+   "course": "Sunset Valley",
+   "address": "47 W Sunset Rd, Pompton Plains, NJ 07444",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2024전반기2024-06-15",
+   "year": 2024,
+   "type": "전반기",
+   "name": "2024 전반기 06/15",
+   "date": "2024-06-15",
+   "course": "Flanders Valley",
+   "address": "81 Pleasant Hill Rd, Flanders, NJ 07836",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2024전반기2024-07-06",
+   "year": 2024,
+   "type": "전반기",
+   "name": "2024 전반기 07/06",
+   "date": "2024-07-06",
+   "course": "Sunset valley",
+   "address": "47 W Sunset Rd, Pompton Plains, NJ 07444",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2024전반기2024-08-24",
+   "year": 2024,
+   "type": "전반기",
+   "name": "2024 전반기 08/24",
+   "date": "2024-08-24",
+   "course": "Sunset Valley",
+   "address": "47 W Sunset Rd, Pompton Plains, NJ 07444",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2024후반기2024-09-01",
+   "year": 2024,
+   "type": "후반기",
+   "name": "2024 후반기 09/01",
+   "date": "2024-09-01",
+   "course": "Birkshire Valley",
+   "address": "28 Cozy Lake Rd, Oak Ridge,NJ",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2024후반기2024-09-02",
+   "year": 2024,
+   "type": "후반기",
+   "name": "2024 후반기 09/02",
+   "date": "2024-09-02",
+   "course": "Flanders Valley",
+   "address": "81 Pleasant Hill Rd, Flanders, NJ 07836",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2024후반기2024-10-06",
+   "year": 2024,
+   "type": "후반기",
+   "name": "2024 후반기 10/06",
+   "date": "2024-10-06",
+   "course": "Sunset Valley",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2024후반기2024-10-27",
+   "year": 2024,
+   "type": "후반기",
+   "name": "2024 후반기 10/27",
+   "date": "2024-10-27",
+   "course": "Sunset Valley",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2025전반기2025-04-06",
+   "year": 2025,
+   "type": "전반기",
+   "name": "2025 전반기 04/06",
+   "date": "2025-04-06",
+   "course": "Sunset Valley",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2025전반기2025-05-26",
+   "year": 2025,
+   "type": "전반기",
+   "name": "2025 전반기 05/26",
+   "date": "2025-05-26",
+   "course": "Fox Hollow CC",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2025전반기2025-06-08",
+   "year": 2025,
+   "type": "전반기",
+   "name": "2025 전반기 06/08",
+   "date": "2025-06-08",
+   "course": "Sunset Valley",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2025전반기2025-07-06",
+   "year": 2025,
+   "type": "전반기",
+   "name": "2025 전반기 07/06",
+   "date": "2025-07-06",
+   "course": "Flanders valley",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2025후반기2025-08-03",
+   "year": 2025,
+   "type": "후반기",
+   "name": "2025 후반기 08/03",
+   "date": "2025-08-03",
+   "course": "Francis A. Byrne Golf Course",
+   "address": "1100 Pleasant Valley Way, West Orange, NJ 07052",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2025후반기2025-09-07",
+   "year": 2025,
+   "type": "후반기",
+   "name": "2025 후반기 09/07",
+   "date": "2025-09-07",
+   "course": "Sunset Valley",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2025후반기2025-11-02",
+   "year": 2025,
+   "type": "후반기",
+   "name": "2025 후반기 11/02",
+   "date": "2025-11-02",
+   "course": "Sunset valley",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2025후반기2025-10-04",
+   "year": 2025,
+   "type": "후반기",
+   "name": "2025 후반기 10/04",
+   "date": "2025-10-04",
+   "course": "Sunset virtual",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  },
+  {
+   "id": "2026전반기2026-03-29",
+   "year": 2026,
+   "type": "전반기",
+   "name": "2026 전반기 03/29",
+   "date": "2026-03-29",
+   "course": "Sunset Valley",
+   "address": "",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false
+  }
+ ],
+ "scores": {
+  "2021정기2021-04-04": {
+   "장홍연": {
+    "score": 41,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 18,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 4,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 30,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 10,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 50,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 12,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 37,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 7,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 19,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 3,
+    "penalty": 5,
+    "penaltyPaid": false
+   }
+  },
+  "2021정기2021-05-02": {
+   "장홍연": {
+    "score": 37,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 14,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 32,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 11,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 21,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 1,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 57,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 19,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 4,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 33,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 14,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 32,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 9,
+    "penalty": 10,
+    "penaltyPaid": false
+   }
+  },
+  "2021정기2021-06-06": {
+   "장홍연": {
+    "score": 29,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 6,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 5,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 6,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 60,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 22,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 0,
+    "diff": 0,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 4,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 5,
+    "penalty": 10,
+    "penaltyPaid": false
+   }
+  },
+  "2021정기2021-07-04": {
+   "장홍연": {
+    "score": 30,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 7,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 4,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 6,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 49,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 11,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 37,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 7,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 22,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 3,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false
+   }
+  },
+  "2021정기2021-09-04": {
+   "장홍연": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 5,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 32,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 11,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 4,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 57,
+    "attended": "Y",
+    "rank": 8,
+    "diff": 19,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 32,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 2,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 21,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 2,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 4,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 45,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 15,
+    "penalty": 10,
+    "penaltyPaid": false
+   }
+  },
+  "2021정기2021-10-23": {
+   "장홍연": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 5,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 29,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 8,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 7,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 43,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 5,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 42,
+    "attended": "Y",
+    "rank": 9,
+    "diff": 12,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 20,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 1,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 8,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 41,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 11,
+    "penalty": 10,
+    "penaltyPaid": false
+   }
+  },
+  "2021정기2021-11-06": {
+   "장홍연": {
+    "score": 37,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 14,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 0,
+    "diff": 0,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 22,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 2,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 52,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 14,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 4,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 8,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 33,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 3,
+    "penalty": 5,
+    "penaltyPaid": false
+   }
+  },
+  "2022정기2022-04-02": {
+   "김정모": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 6,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 5,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 3,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 37,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 8,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 22,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 2,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 64,
+    "attended": "Y",
+    "rank": 8,
+    "diff": 26,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 42,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 12,
+    "penalty": 10,
+    "penaltyPaid": false
+   }
+  },
+  "2022정기2022-07-02": {
+   "김정모": {
+    "score": 21,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 3,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 2,
+    "diff": -2,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 0,
+    "diff": 0,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 1,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 4,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -3,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 14,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 2,
+    "penalty": 5,
+    "penaltyPaid": false
+   }
+  },
+  "2022정기2022-08-06": {
+   "양준홍": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 8,
+    "diff": 5,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 3,
+    "diff": -2,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 21,
+    "attended": "Y",
+    "rank": 4,
+    "diff": -1,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 16,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -6,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 15,
+    "attended": "Y",
+    "rank": 2,
+    "diff": -3,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 30,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 40,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 2,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 22,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 2,
+    "penalty": 5,
+    "penaltyPaid": false
+   }
+  },
+  "2022정기2022-09-03": {
+   "임동안": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 12,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 1,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 6,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 0,
+    "diff": 0,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 0,
+    "diff": 0,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 22,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 2,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 41,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 3,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 40,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 11,
+    "penalty": 10,
+    "penaltyPaid": false
+   }
+  },
+  "2022정기2022-10-08": {
+   "오정헌": {
+    "score": 58,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 20,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 5,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 35,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 6,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 9,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 40,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 14,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 30,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 10,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 0,
+    "diff": 0,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 0,
+    "diff": 0,
+    "penalty": 10,
+    "penaltyPaid": false
+   }
+  },
+  "2022정기2022-11-05": {
+   "장홍연": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 50,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 12,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 20,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -2,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 6,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 7,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 35,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 6,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 42,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 20,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 0,
+    "diff": 0,
+    "penalty": 10,
+    "penaltyPaid": false
+   }
+  },
+  "2023전반기2023-04-08": {
+   "임동안": {
+    "score": 33,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 13.6,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 12.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 39,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 12.85,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 8,
+    "diff": 0,
+    "penalty": 20,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 43,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 16,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 7.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 40,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 19.7,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 33,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 13.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2023전반기2023-05-06": {
+   "김정모": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 5.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 4.85,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 41,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 6.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 19,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -0.4,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 50,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 23,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 33,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 12.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 8,
+    "diff": 0,
+    "penalty": 20,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 30,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 10.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2023전반기2023-06-03": {
+   "김정모": {
+    "score": 20,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 1.2,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 7.85,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 46,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 11.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 15,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -4.4,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 39,
+    "attended": "Y",
+    "rank": 8,
+    "diff": 12,
+    "penalty": 20,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 2.25,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 20,
+    "attended": "Y",
+    "rank": 2,
+    "diff": -0.3,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 3.2,
+    "penalty": 10,
+    "penaltyPaid": false
+   }
+  },
+  "2023전반기2023-07-22": {
+   "김정모": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 8,
+    "diff": 0,
+    "penalty": 20,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 7.85,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 40,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 5.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 5.6,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장계만": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 8,
+    "diff": 0,
+    "penalty": 20,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 10.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 22,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 1.7,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 11.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2023후반기2023-08-05": {
+   "양준홍": {
+    "score": 29,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 2.85,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 17,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -2.4,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 51,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 16.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 21,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 0.7,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 21,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 1.2,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 4.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2023후반기2023-09-02": {
+   "양준홍": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 1.85,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 46,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 11.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 17,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -2.4,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 5.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 10.7,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 4.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "방인태": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 0,
+    "diff": 25,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2023후반기2023-11-04": {
+   "양준홍": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -1.15,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 52,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 17.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 21,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 1.6,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 30,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 9.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 6.7,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 39,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 19.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "방인태": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 0,
+    "diff": 27,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2023후반기2023-11-11": {
+   "임동안": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 5.6,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 43,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 16.85,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 29,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 8.7,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 32,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 11.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 0,
+    "penalty": 20,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 52,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 17.2,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2024전반기2024-04-07": {
+   "김정모": {
+    "score": 30,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 10.9,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 8.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 48,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 11.96,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 22,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 4.53,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 41,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 17.93,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 2.8,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 42,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 19.26,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2024전반기2024-06-15": {
+   "김정모": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 4.9,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 8.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 60,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 23.96,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 19,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 1.53,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 2.93,
+    "penalty": 5,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 4.8,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 2.26,
+    "penalty": 5,
+    "penaltyPaid": false
+   }
+  },
+  "2024전반기2024-07-06": {
+   "장홍연": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 7.93,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 35,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 12.26,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 16,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -1.47,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 22,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 0.8,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 8.9,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 8.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 0,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2024전반기2024-08-24": {
+   "김정모": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 0,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 37,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 11.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 58,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 21.96,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 21,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 3.53,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 29,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 5.93,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 36,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 14.8,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 0,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2024후반기2024-09-01": {
+   "김정모": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 4.9,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 8.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 45,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 8.96,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 22,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 4.53,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 3.93,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 1.8,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 2.26,
+    "penalty": 5,
+    "penaltyPaid": false
+   }
+  },
+  "2024후반기2024-09-02": {
+   "김정모": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 4.9,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 8.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 45,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 8.96,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 22,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 4.53,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 3.93,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 1.8,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 2.26,
+    "penalty": 5,
+    "penaltyPaid": false
+   }
+  },
+  "2024후반기2024-10-06": {
+   "김정모": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 3.9,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 29,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 3.25,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 52,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 15.96,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 7.53,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 7.93,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 1.8,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 30,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 7.26,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2024후반기2024-10-27": {
+   "황인호": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 11.26,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 16,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -3.1,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 6.8,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 36,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 10.25,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 2,
+    "diff": -0.07,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 10.53,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 51,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 14.96,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2025전반기2025-04-06": {
+   "김정모": {
+    "score": 25,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 4.78,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 39,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 11.97,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 52,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 18,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 1,
+    "diff": 4.72,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 35,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 12.05,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 38,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 17.85,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 38,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 14.14,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2025전반기2025-05-26": {
+   "김정모": {
+    "score": 18,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -2.22,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 38,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 10.97,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 53,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 19,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 23,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 4.72,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 30,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 7.05,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 3.85,
+    "penalty": 10,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 7.14,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "박인혁": {
+    "score": 29,
+    "attended": "Y",
+    "rank": 8,
+    "diff": 20,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2025전반기2025-06-08": {
+   "장홍연": {
+    "score": 32,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 9.05,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 16,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -4.22,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 20,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 1.72,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 38,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 17.85,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 35,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 7.97,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 49,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 15,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 4.14,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2025전반기2025-07-06": {
+   "김정모": {
+    "score": 16,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -4.22,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 18,
+    "attended": "Y",
+    "rank": 2,
+    "diff": -0.28,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 28,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 4.14,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 51,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 17,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 35,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 12.05,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 5.85,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 0,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2025후반기2025-08-03": {
+   "김정모": {
+    "score": 14,
+    "attended": "Y",
+    "rank": 2,
+    "diff": -6.22,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 19,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -8.03,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 51,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 17,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 17,
+    "attended": "Y",
+    "rank": 4,
+    "diff": -1.28,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 19,
+    "attended": "Y",
+    "rank": 3,
+    "diff": -3.95,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 22,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 1.85,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 0.14,
+    "penalty": 0,
+    "penaltyPaid": false
+   }
+  },
+  "2025후반기2025-09-07": {
+   "장홍연": {
+    "score": 32,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 9.05,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "김정모": {
+    "score": 11,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -9.22,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 3,
+    "diff": -1.03,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 15,
+    "attended": "Y",
+    "rank": 2,
+    "diff": -3.28,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 7.14,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 40,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 6,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 5.85,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2025후반기2025-11-02": {
+   "김정모": {
+    "score": 19,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -1.22,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 20,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 1.72,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 32,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 4.97,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 6.85,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 1.05,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 7.14,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 53,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 19,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2025후반기2025-10-04": {
+   "김정모": {
+    "score": 19,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -1.22,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 1.05,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 53,
+    "attended": "Y",
+    "rank": 7,
+    "diff": 19,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 20,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 1.72,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 32,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 4.97,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 27,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 6.85,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 31,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 7.14,
+    "penalty": 15,
+    "penaltyPaid": false
+   }
+  },
+  "2026전반기2026-03-29": {
+   "김정모": {
+    "score": 34,
+    "attended": "Y",
+    "rank": 6,
+    "diff": 19.38,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "양준홍": {
+    "score": 39,
+    "attended": "Y",
+    "rank": 5,
+    "diff": 13.07,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "오정헌": {
+    "score": 44,
+    "attended": "Y",
+    "rank": 4,
+    "diff": 10,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "임동안": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 3,
+    "diff": 9.28,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "장홍연": {
+    "score": 24,
+    "attended": "Y",
+    "rank": 1,
+    "diff": -0.42,
+    "penalty": 0,
+    "penaltyPaid": false
+   },
+   "최석문": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 8,
+    "diff": 0,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "김현유": {
+    "score": 0,
+    "attended": "Y",
+    "rank": 8,
+    "diff": 0,
+    "penalty": 15,
+    "penaltyPaid": false
+   },
+   "황인호": {
+    "score": 26,
+    "attended": "Y",
+    "rank": 2,
+    "diff": 2.14,
+    "penalty": 5,
+    "penaltyPaid": false
+   }
+  }
+ },
+ "penalties": [
+  {
+   "year": 2021,
+   "name": "임동안",
+   "date": "2021-10-29",
+   "penalty": 10,
+   "award": 0,
+   "balance": 10
+  },
+  {
+   "year": 2021,
+   "name": "장홍연",
+   "date": "2021-10-30",
+   "penalty": 10,
+   "award": 0,
+   "balance": 20
+  },
+  {
+   "year": 2021,
+   "name": "김정모",
+   "date": "2021-11-06",
+   "penalty": 10,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2021,
+   "name": "양준홍",
+   "date": "2021-11-07",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2021,
+   "name": "최석문",
+   "date": "2021-11-07",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2021,
+   "name": "황인호",
+   "date": "2021-11-07",
+   "penalty": 20,
+   "award": 0,
+   "balance": 80
+  },
+  {
+   "year": 2021,
+   "name": "오정헌",
+   "date": "2021-11-07",
+   "penalty": 20,
+   "award": 0,
+   "balance": 100
+  },
+  {
+   "year": 2021,
+   "name": "장홍연",
+   "date": "2021-11-07",
+   "penalty": 10,
+   "award": 0,
+   "balance": 110
+  },
+  {
+   "year": 2022,
+   "name": "황인호",
+   "date": "2022-04-02",
+   "penalty": 0,
+   "award": 80,
+   "balance": 30
+  },
+  {
+   "year": 2022,
+   "name": "장계만",
+   "date": "2022-04-02",
+   "penalty": 10,
+   "award": 10,
+   "balance": 30
+  },
+  {
+   "year": 2022,
+   "name": "임동안",
+   "date": "2022-04-02",
+   "penalty": 10,
+   "award": 0,
+   "balance": 40
+  },
+  {
+   "year": 2022,
+   "name": "김정모",
+   "date": "2022-04-02",
+   "penalty": 10,
+   "award": 0,
+   "balance": 50
+  },
+  {
+   "year": 2022,
+   "name": "장홍연",
+   "date": "2022-04-02",
+   "penalty": 5,
+   "award": 0,
+   "balance": 55
+  },
+  {
+   "year": 2022,
+   "name": "최석문",
+   "date": "2022-04-02",
+   "penalty": 5,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2022,
+   "name": "양준홍",
+   "date": "2022-04-02",
+   "penalty": 10,
+   "award": 0,
+   "balance": 70
+  },
+  {
+   "year": 2022,
+   "name": "오정헌",
+   "date": "2022-04-02",
+   "penalty": 10,
+   "award": 0,
+   "balance": 80
+  },
+  {
+   "year": 2022,
+   "name": "장홍연",
+   "date": "2022-07-02",
+   "penalty": 0,
+   "award": 70,
+   "balance": 10
+  },
+  {
+   "year": 2022,
+   "name": "장계만",
+   "date": "2022-07-02",
+   "penalty": 5,
+   "award": 10,
+   "balance": 5
+  },
+  {
+   "year": 2022,
+   "name": "황인호",
+   "date": "2022-07-02",
+   "penalty": 5,
+   "award": 0,
+   "balance": 10
+  },
+  {
+   "year": 2022,
+   "name": "김정모",
+   "date": "2022-07-02",
+   "penalty": 5,
+   "award": 0,
+   "balance": 15
+  },
+  {
+   "year": 2022,
+   "name": "오정헌",
+   "date": "2022-07-02",
+   "penalty": 10,
+   "award": 0,
+   "balance": 25
+  },
+  {
+   "year": 2022,
+   "name": "최석문",
+   "date": "2022-07-02",
+   "penalty": 10,
+   "award": 0,
+   "balance": 35
+  },
+  {
+   "year": 2022,
+   "name": "임동안",
+   "date": "2022-08-06",
+   "penalty": 0,
+   "award": 25,
+   "balance": 10
+  },
+  {
+   "year": 2022,
+   "name": "최석문",
+   "date": "2022-08-06",
+   "penalty": 5,
+   "award": 5,
+   "balance": 10
+  },
+  {
+   "year": 2022,
+   "name": "오정헌",
+   "date": "2022-08-06",
+   "penalty": 5,
+   "award": 5,
+   "balance": 10
+  },
+  {
+   "year": 2022,
+   "name": "양준홍",
+   "date": "2022-08-06",
+   "penalty": 10,
+   "award": 0,
+   "balance": 20
+  },
+  {
+   "year": 2022,
+   "name": "황인호",
+   "date": "2022-09-03",
+   "penalty": 10,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2022,
+   "name": "임동안",
+   "date": "2022-09-03",
+   "penalty": 10,
+   "award": 0,
+   "balance": 40
+  },
+  {
+   "year": 2022,
+   "name": "양준홍",
+   "date": "2022-09-03",
+   "penalty": 10,
+   "award": 0,
+   "balance": 50
+  },
+  {
+   "year": 2022,
+   "name": "최석문",
+   "date": "2022-09-03",
+   "penalty": 5,
+   "award": 0,
+   "balance": 55
+  },
+  {
+   "year": 2022,
+   "name": "오정헌",
+   "date": "2022-09-03",
+   "penalty": 5,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2022,
+   "name": "김정모",
+   "date": "2022-09-03",
+   "penalty": 10,
+   "award": 0,
+   "balance": 70
+  },
+  {
+   "year": 2022,
+   "name": "장계만",
+   "date": "2022-09-03",
+   "penalty": 10,
+   "award": 0,
+   "balance": 80
+  },
+  {
+   "year": 2022,
+   "name": "김정모",
+   "date": "2022-10-08",
+   "penalty": 10,
+   "award": 0,
+   "balance": 90
+  },
+  {
+   "year": 2022,
+   "name": "임동안",
+   "date": "2022-10-08",
+   "penalty": 10,
+   "award": 70,
+   "balance": 30
+  },
+  {
+   "year": 2022,
+   "name": "장홍연",
+   "date": "2022-10-08",
+   "penalty": 10,
+   "award": 10,
+   "balance": 30
+  },
+  {
+   "year": 2022,
+   "name": "최석문",
+   "date": "2022-10-08",
+   "penalty": 10,
+   "award": 0,
+   "balance": 40
+  },
+  {
+   "year": 2022,
+   "name": "오정헌",
+   "date": "2022-10-08",
+   "penalty": 10,
+   "award": 0,
+   "balance": 50
+  },
+  {
+   "year": 2022,
+   "name": "장계만",
+   "date": "2022-10-08",
+   "penalty": 10,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2022,
+   "name": "황인호",
+   "date": "2022-10-08",
+   "penalty": 10,
+   "award": 0,
+   "balance": 70
+  },
+  {
+   "year": 2022,
+   "name": "양준홍",
+   "date": "2022-10-08",
+   "penalty": 10,
+   "award": 0,
+   "balance": 80
+  },
+  {
+   "year": 2022,
+   "name": "임동안",
+   "date": "2022-11-05",
+   "penalty": 0,
+   "award": 70,
+   "balance": 10
+  },
+  {
+   "year": 2022,
+   "name": "오정헌",
+   "date": "2022-11-05",
+   "penalty": 10,
+   "award": 10,
+   "balance": 10
+  },
+  {
+   "year": 2022,
+   "name": "김정모",
+   "date": "2022-11-05",
+   "penalty": 10,
+   "award": 0,
+   "balance": 20
+  },
+  {
+   "year": 2022,
+   "name": "최석문",
+   "date": "2022-11-05",
+   "penalty": 10,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2022,
+   "name": "양준홍",
+   "date": "2022-11-05",
+   "penalty": 10,
+   "award": 0,
+   "balance": 40
+  },
+  {
+   "year": 2022,
+   "name": "황인호",
+   "date": "2022-11-05",
+   "penalty": 10,
+   "award": 0,
+   "balance": 50
+  },
+  {
+   "year": 2022,
+   "name": "장계만",
+   "date": "2022-11-05",
+   "penalty": 10,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2023,
+   "name": "장홍연",
+   "date": "2023-04-08",
+   "penalty": 15,
+   "award": 45,
+   "balance": 30
+  },
+  {
+   "year": 2023,
+   "name": "임동안",
+   "date": "2023-04-08",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2023,
+   "name": "황인호",
+   "date": "2023-04-08",
+   "penalty": 15,
+   "award": 15,
+   "balance": 45
+  },
+  {
+   "year": 2023,
+   "name": "양준홍",
+   "date": "2023-04-08",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2023,
+   "name": "김정모",
+   "date": "2023-04-08",
+   "penalty": 15,
+   "award": 0,
+   "balance": 75
+  },
+  {
+   "year": 2023,
+   "name": "장계만",
+   "date": "2023-04-08",
+   "penalty": 15,
+   "award": 0,
+   "balance": 90
+  },
+  {
+   "year": 2023,
+   "name": "오정헌",
+   "date": "2023-04-08",
+   "penalty": 20,
+   "award": 0,
+   "balance": 110
+  },
+  {
+   "year": 2023,
+   "name": "최석문",
+   "date": "2023-04-08",
+   "penalty": 15,
+   "award": 0,
+   "balance": 125
+  },
+  {
+   "year": 2023,
+   "name": "임동안",
+   "date": "2023-05-06",
+   "penalty": 0,
+   "award": 95,
+   "balance": 30
+  },
+  {
+   "year": 2023,
+   "name": "김정모",
+   "date": "2023-05-06",
+   "penalty": 15,
+   "award": 30,
+   "balance": 15
+  },
+  {
+   "year": 2023,
+   "name": "양준홍",
+   "date": "2023-05-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2023,
+   "name": "장홍연",
+   "date": "2023-05-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2023,
+   "name": "오정헌",
+   "date": "2023-05-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2023,
+   "name": "황인호",
+   "date": "2023-05-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 75
+  },
+  {
+   "year": 2023,
+   "name": "최석문",
+   "date": "2023-05-06",
+   "penalty": 20,
+   "award": 0,
+   "balance": 95
+  },
+  {
+   "year": 2023,
+   "name": "장홍연",
+   "date": "2023-06-03",
+   "penalty": 5,
+   "award": 25,
+   "balance": 75
+  },
+  {
+   "year": 2023,
+   "name": "임동안",
+   "date": "2023-06-03",
+   "penalty": 0,
+   "award": 70,
+   "balance": 5
+  },
+  {
+   "year": 2023,
+   "name": "양준홍",
+   "date": "2023-06-03",
+   "penalty": 15,
+   "award": 0,
+   "balance": 20
+  },
+  {
+   "year": 2023,
+   "name": "황인호",
+   "date": "2023-06-03",
+   "penalty": 10,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2023,
+   "name": "오정헌",
+   "date": "2023-06-03",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2023,
+   "name": "최석문",
+   "date": "2023-07-22",
+   "penalty": 5,
+   "award": 30,
+   "balance": 20
+  },
+  {
+   "year": 2023,
+   "name": "양준홍",
+   "date": "2023-07-22",
+   "penalty": 15,
+   "award": 15,
+   "balance": 20
+  },
+  {
+   "year": 2023,
+   "name": "임동안",
+   "date": "2023-07-22",
+   "penalty": 15,
+   "award": 0,
+   "balance": 35
+  },
+  {
+   "year": 2023,
+   "name": "장홍연",
+   "date": "2023-07-22",
+   "penalty": 15,
+   "award": 0,
+   "balance": 50
+  },
+  {
+   "year": 2023,
+   "name": "오정헌",
+   "date": "2023-07-22",
+   "penalty": 15,
+   "award": 0,
+   "balance": 65
+  },
+  {
+   "year": 2023,
+   "name": "황인호",
+   "date": "2023-07-22",
+   "penalty": 15,
+   "award": 0,
+   "balance": 80
+  },
+  {
+   "year": 2023,
+   "name": "김정모",
+   "date": "2023-07-22",
+   "penalty": 20,
+   "award": 0,
+   "balance": 100
+  },
+  {
+   "year": 2023,
+   "name": "장홍연",
+   "date": "2023-08-05",
+   "penalty": 15,
+   "award": 0,
+   "balance": 115
+  },
+  {
+   "year": 2023,
+   "name": "양준홍",
+   "date": "2023-08-05",
+   "penalty": 10,
+   "award": 0,
+   "balance": 125
+  },
+  {
+   "year": 2023,
+   "name": "오정헌",
+   "date": "2023-08-05",
+   "penalty": 15,
+   "award": 0,
+   "balance": 140
+  },
+  {
+   "year": 2023,
+   "name": "임동안",
+   "date": "2023-08-05",
+   "penalty": 0,
+   "award": 75,
+   "balance": 65
+  },
+  {
+   "year": 2023,
+   "name": "황인호",
+   "date": "2023-08-05",
+   "penalty": 0,
+   "award": 25,
+   "balance": 40
+  },
+  {
+   "year": 2023,
+   "name": "황인호",
+   "date": "2023-09-02",
+   "penalty": 15,
+   "award": 10,
+   "balance": 45
+  },
+  {
+   "year": 2023,
+   "name": "오정헌",
+   "date": "2023-09-02",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2023,
+   "name": "임동안",
+   "date": "2023-09-02",
+   "penalty": 0,
+   "award": 30,
+   "balance": 30
+  },
+  {
+   "year": 2023,
+   "name": "양준홍",
+   "date": "2023-09-02",
+   "penalty": 5,
+   "award": 0,
+   "balance": 35
+  },
+  {
+   "year": 2023,
+   "name": "장홍연",
+   "date": "2023-09-02",
+   "penalty": 15,
+   "award": 0,
+   "balance": 50
+  },
+  {
+   "year": 2023,
+   "name": "최석문",
+   "date": "2023-09-02",
+   "penalty": 15,
+   "award": 0,
+   "balance": 65
+  },
+  {
+   "year": 2023,
+   "name": "최석문",
+   "date": "2023-11-04",
+   "penalty": 15,
+   "award": 20,
+   "balance": 60
+  },
+  {
+   "year": 2023,
+   "name": "양준홍",
+   "date": "2023-11-04",
+   "penalty": 0,
+   "award": 45,
+   "balance": 15
+  },
+  {
+   "year": 2023,
+   "name": "임동안",
+   "date": "2023-11-04",
+   "penalty": 5,
+   "award": 0,
+   "balance": 20
+  },
+  {
+   "year": 2023,
+   "name": "장홍연",
+   "date": "2023-11-04",
+   "penalty": 15,
+   "award": 0,
+   "balance": 35
+  },
+  {
+   "year": 2023,
+   "name": "황인호",
+   "date": "2023-11-04",
+   "penalty": 15,
+   "award": 0,
+   "balance": 50
+  },
+  {
+   "year": 2023,
+   "name": "오정헌",
+   "date": "2023-11-04",
+   "penalty": 15,
+   "award": 0,
+   "balance": 65
+  },
+  {
+   "year": 2023,
+   "name": "임동안",
+   "date": "2023-11-11",
+   "penalty": 15,
+   "award": 45,
+   "balance": 35
+  },
+  {
+   "year": 2023,
+   "name": "최석문",
+   "date": "2023-11-11",
+   "penalty": 15,
+   "award": 0,
+   "balance": 50
+  },
+  {
+   "year": 2023,
+   "name": "양준홍",
+   "date": "2023-11-11",
+   "penalty": 15,
+   "award": 0,
+   "balance": 65
+  },
+  {
+   "year": 2023,
+   "name": "장홍연",
+   "date": "2023-11-11",
+   "penalty": 15,
+   "award": 20,
+   "balance": 60
+  },
+  {
+   "year": 2023,
+   "name": "오정헌",
+   "date": "2023-11-11",
+   "penalty": 15,
+   "award": 0,
+   "balance": 75
+  },
+  {
+   "year": 2023,
+   "name": "황인호",
+   "date": "2023-11-11",
+   "penalty": 20,
+   "award": 0,
+   "balance": 95
+  },
+  {
+   "year": 2024,
+   "name": "오정헌",
+   "date": "2024-04-07",
+   "penalty": 15,
+   "award": 0,
+   "balance": 110
+  },
+  {
+   "year": 2024,
+   "name": "임동안",
+   "date": "2024-04-07",
+   "penalty": 15,
+   "award": 0,
+   "balance": 125
+  },
+  {
+   "year": 2024,
+   "name": "황인호",
+   "date": "2024-04-07",
+   "penalty": 15,
+   "award": 0,
+   "balance": 140
+  },
+  {
+   "year": 2024,
+   "name": "양준홍",
+   "date": "2024-04-07",
+   "penalty": 15,
+   "award": 0,
+   "balance": 155
+  },
+  {
+   "year": 2024,
+   "name": "장홍연",
+   "date": "2024-04-07",
+   "penalty": 15,
+   "award": 0,
+   "balance": 170
+  },
+  {
+   "year": 2024,
+   "name": "최석문",
+   "date": "2024-04-07",
+   "penalty": 10,
+   "award": 70,
+   "balance": 110
+  },
+  {
+   "year": 2024,
+   "name": "김정모",
+   "date": "2024-04-07",
+   "penalty": 15,
+   "award": 25,
+   "balance": 100
+  },
+  {
+   "year": 2024,
+   "name": "양준홍",
+   "date": "2024-06-15",
+   "penalty": 15,
+   "award": 0,
+   "balance": 115
+  },
+  {
+   "year": 2024,
+   "name": "최석문",
+   "date": "2024-06-15",
+   "penalty": 15,
+   "award": 0,
+   "balance": 130
+  },
+  {
+   "year": 2024,
+   "name": "임동안",
+   "date": "2024-06-15",
+   "penalty": 0,
+   "award": 75,
+   "balance": 55
+  },
+  {
+   "year": 2024,
+   "name": "장홍연",
+   "date": "2024-06-15",
+   "penalty": 5,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2024,
+   "name": "김정모",
+   "date": "2024-06-15",
+   "penalty": 15,
+   "award": 25,
+   "balance": 50
+  },
+  {
+   "year": 2024,
+   "name": "오정헌",
+   "date": "2024-06-15",
+   "penalty": 15,
+   "award": 0,
+   "balance": 65
+  },
+  {
+   "year": 2024,
+   "name": "황인호",
+   "date": "2024-06-15",
+   "penalty": 5,
+   "award": 0,
+   "balance": 70
+  },
+  {
+   "year": 2024,
+   "name": "장홍연",
+   "date": "2024-07-06",
+   "penalty": 15,
+   "award": 20,
+   "balance": 65
+  },
+  {
+   "year": 2024,
+   "name": "임동안",
+   "date": "2024-07-06",
+   "penalty": 0,
+   "award": 50,
+   "balance": 15
+  },
+  {
+   "year": 2024,
+   "name": "오정헌",
+   "date": "2024-07-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2024,
+   "name": "김정모",
+   "date": "2024-07-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2024,
+   "name": "양준홍",
+   "date": "2024-07-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2024,
+   "name": "황인호",
+   "date": "2024-07-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 75
+  },
+  {
+   "year": 2024,
+   "name": "양준홍",
+   "date": "2024-08-24",
+   "penalty": 15,
+   "award": 20,
+   "balance": 70
+  },
+  {
+   "year": 2024,
+   "name": "임동안",
+   "date": "2024-08-24",
+   "penalty": 10,
+   "award": 55,
+   "balance": 25
+  },
+  {
+   "year": 2024,
+   "name": "김정모",
+   "date": "2024-08-24",
+   "penalty": 15,
+   "award": 0,
+   "balance": 40
+  },
+  {
+   "year": 2024,
+   "name": "오정헌",
+   "date": "2024-08-24",
+   "penalty": 15,
+   "award": 0,
+   "balance": 55
+  },
+  {
+   "year": 2024,
+   "name": "장홍연",
+   "date": "2024-08-24",
+   "penalty": 15,
+   "award": 0,
+   "balance": 70
+  },
+  {
+   "year": 2024,
+   "name": "최석문",
+   "date": "2024-08-24",
+   "penalty": 15,
+   "award": 0,
+   "balance": 85
+  },
+  {
+   "year": 2024,
+   "name": "황인호",
+   "date": "2024-08-24",
+   "penalty": 15,
+   "award": 0,
+   "balance": 100
+  },
+  {
+   "year": 2024,
+   "name": "최석문",
+   "date": "2024-09-02",
+   "penalty": 0,
+   "award": 75,
+   "balance": 25
+  },
+  {
+   "year": 2024,
+   "name": "임동안",
+   "date": "2024-09-02",
+   "penalty": 15,
+   "award": 25,
+   "balance": 15
+  },
+  {
+   "year": 2024,
+   "name": "오정헌",
+   "date": "2024-09-02",
+   "penalty": 15,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2024,
+   "name": "양준홍",
+   "date": "2024-09-02",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2024,
+   "name": "김정모",
+   "date": "2024-09-02",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2024,
+   "name": "황인호",
+   "date": "2024-09-02",
+   "penalty": 5,
+   "award": 0,
+   "balance": 65
+  },
+  {
+   "year": 2024,
+   "name": "장홍연",
+   "date": "2024-09-02",
+   "penalty": 10,
+   "award": 0,
+   "balance": 75
+  },
+  {
+   "year": 2024,
+   "name": "장홍연",
+   "date": "2024-10-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 90
+  },
+  {
+   "year": 2024,
+   "name": "김정모",
+   "date": "2024-10-06",
+   "penalty": 10,
+   "award": 20,
+   "balance": 80
+  },
+  {
+   "year": 2024,
+   "name": "최석문",
+   "date": "2024-10-06",
+   "penalty": 0,
+   "award": 55,
+   "balance": 25
+  },
+  {
+   "year": 2024,
+   "name": "임동안",
+   "date": "2024-10-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 40
+  },
+  {
+   "year": 2024,
+   "name": "양준홍",
+   "date": "2024-10-06",
+   "penalty": 10,
+   "award": 0,
+   "balance": 50
+  },
+  {
+   "year": 2024,
+   "name": "오정헌",
+   "date": "2024-10-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 65
+  },
+  {
+   "year": 2024,
+   "name": "황인호",
+   "date": "2024-10-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 80
+  },
+  {
+   "year": 2024,
+   "name": "김정모",
+   "date": "2024-10-27",
+   "penalty": 0,
+   "award": 60,
+   "balance": 20
+  },
+  {
+   "year": 2024,
+   "name": "장홍연",
+   "date": "2024-10-27",
+   "penalty": 0,
+   "award": 20,
+   "balance": 0
+  },
+  {
+   "year": 2024,
+   "name": "양준홍",
+   "date": "2024-10-28",
+   "penalty": 15,
+   "award": 0,
+   "balance": 15
+  },
+  {
+   "year": 2024,
+   "name": "오정헌",
+   "date": "2024-10-28",
+   "penalty": 15,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2024,
+   "name": "임동안",
+   "date": "2024-10-28",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2024,
+   "name": "최석문",
+   "date": "2024-10-28",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2024,
+   "name": "황인호",
+   "date": "2024-10-28",
+   "penalty": 15,
+   "award": 0,
+   "balance": 75
+  },
+  {
+   "year": 2025,
+   "name": "임동안",
+   "date": "2025-04-06",
+   "penalty": 15,
+   "award": 75,
+   "balance": 15
+  },
+  {
+   "year": 2025,
+   "name": "장홍연",
+   "date": "2025-04-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2025,
+   "name": "양준홍",
+   "date": "2025-04-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2025,
+   "name": "최석문",
+   "date": "2025-04-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2025,
+   "name": "황인호",
+   "date": "2025-04-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 75
+  },
+  {
+   "year": 2025,
+   "name": "오정헌",
+   "date": "2025-04-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 90
+  },
+  {
+   "year": 2025,
+   "name": "김정모",
+   "date": "2025-04-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 105
+  },
+  {
+   "year": 2025,
+   "name": "김정모",
+   "date": "2025-05-26",
+   "penalty": 0,
+   "award": 75,
+   "balance": 30
+  },
+  {
+   "year": 2025,
+   "name": "장홍연",
+   "date": "2025-05-26",
+   "penalty": 15,
+   "award": 30,
+   "balance": 15
+  },
+  {
+   "year": 2025,
+   "name": "임동안",
+   "date": "2025-05-26",
+   "penalty": 15,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2025,
+   "name": "양준홍",
+   "date": "2025-05-26",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2025,
+   "name": "오정헌",
+   "date": "2025-05-26",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2025,
+   "name": "황인호",
+   "date": "2025-05-26",
+   "penalty": 15,
+   "award": 0,
+   "balance": 75
+  },
+  {
+   "year": 2025,
+   "name": "최석문",
+   "date": "2025-05-26",
+   "penalty": 10,
+   "award": 0,
+   "balance": 85
+  },
+  {
+   "year": 2025,
+   "name": "김정모",
+   "date": "2025-06-08",
+   "penalty": 0,
+   "award": 60,
+   "balance": 25
+  },
+  {
+   "year": 2025,
+   "name": "장홍연",
+   "date": "2025-06-08",
+   "penalty": 15,
+   "award": 25,
+   "balance": 15
+  },
+  {
+   "year": 2025,
+   "name": "최석문",
+   "date": "2025-06-08",
+   "penalty": 15,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2025,
+   "name": "양준홍",
+   "date": "2025-06-08",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2025,
+   "name": "오정헌",
+   "date": "2025-06-08",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2025,
+   "name": "황인호",
+   "date": "2025-06-08",
+   "penalty": 15,
+   "award": 0,
+   "balance": 75
+  },
+  {
+   "year": 2025,
+   "name": "김정모",
+   "date": "2025-07-06",
+   "penalty": 0,
+   "award": 55,
+   "balance": 20
+  },
+  {
+   "year": 2025,
+   "name": "황인호",
+   "date": "2025-07-06",
+   "penalty": 15,
+   "award": 20,
+   "balance": 15
+  },
+  {
+   "year": 2025,
+   "name": "장홍연",
+   "date": "2025-07-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2025,
+   "name": "최석문",
+   "date": "2025-07-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2025,
+   "name": "양준홍",
+   "date": "2025-07-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2025,
+   "name": "오정헌",
+   "date": "2025-07-06",
+   "penalty": 15,
+   "award": 0,
+   "balance": 75
+  },
+  {
+   "year": 2025,
+   "name": "양준홍",
+   "date": "2025-08-03",
+   "penalty": 0,
+   "award": 55,
+   "balance": 20
+  },
+  {
+   "year": 2025,
+   "name": "임동안",
+   "date": "2025-08-03",
+   "penalty": 0,
+   "award": 20,
+   "balance": 0
+  },
+  {
+   "year": 2025,
+   "name": "오정헌",
+   "date": "2025-08-03",
+   "penalty": 15,
+   "award": 0,
+   "balance": 15
+  },
+  {
+   "year": 2025,
+   "name": "김정모",
+   "date": "2025-09-07",
+   "penalty": 0,
+   "award": 10,
+   "balance": 5
+  },
+  {
+   "year": 2025,
+   "name": "임동안",
+   "date": "2025-09-07",
+   "penalty": 0,
+   "award": 5,
+   "balance": 0
+  },
+  {
+   "year": 2025,
+   "name": "최석문",
+   "date": "2025-09-07",
+   "penalty": 15,
+   "award": 0,
+   "balance": 15
+  },
+  {
+   "year": 2025,
+   "name": "오정헌",
+   "date": "2025-09-07",
+   "penalty": 15,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2025,
+   "name": "황인호",
+   "date": "2025-09-07",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2025,
+   "name": "장홍연",
+   "date": "2025-09-07",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2025,
+   "name": "김정모",
+   "date": "2025-11-02",
+   "penalty": 0,
+   "award": 45,
+   "balance": 15
+  },
+  {
+   "year": 2025,
+   "name": "임동안",
+   "date": "2025-11-02",
+   "penalty": 0,
+   "award": 15,
+   "balance": 0
+  },
+  {
+   "year": 2025,
+   "name": "양준홍",
+   "date": "2025-11-02",
+   "penalty": 15,
+   "award": 0,
+   "balance": 15
+  },
+  {
+   "year": 2025,
+   "name": "최석문",
+   "date": "2025-11-02",
+   "penalty": 15,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2025,
+   "name": "황인호",
+   "date": "2025-11-02",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  },
+  {
+   "year": 2025,
+   "name": "오정헌",
+   "date": "2025-11-02",
+   "penalty": 15,
+   "award": 0,
+   "balance": 60
+  },
+  {
+   "year": 2026,
+   "name": "장홍연",
+   "date": "2026-03-29",
+   "penalty": 0,
+   "award": 45,
+   "balance": 15
+  },
+  {
+   "year": 2026,
+   "name": "오정헌",
+   "date": "2026-03-29",
+   "penalty": 15,
+   "award": 15,
+   "balance": 15
+  },
+  {
+   "year": 2026,
+   "name": "임동안",
+   "date": "2026-03-29",
+   "penalty": 15,
+   "award": 0,
+   "balance": 30
+  },
+  {
+   "year": 2026,
+   "name": "양준홍",
+   "date": "2026-03-29",
+   "penalty": 15,
+   "award": 0,
+   "balance": 45
+  }
+ ],
+ "transactions": [
+  {
+   "id": "tr_0",
+   "year": 2022,
+   "type": "이월",
+   "desc": "전년이월",
+   "date": "2022-01-01",
+   "amount": 224,
+   "balance": 224
+  },
+  {
+   "id": "tr_1",
+   "year": 2022,
+   "type": "회비",
+   "desc": "오정헌",
+   "date": "2022-03-05",
+   "amount": 100,
+   "balance": 324
+  },
+  {
+   "id": "tr_2",
+   "year": 2022,
+   "type": "회비",
+   "desc": "임동안",
+   "date": "2022-03-17",
+   "amount": 100,
+   "balance": 424
+  },
+  {
+   "id": "tr_3",
+   "year": 2022,
+   "type": "회비",
+   "desc": "오정헌",
+   "date": "2022-03-26",
+   "amount": 100,
+   "balance": 524
+  },
+  {
+   "id": "tr_4",
+   "year": 2022,
+   "type": "참가비",
+   "desc": "장홍연",
+   "date": "2022-03-27",
+   "amount": 100,
+   "balance": 624
+  },
+  {
+   "id": "tr_5",
+   "year": 2022,
+   "type": "참가비",
+   "desc": "임동안",
+   "date": "2022-03-27",
+   "amount": 100,
+   "balance": 724
+  },
+  {
+   "id": "tr_6",
+   "year": 2022,
+   "type": "참가비",
+   "desc": "황인호",
+   "date": "2022-04-02",
+   "amount": 100,
+   "balance": 824
+  },
+  {
+   "id": "tr_7",
+   "year": 2022,
+   "type": "참가비",
+   "desc": "최석문",
+   "date": "2022-03-31",
+   "amount": 100,
+   "balance": 924
+  },
+  {
+   "id": "tr_8",
+   "year": 2022,
+   "type": "참가비",
+   "desc": "김정모",
+   "date": "2022-04-02",
+   "amount": 100,
+   "balance": 1024
+  },
+  {
+   "id": "tr_9",
+   "year": 2022,
+   "type": "참가비",
+   "desc": "양준홍",
+   "date": "2022-04-08",
+   "amount": 100,
+   "balance": 1124
+  },
+  {
+   "id": "tr_10",
+   "year": 2022,
+   "type": "참가비",
+   "desc": "장계만",
+   "date": "2022-04-26",
+   "amount": 100,
+   "balance": 1224
+  },
+  {
+   "id": "tr_11",
+   "year": 2022,
+   "type": "회비",
+   "desc": "장계만",
+   "date": "2022-05-23",
+   "amount": 300,
+   "balance": 1524
+  },
+  {
+   "id": "tr_12",
+   "year": 2022,
+   "type": "회비",
+   "desc": "임동안",
+   "date": "2022-05-23",
+   "amount": 100,
+   "balance": 1624
+  },
+  {
+   "id": "tr_13",
+   "year": 2022,
+   "type": "회비",
+   "desc": "황인호",
+   "date": "2022-05-23",
+   "amount": 300,
+   "balance": 1924
+  },
+  {
+   "id": "tr_14",
+   "year": 2022,
+   "type": "회비",
+   "desc": "오정헌",
+   "date": "2022-05-23",
+   "amount": 100,
+   "balance": 2024
+  },
+  {
+   "id": "tr_15",
+   "year": 2022,
+   "type": "참가비",
+   "desc": "오정헌",
+   "date": "2022-05-23",
+   "amount": 100,
+   "balance": 2124
+  },
+  {
+   "id": "tr_16",
+   "year": 2022,
+   "type": "회비",
+   "desc": "김정모",
+   "date": "2022-05-23",
+   "amount": 300,
+   "balance": 2424
+  },
+  {
+   "id": "tr_17",
+   "year": 2022,
+   "type": "회비",
+   "desc": "양준홍",
+   "date": "2022-05-23",
+   "amount": 300,
+   "balance": 2724
+  },
+  {
+   "id": "tr_18",
+   "year": 2022,
+   "type": "회비",
+   "desc": "장홍연",
+   "date": "2022-05-24",
+   "amount": 300,
+   "balance": 3024
+  },
+  {
+   "id": "tr_19",
+   "year": 2022,
+   "type": "회비",
+   "desc": "최석문",
+   "date": "2022-05-24",
+   "amount": 100,
+   "balance": 3124
+  },
+  {
+   "id": "tr_20",
+   "year": 2022,
+   "type": "비용",
+   "desc": "경비",
+   "date": "2022-05-30",
+   "amount": -11.28,
+   "balance": 3112.72
+  },
+  {
+   "id": "tr_21",
+   "year": 2022,
+   "type": "참가비",
+   "desc": "상금",
+   "date": "2022-12-10",
+   "amount": -800,
+   "balance": 2312.72
+  },
+  {
+   "id": "tr_22",
+   "year": 2023,
+   "type": "전반기 참가비",
+   "desc": "양준홍",
+   "date": "2023-03-30",
+   "amount": 100,
+   "balance": 2412.72
+  },
+  {
+   "id": "tr_23",
+   "year": 2023,
+   "type": "전반기 참가비",
+   "desc": "오정헌",
+   "date": "2023-03-30",
+   "amount": 100,
+   "balance": 2512.72
+  },
+  {
+   "id": "tr_24",
+   "year": 2023,
+   "type": "전반기 참가비",
+   "desc": "임동안",
+   "date": "2023-03-31",
+   "amount": 100,
+   "balance": 2612.72
+  },
+  {
+   "id": "tr_25",
+   "year": 2023,
+   "type": "전반기 참가비",
+   "desc": "김정모",
+   "date": "2023-04-03",
+   "amount": 100,
+   "balance": 2712.72
+  },
+  {
+   "id": "tr_26",
+   "year": 2023,
+   "type": "전반기 참가비",
+   "desc": "황인호",
+   "date": "2023-04-08",
+   "amount": 100,
+   "balance": 2812.72
+  },
+  {
+   "id": "tr_27",
+   "year": 2023,
+   "type": "전반기 참가비",
+   "desc": "장홍연",
+   "date": "2023-04-08",
+   "amount": 100,
+   "balance": 2912.72
+  },
+  {
+   "id": "tr_28",
+   "year": 2023,
+   "type": "전반기 참가비",
+   "desc": "장계만",
+   "date": "2023-04-11",
+   "amount": 100,
+   "balance": 3012.72
+  },
+  {
+   "id": "tr_29",
+   "year": 2023,
+   "type": "전반기 참가비",
+   "desc": "최석문",
+   "date": "2023-04-08",
+   "amount": 100,
+   "balance": 3112.72
+  },
+  {
+   "id": "tr_30",
+   "year": 2023,
+   "type": "회비",
+   "desc": "최석문",
+   "date": "2023-05-28",
+   "amount": 200,
+   "balance": 3312.72
+  },
+  {
+   "id": "tr_31",
+   "year": 2023,
+   "type": "회비",
+   "desc": "임동안",
+   "date": "2023-05-28",
+   "amount": 100,
+   "balance": 3412.72
+  },
+  {
+   "id": "tr_32",
+   "year": 2023,
+   "type": "비용",
+   "desc": "경비",
+   "date": "2023-05-29",
+   "amount": -2233,
+   "balance": 1179.72
+  },
+  {
+   "id": "tr_33",
+   "year": 2023,
+   "type": "회비",
+   "desc": "장계만",
+   "date": "2023-05-29",
+   "amount": -152,
+   "balance": 1027.72
+  },
+  {
+   "id": "tr_34",
+   "year": 2023,
+   "type": "비용",
+   "desc": "상금",
+   "date": "2023-07-23",
+   "amount": -800,
+   "balance": 227.72
+  },
+  {
+   "id": "tr_35",
+   "year": 2023,
+   "type": "후반기 참가비",
+   "desc": "임동안",
+   "date": "2023-07-23",
+   "amount": 100,
+   "balance": 327.72
+  },
+  {
+   "id": "tr_36",
+   "year": 2023,
+   "type": "후반기 참가비",
+   "desc": "황인호",
+   "date": "2023-08-04",
+   "amount": 100,
+   "balance": 427.72
+  },
+  {
+   "id": "tr_37",
+   "year": 2023,
+   "type": "후반기 참가비",
+   "desc": "장홍연",
+   "date": "2023-08-04",
+   "amount": 100,
+   "balance": 527.72
+  },
+  {
+   "id": "tr_38",
+   "year": 2023,
+   "type": "후반기 참가비",
+   "desc": "오정헌",
+   "date": "2023-08-14",
+   "amount": 100,
+   "balance": 627.72
+  },
+  {
+   "id": "tr_39",
+   "year": 2023,
+   "type": "후반기 참가비",
+   "desc": "최석문",
+   "date": "2023-09-01",
+   "amount": 100,
+   "balance": 727.72
+  },
+  {
+   "id": "tr_40",
+   "year": 2023,
+   "type": "후반기 참가비",
+   "desc": "양준홍",
+   "date": "2023-09-02",
+   "amount": 100,
+   "balance": 827.72
+  },
+  {
+   "id": "tr_41",
+   "year": 2023,
+   "type": "비용",
+   "desc": "상금",
+   "date": "2023-12-09",
+   "amount": -600,
+   "balance": 227.72
+  },
+  {
+   "id": "tr_42",
+   "year": 2024,
+   "type": "전반기 참가비",
+   "desc": "장홍연",
+   "date": "2024-04-01",
+   "amount": 100,
+   "balance": 327.72
+  },
+  {
+   "id": "tr_43",
+   "year": 2024,
+   "type": "전반기 참가비",
+   "desc": "오정헌",
+   "date": "2024-03-30",
+   "amount": 100,
+   "balance": 427.72
+  },
+  {
+   "id": "tr_44",
+   "year": 2024,
+   "type": "전반기 참가비",
+   "desc": "최석문",
+   "date": "2024-03-30",
+   "amount": 100,
+   "balance": 527.72
+  },
+  {
+   "id": "tr_45",
+   "year": 2024,
+   "type": "전반기 참가비",
+   "desc": "임동안",
+   "date": "2024-04-02",
+   "amount": 100,
+   "balance": 627.72
+  },
+  {
+   "id": "tr_46",
+   "year": 2024,
+   "type": "전반기 참가비",
+   "desc": "김정모",
+   "date": "2024-04-02",
+   "amount": 100,
+   "balance": 727.72
+  },
+  {
+   "id": "tr_47",
+   "year": 2024,
+   "type": "전반기 참가비",
+   "desc": "황인호",
+   "date": "2024-04-02",
+   "amount": 100,
+   "balance": 827.72
+  },
+  {
+   "id": "tr_48",
+   "year": 2024,
+   "type": "전반기 참가비",
+   "desc": "양준홍",
+   "date": "2024-04-04",
+   "amount": 100,
+   "balance": 927.72
+  },
+  {
+   "id": "tr_49",
+   "year": 2024,
+   "type": "비용",
+   "desc": "상금",
+   "date": "2024-08-24",
+   "amount": -700,
+   "balance": 227.72
+  },
+  {
+   "id": "tr_50",
+   "year": 2024,
+   "type": "후반기 참가비",
+   "desc": "장홍연",
+   "date": "2024-08-25",
+   "amount": 100,
+   "balance": 327.72
+  },
+  {
+   "id": "tr_51",
+   "year": 2024,
+   "type": "후반기 참가비",
+   "desc": "임동안",
+   "date": "2024-08-27",
+   "amount": 100,
+   "balance": 427.72
+  },
+  {
+   "id": "tr_52",
+   "year": 2024,
+   "type": "후반기 참가비",
+   "desc": "최석문",
+   "date": "2024-08-27",
+   "amount": 100,
+   "balance": 527.72
+  },
+  {
+   "id": "tr_53",
+   "year": 2024,
+   "type": "후반기 참가비",
+   "desc": "황인호",
+   "date": "2024-08-27",
+   "amount": 100,
+   "balance": 627.72
+  },
+  {
+   "id": "tr_54",
+   "year": 2024,
+   "type": "후반기 참가비",
+   "desc": "오정헌",
+   "date": "2024-08-27",
+   "amount": 100,
+   "balance": 727.72
+  },
+  {
+   "id": "tr_55",
+   "year": 2024,
+   "type": "후반기 참가비",
+   "desc": "양준홍",
+   "date": "2024-08-29",
+   "amount": 100,
+   "balance": 827.72
+  },
+  {
+   "id": "tr_56",
+   "year": 2024,
+   "type": "후반기 참가비",
+   "desc": "김정모",
+   "date": "2024-10-06",
+   "amount": 100,
+   "balance": 927.72
+  },
+  {
+   "id": "tr_57",
+   "year": 2024,
+   "type": "비용",
+   "desc": "상금",
+   "date": "2024-11-16",
+   "amount": -700,
+   "balance": 227.72
+  },
+  {
+   "id": "tr_58",
+   "year": 2025,
+   "type": "전반기 참가비",
+   "desc": "임동안",
+   "date": "2025-04-06",
+   "amount": 100,
+   "balance": 100
+  },
+  {
+   "id": "tr_59",
+   "year": 2025,
+   "type": "전반기 참가비",
+   "desc": "양준홍",
+   "date": "2025-04-06",
+   "amount": 100,
+   "balance": 200
+  },
+  {
+   "id": "tr_60",
+   "year": 2025,
+   "type": "전반기 참가비",
+   "desc": "최석문",
+   "date": "2025-04-06",
+   "amount": 100,
+   "balance": 300
+  },
+  {
+   "id": "tr_61",
+   "year": 2025,
+   "type": "전반기 참가비",
+   "desc": "오정헌",
+   "date": "2025-04-06",
+   "amount": 100,
+   "balance": 400
+  },
+  {
+   "id": "tr_62",
+   "year": 2025,
+   "type": "전반기 참가비",
+   "desc": "황인호",
+   "date": "2025-04-06",
+   "amount": 100,
+   "balance": 500
+  },
+  {
+   "id": "tr_63",
+   "year": 2025,
+   "type": "전반기 참가비",
+   "desc": "김정모",
+   "date": "2025-04-06",
+   "amount": 100,
+   "balance": 600
+  },
+  {
+   "id": "tr_64",
+   "year": 2025,
+   "type": "전반기 참가비",
+   "desc": "장홍연",
+   "date": "2025-04-06",
+   "amount": 100,
+   "balance": 700
+  },
+  {
+   "id": "tr_65",
+   "year": 2025,
+   "type": "비용",
+   "desc": "상금",
+   "date": "2025-05-26",
+   "amount": -150,
+   "balance": 550
+  },
+  {
+   "id": "tr_66",
+   "year": 2025,
+   "type": "비용",
+   "desc": "상금",
+   "date": "2025-07-06",
+   "amount": -700,
+   "balance": -150
+  },
+  {
+   "id": "tr_67",
+   "year": 0,
+   "type": "",
+   "desc": "",
+   "date": "",
+   "amount": 0,
+   "balance": 0
+  },
+  {
+   "id": "tr_68",
+   "year": 0,
+   "type": "",
+   "desc": "",
+   "date": "",
+   "amount": 0,
+   "balance": 0
+  },
+  {
+   "id": "tr_69",
+   "year": 0,
+   "type": "",
+   "desc": "",
+   "date": "",
+   "amount": 0,
+   "balance": 0
+  },
+  {
+   "id": "tr_70",
+   "year": 2025,
+   "type": "후반기 참가비",
+   "desc": "임동안",
+   "date": "2025-07-12",
+   "amount": 100,
+   "balance": -50
+  },
+  {
+   "id": "tr_71",
+   "year": 2025,
+   "type": "후반기 참가비",
+   "desc": "김정모",
+   "date": "2025-07-12",
+   "amount": 100,
+   "balance": 50
+  },
+  {
+   "id": "tr_72",
+   "year": 2025,
+   "type": "후반기 참가비",
+   "desc": "장홍연",
+   "date": "2025-07-21",
+   "amount": 100,
+   "balance": 150
+  },
+  {
+   "id": "tr_73",
+   "year": 2025,
+   "type": "후반기 참가비",
+   "desc": "오정헌",
+   "date": "2025-07-26",
+   "amount": 100,
+   "balance": 250
+  },
+  {
+   "id": "tr_74",
+   "year": 2025,
+   "type": "후반기 참가비",
+   "desc": "최석문",
+   "date": "2025-07-26",
+   "amount": 100,
+   "balance": 350
+  },
+  {
+   "id": "tr_75",
+   "year": 2025,
+   "type": "후반기 참가비",
+   "desc": "양준홍",
+   "date": "2025-08-02",
+   "amount": 100,
+   "balance": 450
+  },
+  {
+   "id": "tr_76",
+   "year": 2025,
+   "type": "후반기 참가비",
+   "desc": "황인호",
+   "date": "2025-08-02",
+   "amount": 100,
+   "balance": 550
+  },
+  {
+   "id": "tr_77",
+   "year": 2026,
+   "type": "전반기 참가비",
+   "desc": "장홍연",
+   "date": "2026-03-30",
+   "amount": 100,
+   "balance": 800
+  },
+  {
+   "id": "tr_78",
+   "year": 2026,
+   "type": "전반기 참가비",
+   "desc": "양준홍",
+   "date": "2026-03-31",
+   "amount": 100,
+   "balance": 900
+  },
+  {
+   "id": "tr_79",
+   "year": 2026,
+   "type": "전반기 참가비",
+   "desc": "임동안",
+   "date": "2026-03-31",
+   "amount": 100,
+   "balance": 1000
+  },
+  {
+   "id": "modeln2wqbfs",
+   "year": 2025,
+   "type": "비용",
+   "desc": "수상",
+   "date": "2025-12-29",
+   "amount": -700,
+   "balance": -150
+  }
+ ],
+ "board": [
+  {
+   "id": "rule_0",
+   "title": "Course Rating and Slope",
+   "content": "PPT",
+   "author": "관리자",
+   "date": "2022-01-01",
+   "url": "https://docs.google.com/presentation/d/1YscENRqa1PzsXK6dkZLAb_lx2z8Io9XC/edit?usp=share_link&ouid=117420382681474774324&rtpof=true&sd=true"
+  },
+  {
+   "id": "rule_1",
+   "title": "2022 룰",
+   "content": "PPT",
+   "author": "관리자",
+   "date": "2022-03-29",
+   "url": "https://docs.google.com/presentation/d/1YKABAnbUZ6nReS51AMy3AoNcpIONdBsX/edit?usp=sharing&ouid=117420382681474774324&rtpof=true&sd=true"
+  },
+  {
+   "id": "rule_2",
+   "title": "2021 순위",
+   "content": "1.김정모 2.임동안 3.최석문 4.양준홍 5.황인호 6.장홍연 7.오정헌  8.장계만",
+   "author": "관리자",
+   "date": "2022-03-29",
+   "url": ""
+  },
+  {
+   "id": "rule_3",
+   "title": "2022회비",
+   "content": "$650/Couple, Pay $100/Monthly, Need to be collected by Jul.",
+   "author": "관리자",
+   "date": "2022-03-29",
+   "url": ""
+  },
+  {
+   "id": "rule_4",
+   "title": "2022 참가비(game fee)",
+   "content": "$100/y, No eligibility of prize money if missed twice",
+   "author": "관리자",
+   "date": "2022-03-29",
+   "url": ""
+  },
+  {
+   "id": "rule_5",
+   "title": "2022 10 Year Foundation Outing",
+   "content": "1등. 총상금의 40% =$320,\n2등:잔금의40%=192, \n3등:잔금의40%=$115,\n4등:상동=$70\n5등.상동=$40\n6-8등. 각$21\n단, 규정대로 2번이상(2번포함)불참자는 5등까지 상금 수령자격 없습니다",
+   "author": "관리자",
+   "date": "2022-03-29",
+   "url": ""
+  },
+  {
+   "id": "rule_6",
+   "title": "Men’s Rounding",
+   "content": "1st Sat",
+   "author": "관리자",
+   "date": "2022-03-29",
+   "url": ""
+  },
+  {
+   "id": "rule_7",
+   "title": "Ladies.",
+   "content": "2nd Sat",
+   "author": "관리자",
+   "date": "2022-03-29",
+   "url": ""
+  },
+  {
+   "id": "rule_8",
+   "title": "Memorial",
+   "content": "5/30/2022,",
+   "author": "관리자",
+   "date": "2022-03-29",
+   "url": ""
+  },
+  {
+   "id": "rule_9",
+   "title": "2023 핸디캡",
+   "content": "전년대비 최종점수(최고,최저제외한평균점수) * 0.6 + 5 >> 현 핸디캡과 비교 하여 낮은점수\n장홍연(20.75),임동안(19.40),김정모(18.80),황인호(19.80)\n양준홍(26.15)최석문(20.30),오정헌(34.80),장계만(25.40>>27)",
+   "author": "관리자",
+   "date": "2022-01-01",
+   "url": ""
+  },
+  {
+   "id": "rule_10",
+   "title": "2023 rule",
+   "content": "대회: 전 반기(4,5,6,7월), 후반기(8,9,10,11월) \n제일 잘 친 대회의 등수를 제외한다\n참가비:  $200/Year\n불참자: 꼴등처리 (8등)\n패널티: 2타$5, 3 타 $10, 4타 이상 $15 ,불참자 $20\n  >>우승자가 비공개로 선택한 등수(5~7등중)에게  패널티의 25% (5의배수 올림), 잔금은 1등에게\n    (선택등수는 다음대회 시작전 공개한다)\n상금: 총 $800/반기\n  1등. 총상금의 40% =$320,\n  2등:잔금의40%=$192, \n  3등:잔금의40%=$115,\n  4등:상동=$70\n  5등.상동=$40\n  6-8등. 각$21",
+   "author": "관리자",
+   "date": "2022-01-01",
+   "url": ""
+  },
+  {
+   "id": "rule_11",
+   "title": "핸디캡 계산",
+   "content": "핸디캡 계산된 내용입니다",
+   "author": "관리자",
+   "date": "2023-11-17",
+   "url": "https://docs.google.com/spreadsheets/d/1WcAgq-WtY5ZEJPMCokEBC_AG_qvwVkyU/edit#gid=1455127358"
+  },
+  {
+   "id": "rule_12",
+   "title": "2023 순위 및 상금",
+   "content": "1.임동안($240) 2.양준홍($144) 3. 최석문(86) 4. 장홍연($52) 5. 황인호($39) 6. 오정헌 ($39)",
+   "author": "관리자",
+   "date": "2022-01-01",
+   "url": ""
+  },
+  {
+   "id": "rule_13",
+   "title": "2024 핸디캡",
+   "content": "임동안        17.47\n김정모        19.1\n최석문        21.2\n황인호        22.74\n장홍연        23.07\n양준홍        25.75\n오정헌        36.04",
+   "author": "관리자",
+   "date": "2024-04-01",
+   "url": ""
+  },
+  {
+   "id": "rule_14",
+   "title": "2024 전반기 순위및 상금",
+   "content": "1임동안($280), 2최석문($168), 3장홍연 ($101), 4양준홍($60), 5김정모($36), 6황인호($27), 7오정헌($27)",
+   "author": "관리자",
+   "date": "2022-01-01",
+   "url": ""
+  },
+  {
+   "id": "rule_15",
+   "title": "2024 후반기 순위빛 상금",
+   "content": "1최석문($280), 2김정모($168), 3황인호 ($101), 4장홍연($60), 5임동안($36), 6양준홍($27), 7오정헌($27)",
+   "author": "관리자",
+   "date": "2022-01-01",
+   "url": ""
+  },
+  {
+   "id": "rule_16",
+   "title": "2025 핸디캡",
+   "content": "지난해 제일 잘친대회와 제일 못친대회를 제외한 평균의70% + 3\n임동안        18.28\n최석문        20.15\n김정모        20.22\n장홍연        22.95\n황인호        23.86\n양준홍        27.03\n오정헌        34.00",
+   "author": "관리자",
+   "date": "2022-01-01",
+   "url": ""
+  },
+  {
+   "id": "rule_17",
+   "title": "2025년 룰",
+   "content": "1등이 다음 코스 정하여 예약한다. 상금은 1등이 50프로, 나머지는 적립한다",
+   "author": "관리자",
+   "date": "2024-11-16",
+   "url": ""
+  },
+  {
+   "id": "rule_18",
+   "title": "2025전반기상금",
+   "content": "1김정모($280), 2임동안($168), 3황인호 ($101), 4장홍연($60), 5최석문($36), 6양준홍($27), 7오정헌($27)",
+   "author": "관리자",
+   "date": "2025-07-12",
+   "url": ""
+  },
+  {
+   "id": "rule_19",
+   "title": "2025 후반기상금",
+   "content": "1김정모($280), 2임동안($168), 3양준홍 ($101), 4장홍연($60), 5최석문($36), 6황인호($27), 7오정헌($27)",
+   "author": "관리자",
+   "date": "2025-11-02",
+   "url": ""
+  }
+ ],
+ "settings": {
+  "fee": 100,
+  "season": 2026
+ },
+ "_group": "골사부모 남성",
+ "_ts": 1777129580861
+}
