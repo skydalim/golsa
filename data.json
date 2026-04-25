@@ -5766,8 +5766,13 @@
  ],
  "settings": {
   "fee": 100,
-  "season": 2026
+  "season": 2026,
+  "_sync": {
+   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
+   "u": "skydalim",
+   "r": "golsa"
+  }
  },
  "_group": "골사부모 남성",
- "_ts": 1777129580861
+ "_ts": 1777132750611
 }
