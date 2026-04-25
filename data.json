@@ -4933,7 +4933,7 @@
    "desc": "황인호",
    "date": "2022-04-02",
    "amount": 100,
-   "balance": 824
+   "balance": 924
   },
   {
    "id": "tr_7",
@@ -4942,7 +4942,7 @@
    "desc": "최석문",
    "date": "2022-03-31",
    "amount": 100,
-   "balance": 924
+   "balance": 824
   },
   {
    "id": "tr_8",
@@ -5131,7 +5131,7 @@
    "desc": "장계만",
    "date": "2023-04-11",
    "amount": 100,
-   "balance": 3012.72
+   "balance": 3112.72
   },
   {
    "id": "tr_29",
@@ -5140,7 +5140,7 @@
    "desc": "최석문",
    "date": "2023-04-08",
    "amount": 100,
-   "balance": 3112.72
+   "balance": 3012.72
   },
   {
    "id": "tr_30",
@@ -5257,7 +5257,7 @@
    "desc": "장홍연",
    "date": "2024-04-01",
    "amount": 100,
-   "balance": 327.72
+   "balance": 527.72
   },
   {
    "id": "tr_43",
@@ -5266,7 +5266,7 @@
    "desc": "오정헌",
    "date": "2024-03-30",
    "amount": 100,
-   "balance": 427.72
+   "balance": 327.72
   },
   {
    "id": "tr_44",
@@ -5275,7 +5275,7 @@
    "desc": "최석문",
    "date": "2024-03-30",
    "amount": 100,
-   "balance": 527.72
+   "balance": 427.72
   },
   {
    "id": "tr_45",
@@ -5401,7 +5401,7 @@
    "desc": "임동안",
    "date": "2025-04-06",
    "amount": 100,
-   "balance": 100
+   "balance": 327.72
   },
   {
    "id": "tr_59",
@@ -5410,7 +5410,7 @@
    "desc": "양준홍",
    "date": "2025-04-06",
    "amount": 100,
-   "balance": 200
+   "balance": 427.72
   },
   {
    "id": "tr_60",
@@ -5419,7 +5419,7 @@
    "desc": "최석문",
    "date": "2025-04-06",
    "amount": 100,
-   "balance": 300
+   "balance": 527.72
   },
   {
    "id": "tr_61",
@@ -5428,7 +5428,7 @@
    "desc": "오정헌",
    "date": "2025-04-06",
    "amount": 100,
-   "balance": 400
+   "balance": 627.72
   },
   {
    "id": "tr_62",
@@ -5437,7 +5437,7 @@
    "desc": "황인호",
    "date": "2025-04-06",
    "amount": 100,
-   "balance": 500
+   "balance": 727.72
   },
   {
    "id": "tr_63",
@@ -5446,7 +5446,7 @@
    "desc": "김정모",
    "date": "2025-04-06",
    "amount": 100,
-   "balance": 600
+   "balance": 827.72
   },
   {
    "id": "tr_64",
@@ -5455,7 +5455,7 @@
    "desc": "장홍연",
    "date": "2025-04-06",
    "amount": 100,
-   "balance": 700
+   "balance": 927.72
   },
   {
    "id": "tr_65",
@@ -5464,7 +5464,7 @@
    "desc": "상금",
    "date": "2025-05-26",
    "amount": -150,
-   "balance": 550
+   "balance": 777.72
   },
   {
    "id": "tr_66",
@@ -5473,7 +5473,7 @@
    "desc": "상금",
    "date": "2025-07-06",
    "amount": -700,
-   "balance": -150
+   "balance": 77.72
   },
   {
    "id": "tr_67",
@@ -5509,7 +5509,7 @@
    "desc": "임동안",
    "date": "2025-07-12",
    "amount": 100,
-   "balance": -50
+   "balance": 177.72
   },
   {
    "id": "tr_71",
@@ -5518,7 +5518,7 @@
    "desc": "김정모",
    "date": "2025-07-12",
    "amount": 100,
-   "balance": 50
+   "balance": 277.72
   },
   {
    "id": "tr_72",
@@ -5527,7 +5527,7 @@
    "desc": "장홍연",
    "date": "2025-07-21",
    "amount": 100,
-   "balance": 150
+   "balance": 377.72
   },
   {
    "id": "tr_73",
@@ -5536,7 +5536,7 @@
    "desc": "오정헌",
    "date": "2025-07-26",
    "amount": 100,
-   "balance": 250
+   "balance": 477.72
   },
   {
    "id": "tr_74",
@@ -5545,7 +5545,7 @@
    "desc": "최석문",
    "date": "2025-07-26",
    "amount": 100,
-   "balance": 350
+   "balance": 577.72
   },
   {
    "id": "tr_75",
@@ -5554,7 +5554,7 @@
    "desc": "양준홍",
    "date": "2025-08-02",
    "amount": 100,
-   "balance": 450
+   "balance": 677.72
   },
   {
    "id": "tr_76",
@@ -5563,16 +5563,7 @@
    "desc": "황인호",
    "date": "2025-08-02",
    "amount": 100,
-   "balance": 550
-  },
-  {
-   "id": "tr_77",
-   "year": 2026,
-   "type": "전반기 참가비",
-   "desc": "장홍연",
-   "date": "2026-03-30",
-   "amount": 100,
-   "balance": 800
+   "balance": 777.72
   },
   {
    "id": "tr_78",
@@ -5581,7 +5572,7 @@
    "desc": "양준홍",
    "date": "2026-03-31",
    "amount": 100,
-   "balance": 900
+   "balance": 277.72
   },
   {
    "id": "tr_79",
@@ -5590,7 +5581,7 @@
    "desc": "임동안",
    "date": "2026-03-31",
    "amount": 100,
-   "balance": 1000
+   "balance": 377.72
   },
   {
    "id": "modeln2wqbfs",
@@ -5599,7 +5590,16 @@
    "desc": "수상",
    "date": "2025-12-29",
    "amount": -700,
-   "balance": -150
+   "balance": 77.72
+  },
+  {
+   "id": "moepdffo22cc",
+   "year": 2026,
+   "type": "참가비",
+   "desc": "장홍연",
+   "date": "2026-03-30",
+   "amount": 100,
+   "balance": 177.72
   }
  ],
  "board": [
@@ -5774,7 +5774,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777143350113,
+ "_ts": 1777143534921,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
