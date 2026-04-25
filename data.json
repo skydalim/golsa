@@ -3305,7 +3305,7 @@
     "rank": 3,
     "diff": 9.28,
     "penalty": 15,
-    "penaltyPaid": false
+    "penaltyPaid": true
    },
    "장홍연": {
     "score": 24,
@@ -5774,5 +5774,10 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777133933698
+ "_ts": 1777143350113,
+ "_sync": {
+  "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
+  "u": "skydalim",
+  "r": "golsa"
+ }
 }
