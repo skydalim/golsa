@@ -5802,6 +5802,53 @@
      0,
      0
     ]
+   },
+   "admin": {
+    "scores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "players": [
+     "김정모"
+    ]
+   },
+   "김정모": {
+    "scores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
    }
   }
  },
@@ -5822,7 +5869,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777213580690,
+ "_ts": 1777225180728,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
