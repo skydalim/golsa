@@ -46,7 +46,9 @@
    "email": "gchang1955@gmail.com",
    "phone": "201-572-1974",
    "role": "user",
-   "pwd": "1234"
+   "pwd": "1234",
+   "group": "골사부모 남성",
+   "active": "N"
   },
   {
    "id": "장홍연",
@@ -78,7 +80,9 @@
    "email": "greenpasture72@gmail.com",
    "phone": "201-452-9251",
    "role": "user",
-   "pwd": "1234"
+   "pwd": "1234",
+   "group": "골사부모 남성",
+   "active": "N"
   },
   {
    "id": "박인혁",
@@ -5904,7 +5908,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777161861068,
+ "_ts": 1777161931829,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
