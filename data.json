@@ -5801,6 +5801,32 @@
      0,
      0,
      0
+    ],
+    "players": [
+     "임동안",
+     "양준홍"
+    ]
+   },
+   "양준홍": {
+    "scores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
     ]
    }
   }
@@ -5822,7 +5848,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777168978160,
+ "_ts": 1777168979204,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
