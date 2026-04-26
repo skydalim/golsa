@@ -5779,58 +5779,7 @@
    "r": "golsa"
   }
  },
- "scorecards": {
-  "2026전반기2026-03-29": {
-   "임동안": {
-    "scores": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "players": [
-     "임동안",
-     "양준홍"
-    ]
-   },
-   "양준홍": {
-    "scores": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
-   }
-  }
- },
+ "scorecards": {},
  "greens": {
   "Sunset Valley": {
    "h0": {
@@ -5848,7 +5797,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777169188696,
+ "_ts": 1777171295297,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
