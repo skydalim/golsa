@@ -5902,13 +5902,21 @@
  "greens": {
   "Sunset Valley": {
    "h0": {
-    "lat": 40.84803659669661,
-    "lng": -74.21942450498304
+    "lat": 40.9620281,
+    "lng": -74.3300417
+   },
+   "h1": {
+    "lat": 40.9613478,
+    "lng": -74.3253677
+   },
+   "h2": {
+    "lat": 40.960091,
+    "lng": -74.3280489
    }
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777162655755,
+ "_ts": 1777165578657,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
