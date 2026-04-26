@@ -5599,9 +5599,9 @@
    "balance": 77.72
   },
   {
-   "id": "moepdffo22cc",
+   "id": "mof0rakogww5",
    "year": 2026,
-   "type": "참가비",
+   "type": "전반기 참가비",
    "desc": "장홍연",
    "date": "2026-03-30",
    "amount": 100,
@@ -5908,7 +5908,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777162127091,
+ "_ts": 1777162655755,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
