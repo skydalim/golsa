@@ -3295,7 +3295,7 @@
     "rank": 5,
     "diff": 13.07,
     "penalty": 15,
-    "penaltyPaid": false
+    "penaltyPaid": true
    },
    "오정헌": {
     "score": 44,
@@ -3303,7 +3303,7 @@
     "rank": 4,
     "diff": 10,
     "penalty": 15,
-    "penaltyPaid": false
+    "penaltyPaid": true
    },
    "임동안": {
     "score": 26,
@@ -3319,7 +3319,7 @@
     "rank": 1,
     "diff": -0.42,
     "penalty": 0,
-    "penaltyPaid": false
+    "penaltyPaid": true
    },
    "최석문": {
     "score": 0,
@@ -5908,7 +5908,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777161931829,
+ "_ts": 1777162127091,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
