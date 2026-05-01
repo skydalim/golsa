@@ -1035,6 +1035,20 @@
    "note": "",
    "noPenalty": false,
    "noHandicapCalc": false
+  },
+  {
+   "id": "monhsymnskbx",
+   "year": 2026,
+   "type": "전반기",
+   "name": "2026 전반기 5/10",
+   "date": "2026-05-10",
+   "course": "Flanders Valley R/G",
+   "address": "Flanders Valley Golf Course, 81, Pleasant Hill Road, Pleasant Hill, Chester Township, Morris County, New Jersey, 07836, United States Chester Township New Jersey",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false,
+   "lat": 40.8301249,
+   "lng": -74.6910149
   }
  ],
  "scores": {
@@ -3286,7 +3300,7 @@
     "attended": "Y",
     "diff": 19.38,
     "penalty": 15,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 6
    },
    "양준홍": {
@@ -5898,10 +5912,16 @@
     "lat": 40.960091,
     "lng": -74.3280489
    }
+  },
+  "Flanders Valley Golf Course": {
+   "_center": {
+    "lat": 40.8301249,
+    "lng": -74.6910149
+   }
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777674239988,
+ "_ts": 1777675017203,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
