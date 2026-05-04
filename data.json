@@ -3356,7 +3356,7 @@
     "attended": "Y",
     "diff": 2.14,
     "penalty": 5,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 2
    }
   }
@@ -5995,7 +5995,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777907181615,
+ "_ts": 1777907193402,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
