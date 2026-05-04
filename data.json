@@ -5794,8 +5794,8 @@
   },
   {
    "id": "morckmkzp90z",
-   "title": "테스트",
-   "content": "테스트입니다",
+   "title": "벌금규칙",
+   "content": "2022년 이전: 불참 $10 / +2타 미만 $0 / +2~4타 $5 / +4타 초과 $10\n2023년: 불참 $20 / +2타 미만 $0 / +2타(반올림) $5 / +3타 $10 / +4타이상 $15\n2024년 이후: 불참 $15 / +2타 미만 $0 / +2~3타 $5 / +3~4타 $10 / +4타이상 $15",
    "author": "임동안",
    "date": "2026-05-04",
    "url": ""
@@ -6003,7 +6003,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1777908096424,
+ "_ts": 1777908671705,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
