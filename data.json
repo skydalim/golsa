@@ -3420,7 +3420,7 @@
     "attended": "Y",
     "diff": 15.26,
     "penalty": 15,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 7
    },
    "황인호": {
@@ -3454,7 +3454,7 @@
     "attended": "Y",
     "diff": 5.07,
     "penalty": 15,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 5
    },
    "오정헌": {
@@ -3470,7 +3470,7 @@
     "attended": "Y",
     "diff": 4.28,
     "penalty": 15,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 4
    },
    "장홍연": {
@@ -3486,7 +3486,7 @@
     "attended": "Y",
     "diff": 7.26,
     "penalty": 15,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 6
    },
    "황인호": {
@@ -6228,7 +6228,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1782082914412,
+ "_ts": 1782083564255,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
