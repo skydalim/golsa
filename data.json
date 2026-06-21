@@ -3428,7 +3428,7 @@
     "attended": "Y",
     "diff": 6.14,
     "penalty": 15,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 5
    },
    "김현유": {
@@ -6162,7 +6162,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1782063621001,
+ "_ts": 1782063892453,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
