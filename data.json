@@ -3439,6 +3439,72 @@
     "penaltyPaid": true,
     "rank": 2
    }
+  },
+  "mqntllrlssfv": {
+   "김정모": {
+    "score": 0,
+    "attended": "N",
+    "diff": 0,
+    "penalty": 15,
+    "penaltyPaid": false,
+    "rank": 0
+   },
+   "양준홍": {
+    "score": 31,
+    "attended": "Y",
+    "diff": 5.07,
+    "penalty": 15,
+    "penaltyPaid": false,
+    "rank": 5
+   },
+   "오정헌": {
+    "score": 47,
+    "attended": "Y",
+    "diff": 13,
+    "penalty": 15,
+    "penaltyPaid": false,
+    "rank": 7
+   },
+   "임동안": {
+    "score": 21,
+    "attended": "Y",
+    "diff": 4.28,
+    "penalty": 15,
+    "penaltyPaid": false,
+    "rank": 4
+   },
+   "장홍연": {
+    "score": 26,
+    "attended": "Y",
+    "diff": 1.58,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "rank": 3
+   },
+   "최석문": {
+    "score": 30,
+    "attended": "Y",
+    "diff": 7.26,
+    "penalty": 15,
+    "penaltyPaid": false,
+    "rank": 6
+   },
+   "황인호": {
+    "score": 19,
+    "attended": "Y",
+    "diff": -4.86,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "rank": 1
+   },
+   "김현유": {
+    "score": 18,
+    "attended": "Y",
+    "diff": -0.72,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "rank": 2
+   }
   }
  },
  "penalties": [
@@ -6162,7 +6228,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1782063892453,
+ "_ts": 1782082914412,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
