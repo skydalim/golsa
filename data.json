@@ -5738,7 +5738,7 @@
    "desc": "양준홍",
    "date": "2026-03-31",
    "amount": 100,
-   "balance": 277.72
+   "balance": 377.72
   },
   {
    "id": "tr_79",
@@ -5747,7 +5747,7 @@
    "desc": "임동안",
    "date": "2026-03-31",
    "amount": 100,
-   "balance": 377.72
+   "balance": 477.72
   },
   {
    "id": "modeln2wqbfs",
@@ -5765,7 +5765,7 @@
    "desc": "장홍연",
    "date": "2026-03-30",
    "amount": 100,
-   "balance": 177.72
+   "balance": 277.72
   },
   {
    "id": "mohwxpigrikg",
@@ -5774,7 +5774,34 @@
    "desc": "최석문",
    "date": "2026-04-28",
    "amount": 100,
-   "balance": 477.72
+   "balance": 577.72
+  },
+  {
+   "id": "mqojpuzmygyn",
+   "year": 2026,
+   "type": "전반기 참가비",
+   "desc": "황인호",
+   "date": "2026-03-28",
+   "amount": 100,
+   "balance": 177.72
+  },
+  {
+   "id": "mqojq9b3myf8",
+   "year": 2026,
+   "type": "전반기 참가비",
+   "desc": "오정헌",
+   "date": "2026-04-28",
+   "amount": 100,
+   "balance": 677.72
+  },
+  {
+   "id": "mqojrfwcx6m4",
+   "year": 2026,
+   "type": "전반기 참가비",
+   "desc": "김정모",
+   "date": "2026-04-30",
+   "amount": 100,
+   "balance": 777.72
   }
  ],
  "board": [
@@ -6228,7 +6255,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1782091345024,
+ "_ts": 1782092429798,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
