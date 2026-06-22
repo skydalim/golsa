@@ -3462,7 +3462,7 @@
     "attended": "Y",
     "diff": 13,
     "penalty": 15,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 7
    },
    "임동안": {
@@ -3478,7 +3478,7 @@
     "attended": "Y",
     "diff": 1.58,
     "penalty": 0,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 3
    },
    "최석문": {
@@ -3494,7 +3494,7 @@
     "attended": "Y",
     "diff": -4.86,
     "penalty": 0,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 1
    },
    "김현유": {
@@ -3502,7 +3502,7 @@
     "attended": "Y",
     "diff": -0.72,
     "penalty": 0,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 2
    }
   }
@@ -6228,7 +6228,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1782083564255,
+ "_ts": 1782091345024,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
