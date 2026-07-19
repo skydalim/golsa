@@ -1063,6 +1063,20 @@
    "noHandicapCalc": false,
    "lat": 40.1695558,
    "lng": -105.1247606
+  },
+  {
+   "id": "mrsfvrjdbmo6",
+   "year": 2026,
+   "type": "전반기",
+   "name": "2026 전반기 7/19",
+   "date": "2026-07-19",
+   "course": "Flanders Valley Golf Course",
+   "address": "Flanders Valley Golf Course, 81, Pleasant Hill Road, Flanders, Mount Olive, Morris County, New Jersey, 07836, United States Mount Olive New Jersey",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false,
+   "lat": 40.8301249,
+   "lng": -74.6910149
   }
  ],
  "scores": {
@@ -3504,6 +3518,72 @@
     "penalty": 0,
     "penaltyPaid": true,
     "rank": 2
+   }
+  },
+  "mrsfvrjdbmo6": {
+   "김정모": {
+    "score": 0,
+    "attended": "N",
+    "diff": 0,
+    "penalty": 15,
+    "penaltyPaid": false,
+    "rank": 0
+   },
+   "양준홍": {
+    "score": 28,
+    "attended": "Y",
+    "diff": 2.07,
+    "penalty": 5,
+    "penaltyPaid": false,
+    "rank": 4
+   },
+   "오정헌": {
+    "score": 42,
+    "attended": "Y",
+    "diff": 8,
+    "penalty": 15,
+    "penaltyPaid": false,
+    "rank": 7
+   },
+   "임동안": {
+    "score": 16,
+    "attended": "Y",
+    "diff": -0.72,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "rank": 2
+   },
+   "장홍연": {
+    "score": 27,
+    "attended": "Y",
+    "diff": 2.58,
+    "penalty": 5,
+    "penaltyPaid": false,
+    "rank": 5
+   },
+   "최석문": {
+    "score": 24,
+    "attended": "Y",
+    "diff": 1.26,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "rank": 3
+   },
+   "황인호": {
+    "score": 27,
+    "attended": "Y",
+    "diff": 3.14,
+    "penalty": 10,
+    "penaltyPaid": false,
+    "rank": 6
+   },
+   "김현유": {
+    "score": 12,
+    "attended": "Y",
+    "diff": -6.72,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "rank": 1
    }
   }
  },
@@ -6255,7 +6335,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1782094304143,
+ "_ts": 1784504610443,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
