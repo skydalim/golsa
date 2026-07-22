@@ -159,7 +159,7 @@ body.fs-xlarge .empty p{font-size:16px}
 </div>
 
 <div class="pg on" id="pgLoginWall"><div class="login-wall"><div style="font-size:64px;margin-bottom:16px;text-shadow:0 4px 12px rgba(0,0,0,.15)">⛳</div><h2>골사부모</h2><p>골프 클럽 관리 시스템<br>로그인 후 이용해 주세요</p><p style="font-size:9px;color:var(--txt2);margin-top:4px">v6.2</p><div id="bootMsg" style="font-size:11px;color:var(--txt2);margin-bottom:12px">데이터 동기화 중...</div><button class="bt bt-p" onclick="showLogin()" style="font-size:14px;padding:12px 32px">로그인</button></div></div>
-<div class="pg" id="pgHome"><div class="sh"><div class="st">⛳ 대시보드</div><select id="homeYr" onchange="_homeYr=this.value;loadHome()" style="padding:3px 6px;border:1.5px solid var(--brd);border-radius:var(--rs);font-size:11px;background:var(--card)"></select></div><div class="stats" id="homeStats"></div><div class="cd"><div class="cd-t">🏆 최근 순위</div><div class="tw" id="homeRank"></div></div><div class="cd"><div class="cd-t">📢 공지</div><div id="homeBoard"></div></div></div>
+<div class="pg" id="pgHome"><div class="sh"><div class="st">⛳ 골사부모</div></div><div id="homeNotice"></div><div class="cd"><div class="cd-t">🏆 최근 순위</div><div class="tw" id="homeRank"></div></div><div id="homeUnpaid"></div></div>
 <div class="pg" id="pgScores"><div class="sh"><div class="st">🏆 스코어</div></div><div class="tabs" id="scTabs"></div><div id="scFilters"></div><div id="scContent"></div></div>
 <div class="pg" id="pgScorecard"><div class="sh"><div class="st">📝 스코어카드</div></div><div class="fg"><select id="scEvSel2" onchange="loadScorecard()"><option value="">대회 선택</option></select></div><div id="scCardContent"></div></div>
 
@@ -295,8 +295,8 @@ body.fs-xlarge .empty p{font-size:16px}
 <nav class="bnav" id="nav" style="display:none">
 <button class="on" onclick="go('Home',this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l9-9 9 9"/><path d="M5 10v10a1 1 0 001 1h3v-6h6v6h3a1 1 0 001-1V10"/></svg>홈</button>
 <button onclick="go('Scores',this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg>스코어</button>
-<button onclick="go('Scorecard',this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>카드</button>
 <button onclick="go('Penalty',this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 100 7h5a3.5 3.5 0 110 7H6"/></svg>벌금</button>
+<button onclick="go('Scorecard',this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>카드</button>
 <button onclick="toggleMore()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="12" cy="19" r="1.5"/></svg>더보기</button>
 </nav>
 <div class="more-menu" id="mm"><button onclick="go('Events');hideMore()">📅 대회</button><button onclick="go('Members');hideMore()">👥 회원</button><button onclick="go('Trans');hideMore()">💳 참가비</button><button onclick="go('GPS');hideMore()">📍 거리측정</button><button onclick="go('Board');hideMore()">📋 게시판</button><button onclick="go('Settings');hideMore()">⚙️ 설정</button></div>
@@ -419,33 +419,74 @@ function memsAll(){return D.g('members').filter(m=>m.id!=='admin')}
 // ===== HOME =====
 let _homeYr='';
 function loadHome(){
-const y=yrs();
-const prev=_homeYr||'';
-let h='';y.forEach(v=>h+=`<option value="${v}">${v}</option>`);$('homeYr').innerHTML=h;
-if(prev&&y.includes(+prev)){$('homeYr').value=prev}
-else{const cyr=new Date().getFullYear();$('homeYr').value=y.includes(cyr)?cyr:y[0]||2026}
-_homeYr=$('homeYr').value;
-const yr=+$('homeYr').value||y[0]||2026;
-const evs=D.g('events').filter(e=>e.year===yr);const ms=mems();
-const trs=D.g('transactions').filter(t=>t.year===yr).sort((a,b)=>a.date.localeCompare(b.date));
-const bal=trs.length?trs[trs.length-1].balance:0;
-const asc=D.go('scores');let pen=0;
-evs.filter(e=>!e.noPenalty).forEach(e=>{
-const es=asc[e.id]||{};Object.values(es).forEach(s=>{if(s.penalty)pen+=s.penalty})});
-$('homeStats').innerHTML=`<div class="stat"><div class="stat-n">${ms.length}</div><div class="stat-l">회원</div></div><div class="stat"><div class="stat-n">${evs.length}</div><div class="stat-l">${yr} 대회</div></div><div class="stat"><div class="stat-n">$${Math.round(bal)}</div><div class="stat-l">${yr} 잔액</div></div><div class="stat"><div class="stat-n">$${pen}</div><div class="stat-l">${yr} 총벌금</div></div>`;
-const se=evs.sort((a,b)=>b.date.localeCompare(a.date));
+var yr=new Date().getFullYear();
+var ms=mems();
+var allEvs=D.g('events').sort(function(a,b){return b.date.localeCompare(a.date)});
+var asc=D.go('scores');
+
+// 1. Recent notice (within 1 month or last notice)
+var bd=D.g('board').sort(function(a,b){return b.date.localeCompare(a.date)});
+var oneMonthAgo=new Date();oneMonthAgo.setMonth(oneMonthAgo.getMonth()-1);
+var cutoff=oneMonthAgo.toISOString().slice(0,10);
+var recentBd=bd.filter(function(p){return p.date>=cutoff});
+if(!recentBd.length&&bd.length)recentBd=[bd[0]];// Show last notice if none recent
+var nh='';
+if(recentBd.length){
+nh='<div class="cd"><div class="cd-t">📢 공지</div>';
+recentBd.slice(0,3).forEach(function(p){
+nh+='<div class="post" onclick="go(\'Board\')" style="cursor:pointer"><div class="post-t">'+p.title+'</div>';
+nh+='<div class="post-m">'+p.date+'</div>';
+if(p.content)nh+='<div style="font-size:11px;color:var(--txt2);margin-top:4px;white-space:pre-wrap;max-height:60px;overflow:hidden">'+p.content.substring(0,100)+(p.content.length>100?'...':'')+'</div>';
+nh+='</div>'});
+nh+='</div>'}
+$('homeNotice').innerHTML=nh;
+
+// 2. Unpaid fees by event - find members who should have paid but haven't
+var unpaidH='';
+var thisYrEvs=allEvs.filter(function(e){return e.year===yr});
+var allTr=D.g('transactions');
+
+// For each event, find members who participated (have scores) but haven't paid
+var unpaidData=[];
+thisYrEvs.forEach(function(ev){
+var es=asc[ev.id]||{};
+var participants=Object.entries(es).filter(function(x){return x[1].attended!=='N'&&x[1].score>0}).map(function(x){return x[0]});
+if(!participants.length)return;
+
+// Check who paid for this event type
+var paidNames=new Set();
+allTr.forEach(function(t){
+if(t.year===yr&&t.amount>0){
+var desc=(t.desc||'').toLowerCase();var tp=(t.type||'').toLowerCase();
+// Match if transaction mentions the event type or is a participation fee
+if(tp.indexOf(ev.type.toLowerCase())>=0||tp.indexOf('참가비')>=0){
+ms.forEach(function(m){if(desc.indexOf(m.name.toLowerCase())>=0)paidNames.add(m.name)})}}});
+
+var unpaid=participants.filter(function(n){return!paidNames.has(n)});
+if(unpaid.length){unpaidData.push({ev:ev,unpaid:unpaid})}});
+
+if(unpaidData.length){
+unpaidH='<div class="cd" style="border-color:var(--acc)"><div class="cd-t">💰 미납 현황</div>';
+unpaidData.forEach(function(d){
+unpaidH+='<div style="margin-bottom:8px"><div style="font-weight:700;font-size:12px;color:var(--pri);margin-bottom:4px">'+d.ev.name+'</div>';
+unpaidH+='<div style="display:flex;flex-wrap:wrap;gap:4px">';
+d.unpaid.forEach(function(n){
+unpaidH+='<span class="bd bd-er" style="font-size:11px">'+n+'</span>'});
+unpaidH+='</div></div>'});
+unpaidH+='</div>'}
+$('homeUnpaid').innerHTML=unpaidH;
+
+// 3. Recent ranking (find most recent event with scores across all years)
 var foundRank=false;
-for(var si=0;si<se.length&&!foundRank;si++){
-const le=se[si],es=asc[le.id]||{};
-if(Object.keys(es).length){const rk=Object.entries(es).filter(([n,s])=>s.attended!=='N'&&s.score>0).sort((a,b)=>(a[1].diff||999)-(b[1].diff||999));
+for(var si=0;si<allEvs.length&&!foundRank;si++){
+var le=allEvs[si],es=asc[le.id]||{};
+if(Object.keys(es).length){var rk=Object.entries(es).filter(function(x){return x[1].attended!=='N'&&x[1].score>0}).sort(function(a,b){return(a[1].diff||999)-(b[1].diff||999)});
 if(rk.length){
-let t=`<div style="font-size:10px;color:var(--txt2);margin-bottom:4px">${le.name} · ${le.date}</div><table><thead><tr><th>#</th><th>이름</th><th>핸디</th><th>스코어</th><th>차이</th></tr></thead><tbody>`;
-rk.slice(0,7).forEach(([n,s],i)=>{const r=i+1;const rc=r<=3?['rk1','rk2','rk3'][r-1]:'';const md=r<=3?['🥇','🥈','🥉'][r-1]:'';
-t+=`<tr><td class="${rc}">${md}${r}</td><td>${n}</td><td>${getH(n,yr,le.type)}</td><td><b>${s.score}</b></td><td>${s.diff>=0?'+':''}${s.diff.toFixed(1)}</td></tr>`});
+var t='<div style="font-size:10px;color:var(--txt2);margin-bottom:4px">'+le.name+' · '+le.date+'</div><table><thead><tr><th>#</th><th>이름</th><th>핸디</th><th>스코어</th><th>차이</th></tr></thead><tbody>';
+rk.slice(0,7).forEach(function(x,i){var n=x[0],s=x[1];var r=i+1;var rc=r<=3?['rk1','rk2','rk3'][r-1]:'';var md=r<=3?['\uD83E\uDD47','\uD83E\uDD48','\uD83E\uDD49'][r-1]:'';
+t+='<tr><td class="'+rc+'">'+md+r+'</td><td>'+n+'</td><td>'+getH(n,le.year,le.type)+'</td><td><b>'+s.score+'</b></td><td>'+(s.diff>=0?'+':'')+s.diff.toFixed(1)+'</td></tr>'});
 t+='</tbody></table>';$('homeRank').innerHTML=t;foundRank=true}}}
 if(!foundRank)$('homeRank').innerHTML='<span style="font-size:11px;color:var(--txt2)">스코어 미입력</span>';
-const bd=D.g('board').sort((a,b)=>b.date.localeCompare(a.date)).slice(0,3);
-$('homeBoard').innerHTML=bd.length?bd.map(p=>`<div class="post" onclick="go('Board');setTimeout(()=>viewBd('${p.id}'),100)"><div class="post-t">${p.title}</div><div class="post-m">${p.date}</div></div>`).join(''):'<span style="font-size:11px;color:var(--txt2)">없음</span>';
 }
 
 // ===== SCORES =====
