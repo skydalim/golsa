@@ -290,7 +290,7 @@ body.fs-xlarge .empty p{font-size:16px}
 <input type="hidden" id="bdEid"><div class="fg"><label>제목</label><input id="bdTi" style="font-size:16px"></div><div class="fg"><label>내용</label><textarea id="bdCo" rows="10" style="font-size:16px;line-height:1.8"></textarea></div><div class="fg"><label>링크</label><input id="bdUr"></div>
 <div class="bg"><button class="bt bt-p bt-bl" onclick="saveBd()">저장</button></div></div></div>
 
-<div class="mo mo-top" id="moBV"><div class="mo-c"><div class="mo-h"><h3 id="bvT"></h3><button class="mo-x" onclick="closeM('moBV')">✕</button></div><div id="bvM" style="font-size:10px;color:var(--txt2);margin-bottom:6px"></div><div id="bvC" style="font-size:13px;line-height:1.7;white-space:pre-wrap"></div><div id="bvU" style="margin-top:6px"></div><div class="bg" id="bvA"></div></div></div>
+<div class="mo mo-top" id="moBV"><div class="mo-c"><div class="mo-h"><h3 id="bvT"></h3><button class="mo-x" onclick="closeM('moBV')">✕</button></div><div id="bvM" style="font-size:12px;color:var(--txt2);margin-bottom:8px"></div><div id="bvU"></div><div id="bvC" style="font-size:13px;line-height:1.7;white-space:pre-wrap"></div><div class="bg" id="bvA"></div></div></div>
 <div class="mo" id="moLogin"><div class="mo-c"><div class="mo-h"><h3>⛳ 로그인</h3><button class="mo-x" onclick="closeM('moLogin')">✕</button></div><div class="fg"><label>이름</label><input id="liNm"></div><div class="fg"><label>비밀번호</label><input type="password" id="liPw"></div><div class="bg"><button class="bt bt-p bt-bl" onclick="doLogin()">로그인</button></div></div></div>
 <div class="mo" id="moAdj"><div class="mo-c"><div class="mo-h"><h3 id="adjT">홀</h3><button class="mo-x" onclick="closeM('moAdj')">✕</button></div><div id="adjC"></div></div></div>
 
@@ -1281,7 +1281,7 @@ function openBdM(eid){$('bdEid').value=eid||'';if(eid){const p=D.g('board').find
 function saveBd(){const eid=$('bdEid').value;const p={id:eid||D.id(),title:$('bdTi').value.trim(),content:$('bdCo').value.trim(),author:U?U.name:'',date:new Date().toISOString().slice(0,10),url:$('bdUr').value.trim()};
 if(!p.title){toast('제목');return}let bd=D.g('board');bd=eid?bd.map(x=>x.id===eid?{...x,title:p.title,content:p.content,url:p.url}:x):[...bd,p];D.s('board',bd);closeM('moBd');toast('저장');loadBd();if(localStorage.getItem('gh_token'))gPush()}
 function viewBd(id){const p=D.g('board').find(x=>x.id===id);if(!p)return;$('bvT').textContent=p.title;$('bvT').style.fontSize='22px';$('bvM').textContent=p.date;$('bvM').style.fontSize='14px';$('bvC').textContent=p.content;$('bvC').style.fontSize='18px';$('bvC').style.lineHeight='2';$('bvC').style.whiteSpace='pre-wrap';
-$('bvU').innerHTML=p.url?`<a href="${p.url}" target="_blank" style="font-size:11px">🔗 링크</a>`:'';
+$('bvU').innerHTML=p.url?'<a href="'+p.url+'" target="_blank" style="display:block;text-align:center;padding:14px 16px;background:var(--pri);color:#fff;border-radius:10px;font-size:16px;font-weight:700;text-decoration:none;margin:12px 0">\uD83D\uDD17 \uB9C1\uD06C \uC5F4\uAE30</a>':'';
 $('bvA').innerHTML=isA()?`<button class="bt bt-o bt-s" onclick="closeM('moBV');openBdM('${p.id}')">✏️</button><button class="bt bt-d bt-s" onclick="closeM('moBV');D.s('board',D.g('board').filter(x=>x.id!=='${p.id}'));toast('삭제');loadBd();if(localStorage.getItem('gh_token'))gPush()">🗑</button>`:'';openM('moBV')}
 
 // ===== SETTINGS =====
