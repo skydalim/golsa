@@ -525,45 +525,51 @@ evRanks[e.id]=ranked});
 
 // Build summary per player: scores, avg, rank per event, rank sum, final rank
 var players=[...allNames].map(function(name){
-var scores=[];var rankSum=0;var rankCount=0;var totalScore=0;var scoreCount=0;
+var scores=[];var rankSum=0;var rankCount=0;var totalScore=0;var scoreCount=0;var absentCount=0;
 evs.forEach(function(e){
 var es=asc[e.id]||{};var s=es[name];
 var evRk=evRanks[e.id].find(function(r){return r.name===name});
-if(s&&s.attended!=='N'&&s.score>0){
+if(s&&s.attended==='N'){absentCount++;scores.push({eid:e.id,score:0,diff:0,rank:0,absent:true})}
+else if(s&&s.attended!=='N'&&s.score>0){
 scores.push({eid:e.id,score:s.score,diff:s.diff,rank:evRk?evRk.rank:99});
 totalScore+=s.score;scoreCount++;
 if(evRk){rankSum+=evRk.rank;rankCount++}
 }else{scores.push({eid:e.id,score:0,diff:0,rank:0})}});
 var avg=scoreCount>0?totalScore/scoreCount:0;
-return{name:name,scores:scores,avg:avg,scoreCount:scoreCount,rankSum:rankSum,rankCount:rankCount}});
+var rankAvg=rankCount>0?rankSum/rankCount:999;
+var excluded=absentCount>=2;
+return{name:name,scores:scores,avg:avg,scoreCount:scoreCount,rankSum:rankSum,rankCount:rankCount,rankAvg:rankAvg,absentCount:absentCount,excluded:excluded}});
 
-// Sort by rankSum ascending (lower sum = better), then by avg
+// Sort: excluded at bottom, then by rankAvg ascending
 players.sort(function(a,b){
+if(a.excluded&&!b.excluded)return 1;if(!a.excluded&&b.excluded)return-1;
 if(a.rankCount===0&&b.rankCount===0)return 0;
 if(a.rankCount===0)return 1;if(b.rankCount===0)return-1;
-if(a.rankSum!==b.rankSum)return a.rankSum-b.rankSum;
+if(a.rankAvg!==b.rankAvg)return a.rankAvg-b.rankAvg;
 return a.avg-b.avg});
 
 // Render
 var h='<div class="cd" style="padding:10px"><div class="cd-t">📊 '+yr+' '+tp+' 종합 순위</div>';
 h+='<div class="tw"><table class="sc-table"><thead><tr><th>종합</th><th>이름</th>';
 evs.forEach(function(e){h+='<th style="font-size:9px">'+e.date.slice(5)+'</th>'});
-h+='<th>평균</th><th>순위합</th></tr></thead><tbody>';
+h+='<th>평균</th><th>순위평균</th></tr></thead><tbody>';
 
 var finalRk=1;
 players.forEach(function(p){
-var isRanked=p.rankCount>0;
+var isRanked=p.rankCount>0&&!p.excluded;
 var rkC=isRanked&&finalRk<=3?['rk1','rk2','rk3'][finalRk-1]:'';
 var md=isRanked&&finalRk<=3?['🥇','🥈','🥉'][finalRk-1]:'';
-h+='<tr><td class="'+rkC+'">'+(isRanked?md+finalRk:'-')+'</td>';
-h+='<td><b>'+p.name+'</b></td>';
+h+='<tr style="'+(p.excluded?'opacity:.5':'')+'">';
+h+='<td class="'+rkC+'">'+(p.excluded?'제외':(isRanked?md+finalRk:'-'))+'</td>';
+h+='<td><b>'+p.name+'</b>'+(p.excluded?' <span style="font-size:8px;color:var(--err)">불참'+p.absentCount+'회</span>':'')+'</td>';
 evs.forEach(function(e){
 var sd=p.scores.find(function(s){return s.eid===e.id});
-if(sd&&sd.score>0){
+if(sd&&sd.absent){h+='<td style="text-align:center;color:var(--err)">불참</td>'}
+else if(sd&&sd.score>0){
 h+='<td style="text-align:center">'+sd.score+'<br><span style="font-size:8px;color:var(--txt2)">#'+sd.rank+'</span></td>'}
 else h+='<td style="text-align:center;color:#ccc">-</td>'});
 h+='<td><b>'+(p.scoreCount>0?p.avg.toFixed(1):'-')+'</b></td>';
-h+='<td style="font-weight:700;color:var(--pri)">'+(isRanked?p.rankSum:'-')+'</td></tr>';
+h+='<td style="font-weight:700;color:var(--pri)">'+(isRanked?p.rankAvg.toFixed(1):'-')+'</td></tr>';
 if(isRanked)finalRk++});
 
 h+='</tbody></table></div></div>';
