@@ -5900,6 +5900,15 @@
    "date": "2026-07-12",
    "amount": 100,
    "balance": 877.72
+  },
+  {
+   "id": "mrw8xqcb5t8b",
+   "year": 2026,
+   "type": "후반기 참가비",
+   "desc": "임동안",
+   "date": "2026-07-23",
+   "amount": 100,
+   "balance": 177.72
   }
  ],
  "board": [
@@ -6369,7 +6378,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1784734639011,
+ "_ts": 1784734661535,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
