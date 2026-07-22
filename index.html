@@ -610,10 +610,11 @@ var es=asc[e.id]||{};
 var attended=Object.entries(es).filter(function(x){return x[1].attended!=='N'&&x[1].score>0})
 .map(function(x){return{name:x[0],score:x[1].score,diff:x[1].diff||0,hdc:getH(x[0],yr,tp)}})
 .sort(function(a,b){var dd=a.diff-b.diff;if(dd!==0)return dd;return(a.hdc||99)-(b.hdc||99)});
+var tempEnts=attended.map(function(en){return{diff:en.diff,attended:'Y'}});
+var tempRanks=calcRanks(tempEnts);
 var ranked=[];
 for(var ri=0;ri<attended.length;ri++){
-var tie=(ri>0&&attended[ri].diff===attended[ri-1].diff)?ranked[ri-1].rank:(ri+1);
-ranked.push({name:attended[ri].name,rank:tie,score:attended[ri].score,diff:attended[ri].diff,hdc:attended[ri].hdc||0})}
+ranked.push({name:attended[ri].name,rank:tempRanks[ri],score:attended[ri].score,diff:attended[ri].diff,hdc:attended[ri].hdc||0})}
 // 2023년부터: 불참자는 참가자수+1 등수
 if(yr>=2023){var lastRank=attended.length+1;
 Object.entries(es).filter(function(x){return x[1].attended==='N'})
@@ -655,9 +656,12 @@ h+='<div class="tw"><table class="sc-table"><thead><tr><th>종합</th><th>이름
 evs.forEach(function(e){h+='<th style="font-size:9px">'+e.date.slice(5)+'</th>'});
 h+='<th>평균</th><th>순위평균</th></tr></thead><tbody>';
 
-var finalRk=1;
-players.forEach(function(p){
+var finalRk=1;var prevRankAvg=null;
+players.forEach(function(p,pi){
 var isRanked=p.rankCount>0&&!p.excluded;
+if(isRanked&&prevRankAvg!==null&&p.rankAvg===prevRankAvg){/*keep same finalRk*/}
+else if(isRanked){finalRk=pi+1-players.slice(0,pi).filter(function(x){return!x.excluded&&x.rankCount===0}).length-players.slice(0,pi).filter(function(x){return x.excluded}).length}
+if(isRanked)prevRankAvg=p.rankAvg;
 var rkC=isRanked&&finalRk<=3?['rk1','rk2','rk3'][finalRk-1]:'';
 var md=isRanked&&finalRk<=3?['🥇','🥈','🥉'][finalRk-1]:'';
 h+='<tr style="'+(p.excluded?'opacity:.5':'')+'">';
@@ -671,7 +675,7 @@ h+='<td style="text-align:center">'+sd.score+'<br><span style="font-size:8px;col
 else h+='<td style="text-align:center;color:#ccc">-</td>'});
 h+='<td><b>'+(p.scoreCount>0?p.avg.toFixed(1):'-')+'</b></td>';
 h+='<td style="font-weight:700;color:var(--pri)">'+(isRanked?p.rankAvg.toFixed(1):'-')+'</td></tr>';
-if(isRanked)finalRk++});
+});
 
 h+='</tbody></table></div></div>';
 $('scContent').innerHTML=h}
@@ -1290,6 +1294,22 @@ const gs=grps();$('grpList').innerHTML=gs.map(g=>`<div style="display:flex;justi
 function addGrp(){const n=$('newGrp').value.trim();if(!n){toast('이름');return}const gs=grps();if(gs.includes(n)){toast('존재');return}gs.push(n);setGrps(gs);$('newGrp').value='';toast(n+' 추가');loadSet()}
 function delGrp(g){if(!confirm(g+' 삭제?'))return;setGrps(grps().filter(x=>x!==g));loadSet()}
 function saveStt(k,v){const s=D.go('settings');s[k]=v;D.so('settings',s);toast('저장')}
+
+// Shared ranking function: standard competition ranking with ties (1,2,2,4)
+function calcRanks(entries){
+// entries = [{diff, attended, ...}] sorted by diff asc, absent at end
+var ranks=[];var pos=0;
+for(var i=0;i<entries.length;i++){
+if(entries[i].attended==='N'){ranks.push(0);continue}
+pos++;
+if(pos===1){ranks.push(1);continue}
+// Find previous attended entry
+var prevDiff=null;var prevRank=1;
+for(var j=i-1;j>=0;j--){
+if(entries[j].attended!=='N'){prevDiff=entries[j].diff;prevRank=ranks[j];break}}
+if(prevDiff!==null&&entries[i].diff===prevDiff){ranks.push(prevRank)}
+else{ranks.push(pos)}}
+return ranks}
 
 function calcPen(diff,attended,year){
 year=year||new Date().getFullYear();
