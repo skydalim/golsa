@@ -1135,7 +1135,8 @@ t+=`<tr><td>${n}</td><td>${s.score||'-'}</td><td>${s.diff?(s.diff>=0?'+':'')+s.d
 gt+=et;t+=`</tbody></table></div><div style="text-align:right;font-size:10.5px;font-weight:700;color:var(--pri);margin-top:3px">$${et}</div></div>`;h+=t});
 h+=`<div style="text-align:right;font-size:14px;font-weight:900;color:var(--dark);margin-top:6px">총: $${gt}</div>`;
 $('penContent').innerHTML=h||'<div class="empty"><p>없음</p></div>'}
-function tgPen(eid,n){const a=D.go('scores');if(!a[eid]?.[n])return;a[eid][n].penaltyPaid=!a[eid][n].penaltyPaid;D.so('scores',a);loadPenalty()}
+function tgPen(eid,n){const a=D.go('scores');if(!a[eid]?.[n])return;a[eid][n].penaltyPaid=!a[eid][n].penaltyPaid;D.so('scores',a);loadPenalty();
+if(localStorage.getItem('gh_token')){gPush()}}
 
 // ===== TRANSACTIONS =====
 let _trYr='',_trTp='';
