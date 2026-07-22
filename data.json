@@ -3558,7 +3558,7 @@
     "attended": "Y",
     "diff": 2.58,
     "penalty": 5,
-    "penaltyPaid": false,
+    "penaltyPaid": true,
     "rank": 5
    },
    "최석문": {
@@ -6343,7 +6343,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1784690064607,
+ "_ts": 1784718389505,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
