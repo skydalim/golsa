@@ -477,7 +477,7 @@ $('homeUnpaid').innerHTML=unpaidH;
 var foundRank=false;
 for(var si=0;si<allEvs.length&&!foundRank;si++){
 var le=allEvs[si],es=asc[le.id]||{};
-if(Object.keys(es).length){var rk=Object.entries(es).filter(function(x){return x[1].attended!=='N'&&x[1].score>0}).sort(function(a,b){return(a[1].diff||999)-(b[1].diff||999)});
+if(Object.keys(es).length){var rk=Object.entries(es).filter(function(x){return x[1].attended!=='N'&&x[1].score>0}).sort(function(a,b){var dd=(a[1].diff||999)-(b[1].diff||999);if(dd!==0)return dd;return(getH(a[0],le.year,le.type)||99)-(getH(b[0],le.year,le.type)||99)});
 if(rk.length){
 var t='<div style="font-size:10px;color:var(--txt2);margin-bottom:4px">'+le.name+' · '+le.date+'</div><table><thead><tr><th>#</th><th>이름</th><th>핸디</th><th>스코어</th><th>차이</th></tr></thead><tbody>';
 rk.slice(0,7).forEach(function(x,i){var n=x[0],s=x[1];var r=i+1;var rc=r<=3?['rk1','rk2','rk3'][r-1]:'';var md=r<=3?['\uD83E\uDD47','\uD83E\uDD48','\uD83E\uDD49'][r-1]:'';
@@ -545,7 +545,7 @@ else{$('scContent').innerHTML='<div class="empty"><p>스코어 없음</p></div>'
 return}
 let ent=Object.entries(es).map(([n,s])=>({name:n,...s,penaltyPaid:s.penaltyPaid,hdc:getH(n,ev.year,ev.type)}));
 var attendedCount=ent.filter(function(e){return e.attended!=='N'&&e.score>0}).length;
-ent.sort((a,b)=>{if(a.attended==='N'&&b.attended!=='N')return 1;if(a.attended!=='N'&&b.attended==='N')return-1;return(a.diff||999)-(b.diff||999)});
+ent.sort((a,b)=>{if(a.attended==='N'&&b.attended!=='N')return 1;if(a.attended!=='N'&&b.attended==='N')return-1;var dd=(a.diff||999)-(b.diff||999);if(dd!==0)return dd;return a.hdc-b.hdc});
 let h='<div class="cd"><div class="cd-t">📊 '+ev.name+'</div>';
 if(isA())h+='<div class="bg" style="margin-bottom:6px"><button class="bt bt-p bt-s" onclick="openScIn(\''+eid+'\')">📝 스코어 입력</button></div>';
 h+='<div class="tw"><table><thead><tr><th>#</th><th>이름</th><th>핸디</th><th>스코어</th><th>차이</th><th>벌금</th><th>납부</th></tr></thead><tbody>';
@@ -574,7 +574,7 @@ h+='</div>';
 return}
 var ent=Object.entries(es).map(function(x){return{name:x[0],score:x[1].score,diff:x[1].diff,attended:x[1].attended,penalty:x[1].penalty,penaltyPaid:x[1].penaltyPaid,hdc:getH(x[0],ev.year,ev.type)}});
 var attCnt=ent.filter(function(e){return e.attended!=='N'&&e.score>0}).length;
-ent.sort(function(a,b){if(a.attended==='N')return 1;if(b.attended==='N')return-1;return(a.diff||999)-(b.diff||999)});
+ent.sort(function(a,b){if(a.attended==='N')return 1;if(b.attended==='N')return-1;var dd=(a.diff||999)-(b.diff||999);if(dd!==0)return dd;return a.hdc-b.hdc});
 h+='<div class="cd" style="padding:10px"><div class="cd-t">📊 '+ev.name+'</div>';
 if(isA())h+='<div class="bg" style="margin-bottom:6px"><button class="bt bt-p bt-s" onclick="openScIn(\''+ev.id+'\')">📝 입력</button></div>';
 h+='<div class="tw"><table><thead><tr><th>#</th><th>이름</th><th>H</th><th>스코어</th><th>차이</th><th>벌금</th><th>납부</th></tr></thead><tbody>';
@@ -608,8 +608,8 @@ var evRanks={};// evRanks[eid] = [{name, rank, score, diff}]
 evs.forEach(function(e){
 var es=asc[e.id]||{};
 var attended=Object.entries(es).filter(function(x){return x[1].attended!=='N'&&x[1].score>0})
-.map(function(x){return{name:x[0],score:x[1].score,diff:x[1].diff||0}})
-.sort(function(a,b){return a.diff-b.diff});
+.map(function(x){return{name:x[0],score:x[1].score,diff:x[1].diff||0,hdc:getH(x[0],yr,tp)}})
+.sort(function(a,b){var dd=a.diff-b.diff;if(dd!==0)return dd;return(a.hdc||99)-(b.hdc||99)});
 var ranked=[];var rk=1;
 attended.forEach(function(en){ranked.push({name:en.name,rank:rk,score:en.score,diff:en.diff});rk++});
 // 2023년부터: 불참자는 참가자수+1 등수
