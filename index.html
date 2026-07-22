@@ -495,13 +495,16 @@ for(var ti=0;ti<curTypes.length;ti++){
 var pEvs=allEvs.filter(function(e){return e.year===yr&&e.type===curTypes[ti]&&!e.noPenalty});
 if(pEvs.length){curPeriod={type:curTypes[ti],evs:pEvs};break}}
 if(curPeriod){
-// Total penalties collected for this period
+// Find the most recent event with scores (previous tournament)
+var lastEv=null;
+for(var li=0;li<curPeriod.evs.length;li++){
+var les=asc[curPeriod.evs[li].id]||{};
+if(Object.keys(les).length){lastEv=curPeriod.evs[li];break}}
+if(lastEv){
+var lastEs=asc[lastEv.id]||{};
 var totalPen=0;
-curPeriod.evs.forEach(function(e){
-var es=asc[e.id]||{};
-Object.values(es).forEach(function(s){if(s.penalty)totalPen+=s.penalty})});
+Object.values(lastEs).forEach(function(s){if(s.penalty)totalPen+=s.penalty});
 if(totalPen>0){
-// Designated prize = 25% rounded up to nearest 5
 var designated=Math.ceil(totalPen*0.25/5)*5;
 var firstPlace=totalPen-designated;
 prizeH='<div class="cd"><div class="cd-t">🏆 다음 대회 상금</div>';
@@ -509,8 +512,8 @@ prizeH+='<div style="display:flex;gap:10px;justify-content:center;margin:8px 0">
 prizeH+='<div style="text-align:center;padding:10px 16px;background:var(--acc2);border-radius:10px"><div style="font-size:10px;color:var(--txt2)">1등 상금</div><div style="font-size:24px;font-weight:900;color:var(--pri)">$'+firstPlace+'</div></div>';
 prizeH+='<div style="text-align:center;padding:10px 16px;background:#fff3e0;border-radius:10px"><div style="font-size:10px;color:var(--txt2)">지정 상금</div><div style="font-size:24px;font-weight:900;color:var(--acc)">$'+designated+'</div></div>';
 prizeH+='</div>';
-prizeH+='<div style="text-align:center;font-size:10px;color:var(--txt2)">'+yr+' '+curPeriod.type+' 누적 벌금: $'+totalPen+'</div>';
-prizeH+='</div>'}}
+prizeH+='<div style="text-align:center;font-size:10px;color:var(--txt2)">이전 대회 ('+lastEv.name+') 벌금: $'+totalPen+'</div>';
+prizeH+='</div>'}}}
 $('homePrize').innerHTML=prizeH;
 }
 
