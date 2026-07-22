@@ -5890,7 +5890,16 @@
    "desc": "상금지급",
    "date": "2026-07-22",
    "amount": -800,
-   "balance": -22.28
+   "balance": 77.72
+  },
+  {
+   "id": "mrw8x8ynsbf4",
+   "year": 2026,
+   "type": "전반기 참가비",
+   "desc": "김현유",
+   "date": "2026-07-12",
+   "amount": 100,
+   "balance": 877.72
   }
  ],
  "board": [
@@ -6360,7 +6369,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1784734624705,
+ "_ts": 1784734639011,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
