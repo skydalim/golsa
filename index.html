@@ -48,6 +48,8 @@ td{padding:6px 5px;border-bottom:1px solid var(--brd);white-space:nowrap}tr:hove
 .mo{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.4);z-index:200;justify-content:center;align-items:flex-end}
 .mo.on{display:flex}
 .mo-c{background:var(--card);border-radius:18px 18px 0 0;padding:16px 13px 30px;width:100%;max-width:560px;max-height:88dvh;overflow-y:auto;animation:mu .25s ease}
+.mo.mo-top{align-items:flex-start;padding-top:60px}
+.mo.mo-top .mo-c{border-radius:18px;max-height:75dvh}
 @keyframes mu{from{transform:translateY(40px);opacity:0}to{transform:none;opacity:1}}
 .mo-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
 .mo-h h3{font-size:15px;font-weight:700;color:var(--dark)}
@@ -159,7 +161,7 @@ body.fs-xlarge .empty p{font-size:16px}
 </div>
 
 <div class="pg on" id="pgLoginWall"><div class="login-wall"><div style="font-size:64px;margin-bottom:16px;text-shadow:0 4px 12px rgba(0,0,0,.15)">⛳</div><h2>골사부모</h2><p>골프 클럽 관리 시스템<br>로그인 후 이용해 주세요</p><p style="font-size:9px;color:var(--txt2);margin-top:4px">v6.2</p><div id="bootMsg" style="font-size:11px;color:var(--txt2);margin-bottom:12px">데이터 동기화 중...</div><button class="bt bt-p" onclick="showLogin()" style="font-size:14px;padding:12px 32px">로그인</button></div></div>
-<div class="pg" id="pgHome"><div class="sh"><div class="st">⛳ 골사부모</div></div><div id="homeNotice"></div><div id="homeUnpaid"></div><div class="cd"><div class="cd-t">🏆 최근 순위</div><div class="tw" id="homeRank"></div></div></div>
+<div class="pg" id="pgHome"><div class="sh"><div class="st">⛳ 골사부모</div></div><div id="homeNotice"></div><div id="homeUnpaid"></div><div class="cd"><div class="cd-t">🏆 최근 순위</div><div class="tw" id="homeRank"></div></div><div id="homePrize"></div></div>
 <div class="pg" id="pgScores"><div class="sh"><div class="st">🏆 스코어</div></div><div class="tabs" id="scTabs"></div><div id="scFilters"></div><div id="scContent"></div></div>
 <div class="pg" id="pgScorecard"><div class="sh"><div class="st">📝 스코어카드</div></div><div class="fg"><select id="scEvSel2" onchange="loadScorecard()"><option value="">대회 선택</option></select></div><div id="scCardContent"></div></div>
 
@@ -288,7 +290,7 @@ body.fs-xlarge .empty p{font-size:16px}
 <input type="hidden" id="bdEid"><div class="fg"><label>제목</label><input id="bdTi"></div><div class="fg"><label>내용</label><textarea id="bdCo" rows="5"></textarea></div><div class="fg"><label>링크</label><input id="bdUr"></div>
 <div class="bg"><button class="bt bt-p bt-bl" onclick="saveBd()">저장</button></div></div></div>
 
-<div class="mo" id="moBV"><div class="mo-c"><div class="mo-h"><h3 id="bvT"></h3><button class="mo-x" onclick="closeM('moBV')">✕</button></div><div id="bvM" style="font-size:10px;color:var(--txt2);margin-bottom:6px"></div><div id="bvC" style="font-size:13px;line-height:1.7;white-space:pre-wrap"></div><div id="bvU" style="margin-top:6px"></div><div class="bg" id="bvA"></div></div></div>
+<div class="mo mo-top" id="moBV"><div class="mo-c"><div class="mo-h"><h3 id="bvT"></h3><button class="mo-x" onclick="closeM('moBV')">✕</button></div><div id="bvM" style="font-size:10px;color:var(--txt2);margin-bottom:6px"></div><div id="bvC" style="font-size:13px;line-height:1.7;white-space:pre-wrap"></div><div id="bvU" style="margin-top:6px"></div><div class="bg" id="bvA"></div></div></div>
 <div class="mo" id="moLogin"><div class="mo-c"><div class="mo-h"><h3>⛳ 로그인</h3><button class="mo-x" onclick="closeM('moLogin')">✕</button></div><div class="fg"><label>이름</label><input id="liNm"></div><div class="fg"><label>비밀번호</label><input type="password" id="liPw"></div><div class="bg"><button class="bt bt-p bt-bl" onclick="doLogin()">로그인</button></div></div></div>
 <div class="mo" id="moAdj"><div class="mo-c"><div class="mo-h"><h3 id="adjT">홀</h3><button class="mo-x" onclick="closeM('moAdj')">✕</button></div><div id="adjC"></div></div></div>
 
@@ -434,7 +436,7 @@ var nh='';
 if(recentBd.length){
 nh='<div class="cd"><div class="cd-t">📢 공지</div>';
 recentBd.slice(0,3).forEach(function(p){
-nh+='<div class="post" onclick="go(\'Board\')" style="cursor:pointer"><div class="post-t">'+p.title+'</div>';
+nh+='<div class="post" onclick="go(\'Board\');setTimeout(function(){viewBd(\''+p.id+'\')},200)" style="cursor:pointer"><div class="post-t">'+p.title+'</div>';
 nh+='<div class="post-m">'+p.date+'</div>';
 if(p.content)nh+='<div style="font-size:11px;color:var(--txt2);margin-top:4px;white-space:pre-wrap;max-height:60px;overflow:hidden">'+p.content.substring(0,100)+(p.content.length>100?'...':'')+'</div>';
 nh+='</div>'});
@@ -483,6 +485,33 @@ rk.slice(0,7).forEach(function(x,i){var n=x[0],s=x[1];var r=i+1;var rc=r<=3?['rk
 t+='<tr><td class="'+rc+'">'+md+r+'</td><td>'+n+'</td><td>'+getH(n,le.year,le.type)+'</td><td><b>'+s.score+'</b></td><td>'+(s.diff>=0?'+':'')+s.diff.toFixed(1)+'</td></tr>'});
 t+='</tbody></table>';$('homeRank').innerHTML=t;foundRank=true}}}
 if(!foundRank)$('homeRank').innerHTML='<span style="font-size:11px;color:var(--txt2)">스코어 미입력</span>';
+
+// 4. Next tournament prize
+var prizeH='';
+// Find current period events (this year, most recent type)
+var curTypes=['전반기','후반기','정기'];
+var curPeriod=null;
+for(var ti=0;ti<curTypes.length;ti++){
+var pEvs=allEvs.filter(function(e){return e.year===yr&&e.type===curTypes[ti]&&!e.noPenalty});
+if(pEvs.length){curPeriod={type:curTypes[ti],evs:pEvs};break}}
+if(curPeriod){
+// Total penalties collected for this period
+var totalPen=0;
+curPeriod.evs.forEach(function(e){
+var es=asc[e.id]||{};
+Object.values(es).forEach(function(s){if(s.penalty)totalPen+=s.penalty})});
+if(totalPen>0){
+// Designated prize = 25% rounded up to nearest 5
+var designated=Math.ceil(totalPen*0.25/5)*5;
+var firstPlace=totalPen-designated;
+prizeH='<div class="cd"><div class="cd-t">🏆 다음 대회 상금</div>';
+prizeH+='<div style="display:flex;gap:10px;justify-content:center;margin:8px 0">';
+prizeH+='<div style="text-align:center;padding:10px 16px;background:var(--acc2);border-radius:10px"><div style="font-size:10px;color:var(--txt2)">1등 상금</div><div style="font-size:24px;font-weight:900;color:var(--pri)">$'+firstPlace+'</div></div>';
+prizeH+='<div style="text-align:center;padding:10px 16px;background:#fff3e0;border-radius:10px"><div style="font-size:10px;color:var(--txt2)">지정 상금</div><div style="font-size:24px;font-weight:900;color:var(--acc)">$'+designated+'</div></div>';
+prizeH+='</div>';
+prizeH+='<div style="text-align:center;font-size:10px;color:var(--txt2)">'+yr+' '+curPeriod.type+' 누적 벌금: $'+totalPen+'</div>';
+prizeH+='</div>'}}
+$('homePrize').innerHTML=prizeH;
 }
 
 // ===== SCORES =====
