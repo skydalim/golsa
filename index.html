@@ -557,7 +557,7 @@ var absRk=(evYear>=2023&&!a)?(attendedCount+1):0;
 h+='<tr><td class="'+rc+'">'+(a?md+rk:(absRk?absRk:'-'))+'</td><td>'+e.name+'</td><td>'+e.hdc+'</td><td><b>'+(e.score||'-')+'</b></td><td>'+ds+'</td><td'+(pen>0?' style="color:var(--err);font-weight:700"':'')+'>$'+pen+'</td>';
 if(isA()&&pen>0){h+='<td><button class="bt bt-s '+(pp?'bt-p':'bt-o')+'" onclick="tgPen(\''+eid+'\',\''+e.name+'\');setTimeout(rEvSc,100)">'+(pp?'✓':'미납')+'</button></td>'}
 else{h+='<td>'+(pen>0?(pp?'✓':'<span style="color:var(--err)">미납</span>'):'-')+'</td>'}
-h+='</tr>';if(a)rk++});
+h+='</tr>'});
 var totalPen=0;ent.forEach(function(e){totalPen+=(e.penalty||0)});
 h+='</tbody></table></div>';
 if(totalPen>0)h+='<div style="text-align:right;font-size:11px;font-weight:700;color:var(--pri);margin-top:3px">벌금 합계: $'+totalPen+'</div>';
@@ -586,7 +586,7 @@ var absRk=(evYear>=2023&&!a)?(attCnt+1):0;
 h+='<tr><td class="'+rc+'">'+(a?md+rk:(absRk?absRk:'-'))+'</td><td>'+e.name+'</td><td>'+e.hdc+'</td><td><b>'+(e.score||'-')+'</b></td><td>'+ds+'</td><td'+(pen>0?' style="color:var(--err);font-weight:700"':'')+'>$'+pen+'</td>';
 if(isA()&&pen>0){h+='<td><button class="bt bt-s '+(pp?'bt-p':'bt-o')+'" onclick="tgPen(\''+ev.id+'\',\''+e.name+'\');loadScores()">'+(pp?'✓':'미납')+'</button></td>'}
 else{h+='<td>'+(pen>0?(pp?'✓':'<span style="color:var(--err)">미납</span>'):'-')+'</td>'}
-h+='</tr>';if(a)rk++});
+h+='</tr>'});
 var etPen=0;ent.forEach(function(e){etPen+=(e.penalty||0)});
 h+='</tbody></table></div>';
 if(etPen>0)h+='<div style="text-align:right;font-size:10px;font-weight:700;color:var(--pri);margin-top:3px">$'+etPen+'</div>';
@@ -610,8 +610,10 @@ var es=asc[e.id]||{};
 var attended=Object.entries(es).filter(function(x){return x[1].attended!=='N'&&x[1].score>0})
 .map(function(x){return{name:x[0],score:x[1].score,diff:x[1].diff||0,hdc:getH(x[0],yr,tp)}})
 .sort(function(a,b){var dd=a.diff-b.diff;if(dd!==0)return dd;return(a.hdc||99)-(b.hdc||99)});
-var ranked=[];var rk=1;
-attended.forEach(function(en){ranked.push({name:en.name,rank:rk,score:en.score,diff:en.diff});rk++});
+var ranked=[];
+for(var ri=0;ri<attended.length;ri++){
+var tie=(ri>0&&attended[ri].diff===attended[ri-1].diff)?ranked[ri-1].rank:(ri+1);
+ranked.push({name:attended[ri].name,rank:tie,score:attended[ri].score,diff:attended[ri].diff,hdc:attended[ri].hdc||0})}
 // 2023년부터: 불참자는 참가자수+1 등수
 if(yr>=2023){var lastRank=attended.length+1;
 Object.entries(es).filter(function(x){return x[1].attended==='N'})
