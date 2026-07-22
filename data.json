@@ -6083,7 +6083,7 @@
   {
    "id": "mrvidsgb4z90",
    "title": "2026 상반기 상금",
-   "content": "1   김현유    $320 \n2   황인호    $192 \n3   장홍연    $115 \n4   임동안    $55 \n4   양준홍    $55 \n6   오정헌    $21\n7   최석문    $21\n8   김정모    $21",
+   "content": "1   김현유    $320     2   황인호    $192 \n3   장홍연    $115     4   임동안    $55 \n4   양준홍    $55        6   오정헌    $21\n7   최석문    $21        8   김정모    $21",
    "author": "임동안",
    "date": "2026-07-22",
    "url": ""
@@ -6378,7 +6378,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1784734661535,
+ "_ts": 1784735084701,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
