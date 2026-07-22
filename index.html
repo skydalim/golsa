@@ -549,8 +549,8 @@ ent.sort((a,b)=>{if(a.attended==='N'&&b.attended!=='N')return 1;if(a.attended!==
 let h='<div class="cd"><div class="cd-t">📊 '+ev.name+'</div>';
 if(isA())h+='<div class="bg" style="margin-bottom:6px"><button class="bt bt-p bt-s" onclick="openScIn(\''+eid+'\')">📝 스코어 입력</button></div>';
 h+='<div class="tw"><table><thead><tr><th>#</th><th>이름</th><th>핸디</th><th>스코어</th><th>차이</th><th>벌금</th><th>납부</th></tr></thead><tbody>';
-let rk=1;ent.forEach(e=>{const a=e.attended!=='N';const rc=a?(rk<=3?['rk1','rk2','rk3'][rk-1]:''):'';
-const md=a&&rk<=3?['🥇','🥈','🥉'][rk-1]:'';const d=e.diff;const ds=a&&e.score?(d>=0?'+':'')+d.toFixed(1):'-';
+var evRanks=calcRanks(ent);ent.forEach((e,ei)=>{const a=e.attended!=='N';const rk=evRanks[ei]||0;const rc=a&&rk>0&&rk<=3?['rk1','rk2','rk3'][rk-1]:'';
+const md=a&&rk>0&&rk<=3?['🥇','🥈','🥉'][rk-1]:'';const d=e.diff;const ds=a&&e.score?(d>=0?'+':'')+d.toFixed(1):'-';
 var pen=e.penalty||0;var pp=e.penaltyPaid;
 var evYear=ev?ev.year:2024;
 var absRk=(evYear>=2023&&!a)?(attendedCount+1):0;
@@ -578,12 +578,12 @@ ent.sort(function(a,b){if(a.attended==='N')return 1;if(b.attended==='N')return-1
 h+='<div class="cd" style="padding:10px"><div class="cd-t">📊 '+ev.name+'</div>';
 if(isA())h+='<div class="bg" style="margin-bottom:6px"><button class="bt bt-p bt-s" onclick="openScIn(\''+ev.id+'\')">📝 입력</button></div>';
 h+='<div class="tw"><table><thead><tr><th>#</th><th>이름</th><th>H</th><th>스코어</th><th>차이</th><th>벌금</th><th>납부</th></tr></thead><tbody>';
-var rk=1;ent.forEach(function(e){var a=e.attended!=='N';var rc=a&&rk<=3?['rk1','rk2','rk3'][rk-1]:'';
-var md=a&&rk<=3?['🥇','🥈','🥉'][rk-1]:'';var ds=a&&e.score?(e.diff>=0?'+':'')+e.diff.toFixed(1):'-';
+var mRanks=calcRanks(ent);ent.forEach(function(e,ei){var a=e.attended!=='N';var rk=mRanks[ei]||0;var rc=a&&rk>0&&rk<=3?['rk1','rk2','rk3'][rk-1]:'';
+var md=a&&rk>0&&rk<=3?['🥇','🥈','🥉'][rk-1]:'';var ds=a&&e.score?(e.diff>=0?'+':'')+e.diff.toFixed(1):'-';
 var pen=e.penalty||0;var pp=e.penaltyPaid;
 var evYear=ev?ev.year:2024;
 var absRk=(evYear>=2023&&!a)?(attCnt+1):0;
-h+='<tr><td class="'+rc+'">'+(a?md+rk:(absRk?absRk:'-'))+'</td><td>'+e.name+'</td><td>'+e.hdc+'</td><td><b>'+(e.score||'-')+'</b></td><td>'+ds+'</td><td'+(pen>0?' style="color:var(--err);font-weight:700"':'')+'>$'+pen+'</td>';
+h+='<tr><td class="'+rc+'">'+(a?(md||'')+rk:(absRk?absRk:'-'))+'</td><td>'+e.name+'</td><td>'+e.hdc+'</td><td><b>'+(e.score||'-')+'</b></td><td>'+ds+'</td><td'+(pen>0?' style="color:var(--err);font-weight:700"':'')+'>$'+pen+'</td>';
 if(isA()&&pen>0){h+='<td><button class="bt bt-s '+(pp?'bt-p':'bt-o')+'" onclick="tgPen(\''+ev.id+'\',\''+e.name+'\');loadScores()">'+(pp?'✓':'미납')+'</button></td>'}
 else{h+='<td>'+(pen>0?(pp?'✓':'<span style="color:var(--err)">미납</span>'):'-')+'</td>'}
 h+='</tr>'});
