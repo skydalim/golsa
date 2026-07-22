@@ -552,7 +552,7 @@ let rk=1;ent.forEach(e=>{const a=e.attended!=='N';const rc=a?(rk<=3?['rk1','rk2'
 const md=a&&rk<=3?['🥇','🥈','🥉'][rk-1]:'';const d=e.diff;const ds=a&&e.score?(d>=0?'+':'')+d.toFixed(1):'-';
 var pen=e.penalty||0;var pp=e.penaltyPaid;
 h+='<tr><td class="'+rc+'">'+(a?md+rk:'-')+'</td><td>'+e.name+'</td><td>'+e.hdc+'</td><td><b>'+(e.score||'-')+'</b></td><td>'+ds+'</td><td'+(pen>0?' style="color:var(--err);font-weight:700"':'')+'>$'+pen+'</td>';
-if(isA()&&pen>0){h+='<td><button class="bt bt-s '+(pp?'bt-p':'bt-o')+'" onclick="tgPen(\''+eid+'\',\''+e.name+'\');rEvSc()">'+(pp?'✓':'미납')+'</button></td>'}
+if(isA()&&pen>0){h+='<td><button class="bt bt-s '+(pp?'bt-p':'bt-o')+'" onclick="tgPen(\''+eid+'\',\''+e.name+'\');setTimeout(rEvSc,100)">'+(pp?'✓':'미납')+'</button></td>'}
 else{h+='<td>'+(pen>0?(pp?'✓':'<span style="color:var(--err)">미납</span>'):'-')+'</td>'}
 h+='</tr>';if(a)rk++});
 var totalPen=0;ent.forEach(function(e){totalPen+=(e.penalty||0)});
@@ -564,7 +564,10 @@ function rEvScMulti(evsList){
 var asc=D.go('scores');var h='';
 evsList.forEach(function(ev){
 var es=asc[ev.id]||{};if(!Object.keys(es).length){
-if(isA())h+='<div class="cd" style="padding:10px"><div class="cd-t">'+ev.name+'</div><div class="bg"><button class="bt bt-p bt-s" onclick="openScIn(\''+ev.id+'\')">📝 스코어 입력</button></div></div>';
+h+='<div class="cd" style="padding:10px"><div class="cd-t">'+ev.name+'</div>';
+h+='<div style="font-size:11px;color:var(--txt2);padding:6px 0">스코어 미입력</div>';
+if(isA())h+='<div class="bg"><button class="bt bt-p bt-s" onclick="openScIn(\''+ev.id+'\')">📝 스코어 입력</button></div>';
+h+='</div>';
 return}
 var ent=Object.entries(es).map(function(x){return{name:x[0],score:x[1].score,diff:x[1].diff,attended:x[1].attended,penalty:x[1].penalty,penaltyPaid:x[1].penaltyPaid,hdc:getH(x[0],ev.year,ev.type)}});
 ent.sort(function(a,b){if(a.attended==='N')return 1;if(b.attended==='N')return-1;return(a.diff||999)-(b.diff||999)});
@@ -575,7 +578,7 @@ var rk=1;ent.forEach(function(e){var a=e.attended!=='N';var rc=a&&rk<=3?['rk1','
 var md=a&&rk<=3?['🥇','🥈','🥉'][rk-1]:'';var ds=a&&e.score?(e.diff>=0?'+':'')+e.diff.toFixed(1):'-';
 var pen=e.penalty||0;var pp=e.penaltyPaid;
 h+='<tr><td class="'+rc+'">'+(a?md+rk:'-')+'</td><td>'+e.name+'</td><td>'+e.hdc+'</td><td><b>'+(e.score||'-')+'</b></td><td>'+ds+'</td><td'+(pen>0?' style="color:var(--err);font-weight:700"':'')+'>$'+pen+'</td>';
-if(isA()&&pen>0){h+='<td><button class="bt bt-s '+(pp?'bt-p':'bt-o')+'" onclick="tgPen(\''+eid+'\',\''+e.name+'\');rEvSc()">'+(pp?'✓':'미납')+'</button></td>'}
+if(isA()&&pen>0){h+='<td><button class="bt bt-s '+(pp?'bt-p':'bt-o')+'" onclick="tgPen(\''+ev.id+'\',\''+e.name+'\');loadScores()">'+(pp?'✓':'미납')+'</button></td>'}
 else{h+='<td>'+(pen>0?(pp?'✓':'<span style="color:var(--err)">미납</span>'):'-')+'</td>'}
 h+='</tr>';if(a)rk++});
 var etPen=0;ent.forEach(function(e){etPen+=(e.penalty||0)});
@@ -585,7 +588,7 @@ h+='</div>'});
 $('scContent').innerHTML=h||'<div class="empty"><p>대회 없음</p></div>'}
 // Period Score View (기간별: year + type combination)
 function rPrdSc(){
-var sel=$('scPrdS').value;if(!sel){$('scContent').innerHTML='';return}
+var sel=$('scPrdS').value;if(!sel){var o2=$('scPrdS').options;if(o2.length>1){$('scPrdS').value=o2[1].value;sel=o2[1].value}else{$('scContent').innerHTML='';return}}
 var parts=sel.split('_');var yr=+parts[0];var tp=parts[1];
 var evs=D.g('events').filter(function(e){return e.year===yr&&e.type===tp}).sort(function(a,b){return a.date.localeCompare(b.date)});
 var asc=D.go('scores');
