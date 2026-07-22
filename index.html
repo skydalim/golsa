@@ -668,10 +668,7 @@ evs.forEach(e=>h+=`<th style="font-size:9px">${e.date.slice(5)}</th>`);h+='<th>�
 const rows=[...ns].map(n=>{let t=0,c=0;const cells=evs.map(e=>{const s=(asc[e.id]||{})[n];if(s&&s.attended!=='N'&&s.score){t+=s.score;c++;return'<td>'+s.score+'</td>'}return'<td style="color:#ccc">-</td>'});const avg=c?(t/c):9999;return{name:n,cells,avg,c}});
 rows.sort((a,b)=>a.avg-b.avg);
 rows.forEach(r=>{h+='<tr><td>'+r.name+'</td>'+r.cells.join('')+'<td><b>'+(r.c?(r.avg).toFixed(1):'-')+'</b></td></tr>'});
-var totalPen=0;ent.forEach(function(e){totalPen+=(e.penalty||0)});
-h+='</tbody></table></div>';
-if(totalPen>0)h+='<div style="text-align:right;font-size:11px;font-weight:700;color:var(--pri);margin-top:3px">벌금 합계: $'+totalPen+'</div>';
-h+='</div>';$('scContent').innerHTML=h}
+h+='</tbody></table></div></div>';$('scContent').innerHTML=h}
 function rMemSc(){const name=$('scMemS').value;if(!name){$('scContent').innerHTML='';return}
 const evs=D.g('events').sort((a,b)=>b.date.localeCompare(a.date));const asc=D.go('scores');
 let h='<div class="cd"><div class="tw"><table><thead><tr><th>날짜</th><th>유형</th><th>핸디</th><th>스코어</th><th>차이</th><th>순위</th></tr></thead><tbody>';
