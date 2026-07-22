@@ -582,7 +582,7 @@ var rk=1;ent.forEach(function(e){var a=e.attended!=='N';var rc=a&&rk<=3?['rk1','
 var md=a&&rk<=3?['🥇','🥈','🥉'][rk-1]:'';var ds=a&&e.score?(e.diff>=0?'+':'')+e.diff.toFixed(1):'-';
 var pen=e.penalty||0;var pp=e.penaltyPaid;
 var evYear=ev?ev.year:2024;
-var absRk=(evYear>=2023&&!a)?(attendedCount+1):0;
+var absRk=(evYear>=2023&&!a)?(attCnt+1):0;
 h+='<tr><td class="'+rc+'">'+(a?md+rk:(absRk?absRk:'-'))+'</td><td>'+e.name+'</td><td>'+e.hdc+'</td><td><b>'+(e.score||'-')+'</b></td><td>'+ds+'</td><td'+(pen>0?' style="color:var(--err);font-weight:700"':'')+'>$'+pen+'</td>';
 if(isA()&&pen>0){h+='<td><button class="bt bt-s '+(pp?'bt-p':'bt-o')+'" onclick="tgPen(\''+ev.id+'\',\''+e.name+'\');loadScores()">'+(pp?'✓':'미납')+'</button></td>'}
 else{h+='<td>'+(pen>0?(pp?'✓':'<span style="color:var(--err)">미납</span>'):'-')+'</td>'}
