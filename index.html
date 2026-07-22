@@ -1259,10 +1259,10 @@ function loadBd(){const bd=D.g('board').sort((a,b)=>b.date.localeCompare(a.date)
 $('bdList').innerHTML=bd.length?bd.map(p=>`<div class="post" onclick="viewBd('${p.id}')"><div class="post-t">${p.title}</div><div class="post-m">${p.date}</div></div>`).join(''):'<div class="empty"><p>없음</p></div>'}
 function openBdM(eid){$('bdEid').value=eid||'';if(eid){const p=D.g('board').find(x=>x.id===eid);if(p){$('bdTi').value=p.title;$('bdCo').value=p.content;$('bdUr').value=p.url||''}}else{['bdTi','bdCo','bdUr'].forEach(i=>$(i).value='')}openM('moBd')}
 function saveBd(){const eid=$('bdEid').value;const p={id:eid||D.id(),title:$('bdTi').value.trim(),content:$('bdCo').value.trim(),author:U?U.name:'',date:new Date().toISOString().slice(0,10),url:$('bdUr').value.trim()};
-if(!p.title){toast('제목');return}let bd=D.g('board');bd=eid?bd.map(x=>x.id===eid?{...x,title:p.title,content:p.content,url:p.url}:x):[...bd,p];D.s('board',bd);closeM('moBd');toast('저장');loadBd()}
+if(!p.title){toast('제목');return}let bd=D.g('board');bd=eid?bd.map(x=>x.id===eid?{...x,title:p.title,content:p.content,url:p.url}:x):[...bd,p];D.s('board',bd);closeM('moBd');toast('저장');loadBd();if(localStorage.getItem('gh_token'))gPush()}
 function viewBd(id){const p=D.g('board').find(x=>x.id===id);if(!p)return;$('bvT').textContent=p.title;$('bvM').textContent=p.date;$('bvC').textContent=p.content;
 $('bvU').innerHTML=p.url?`<a href="${p.url}" target="_blank" style="font-size:11px">🔗 링크</a>`:'';
-$('bvA').innerHTML=isA()?`<button class="bt bt-o bt-s" onclick="closeM('moBV');openBdM('${p.id}')">✏️</button><button class="bt bt-d bt-s" onclick="closeM('moBV');D.s('board',D.g('board').filter(x=>x.id!=='${p.id}'));toast('삭제');loadBd()">🗑</button>`:'';openM('moBV')}
+$('bvA').innerHTML=isA()?`<button class="bt bt-o bt-s" onclick="closeM('moBV');openBdM('${p.id}')">✏️</button><button class="bt bt-d bt-s" onclick="closeM('moBV');D.s('board',D.g('board').filter(x=>x.id!=='${p.id}'));toast('삭제');loadBd();if(localStorage.getItem('gh_token'))gPush()">🗑</button>`:'';openM('moBV')}
 
 // ===== SETTINGS =====
 function loadSet(){if($('ghToken'))$('ghToken').value=localStorage.getItem('gh_token')||'';
