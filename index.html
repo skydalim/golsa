@@ -437,7 +437,7 @@ nh='<div class="cd"><div class="cd-t">📢 공지</div>';
 recentBd.slice(0,3).forEach(function(p){
 nh+='<div class="post" onclick="go(\'Board\');setTimeout(function(){viewBd(\''+p.id+'\')},200)" style="cursor:pointer"><div class="post-t">'+p.title+'</div>';
 nh+='<div class="post-m">'+p.date+'</div>';
-if(p.content)nh+='<div style="font-size:11px;color:var(--txt2);margin-top:4px;white-space:pre-wrap;white-space:pre-wrap">'+p.content.substring(0,100)+(p.content.length>100?'...':'')+'</div>';
+if(p.content)nh+='<div style="font-size:13px;color:var(--txt2);margin-top:4px;white-space:pre-wrap;line-height:1.7">'+p.content+'</div>';
 nh+='</div>'});
 nh+='</div>'}
 $('homeNotice').innerHTML=nh;
