@@ -437,7 +437,7 @@ nh='<div class="cd"><div class="cd-t">📢 공지</div>';
 recentBd.slice(0,3).forEach(function(p){
 nh+='<div class="post" onclick="go(\'Board\');setTimeout(function(){viewBd(\''+p.id+'\')},200)" style="cursor:pointer"><div class="post-t">'+p.title+'</div>';
 nh+='<div class="post-m">'+p.date+'</div>';
-if(p.content)nh+='<div style="font-size:11px;color:var(--txt2);margin-top:4px;white-space:pre-wrap;max-height:60px;overflow:hidden">'+p.content.substring(0,100)+(p.content.length>100?'...':'')+'</div>';
+if(p.content)nh+='<div style="font-size:11px;color:var(--txt2);margin-top:4px;white-space:pre-wrap;white-space:pre-wrap">'+p.content.substring(0,100)+(p.content.length>100?'...':'')+'</div>';
 nh+='</div>'});
 nh+='</div>'}
 $('homeNotice').innerHTML=nh;
@@ -1280,7 +1280,7 @@ $('bdList').innerHTML=bd.length?bd.map(p=>`<div class="post" onclick="viewBd('${
 function openBdM(eid){$('bdEid').value=eid||'';if(eid){const p=D.g('board').find(x=>x.id===eid);if(p){$('bdTi').value=p.title;$('bdCo').value=p.content;$('bdUr').value=p.url||''}}else{['bdTi','bdCo','bdUr'].forEach(i=>$(i).value='')}openM('moBd')}
 function saveBd(){const eid=$('bdEid').value;const p={id:eid||D.id(),title:$('bdTi').value.trim(),content:$('bdCo').value.trim(),author:U?U.name:'',date:new Date().toISOString().slice(0,10),url:$('bdUr').value.trim()};
 if(!p.title){toast('제목');return}let bd=D.g('board');bd=eid?bd.map(x=>x.id===eid?{...x,title:p.title,content:p.content,url:p.url}:x):[...bd,p];D.s('board',bd);closeM('moBd');toast('저장');loadBd();if(localStorage.getItem('gh_token'))gPush()}
-function viewBd(id){const p=D.g('board').find(x=>x.id===id);if(!p)return;$('bvT').textContent=p.title;$('bvM').textContent=p.date;$('bvC').textContent=p.content;
+function viewBd(id){const p=D.g('board').find(x=>x.id===id);if(!p)return;$('bvT').textContent=p.title;$('bvT').style.fontSize='18px';$('bvM').textContent=p.date;$('bvC').textContent=p.content;$('bvC').style.fontSize='15px';$('bvC').style.lineHeight='1.8';$('bvC').style.whiteSpace='pre-wrap';
 $('bvU').innerHTML=p.url?`<a href="${p.url}" target="_blank" style="font-size:11px">🔗 링크</a>`:'';
 $('bvA').innerHTML=isA()?`<button class="bt bt-o bt-s" onclick="closeM('moBV');openBdM('${p.id}')">✏️</button><button class="bt bt-d bt-s" onclick="closeM('moBV');D.s('board',D.g('board').filter(x=>x.id!=='${p.id}'));toast('삭제');loadBd();if(localStorage.getItem('gh_token'))gPush()">🗑</button>`:'';openM('moBV')}
 
