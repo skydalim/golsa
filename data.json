@@ -5909,6 +5909,15 @@
    "date": "2026-07-23",
    "amount": 100,
    "balance": 177.72
+  },
+  {
+   "id": "ms3rougny4xd",
+   "year": 2026,
+   "type": "참가비",
+   "desc": "오정헌",
+   "date": "2026-07-27",
+   "amount": 100,
+   "balance": 277.72
   }
  ],
  "board": [
@@ -6378,7 +6387,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1784735084701,
+ "_ts": 1785189422906,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
