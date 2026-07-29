@@ -5917,6 +5917,15 @@
    "desc": "오정헌",
    "date": "2026-07-27",
    "amount": 100,
+   "balance": 377.72
+  },
+  {
+   "id": "ms5zkx072xo7",
+   "year": 2026,
+   "type": "후반기 참가비",
+   "desc": "양준홍",
+   "date": "2026-07-23",
+   "amount": 100,
    "balance": 277.72
   }
  ],
@@ -6387,7 +6396,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1785189475222,
+ "_ts": 1785323608861,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
