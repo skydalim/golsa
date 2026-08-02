@@ -1077,6 +1077,20 @@
    "noHandicapCalc": false,
    "lat": 40.8301249,
    "lng": -74.6910149
+  },
+  {
+   "id": "msbuditirj5w",
+   "year": 2026,
+   "type": "후반기",
+   "name": "2026 후반기 8/2",
+   "date": "2026-08-02",
+   "course": "Berkshire Valley Golf Course",
+   "address": "Berkshire Valley Golf Course, 28, Cozy Lake Road, Petersburg, Milton, Jefferson Township, Morris County, New Jersey, 07438, United States Jefferson Township New Jersey",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false,
+   "lat": 41.0030734,
+   "lng": -74.5115395
   }
  ],
  "scores": {
@@ -5954,6 +5968,15 @@
    "date": "2026-08-02",
    "amount": 100,
    "balance": 677.72
+  },
+  {
+   "id": "msbv13s7o2p0",
+   "year": 2026,
+   "type": "후반기 참가비",
+   "desc": "최석문",
+   "date": "2026-08-02",
+   "amount": 100,
+   "balance": 777.72
   }
  ],
  "board": [
@@ -6420,10 +6443,56 @@
     "lat": 40.1695558,
     "lng": -105.1247606
    }
+  },
+  "Berkshire Valley Golf Course": {
+   "_center": {
+    "lat": 41.0030734,
+    "lng": -74.5115395
+   },
+   "h0": {
+    "lat": 41.005284,
+    "lng": -74.5075956
+   },
+   "h1": {
+    "lat": 41.0032378,
+    "lng": -74.5097876
+   },
+   "h2": {
+    "lat": 40.9995651,
+    "lng": -74.513815
+   },
+   "h3": {
+    "lat": 40.996837,
+    "lng": -74.5170319
+   },
+   "h4": {
+    "lat": 40.9968517,
+    "lng": -74.5170376
+   },
+   "h5": {
+    "lat": 40.9944047,
+    "lng": -74.5200109
+   },
+   "h6": {
+    "lat": 40.9976713,
+    "lng": -74.5182892
+   },
+   "h7": {
+    "lat": 41.0017002,
+    "lng": -74.5145999
+   },
+   "h8": {
+    "lat": 41.0036024,
+    "lng": -74.5124601
+   },
+   "h9": {
+    "lat": 41.0063535,
+    "lng": -74.5154786
+   }
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1785677252155,
+ "_ts": 1785678763119,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
