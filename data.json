@@ -6349,7 +6349,7 @@
      1,
      0,
      1,
-     0,
+     1,
      0,
      0,
      0,
@@ -6558,8 +6558,8 @@
     "lng": -74.513815
    },
    "h3": {
-    "lat": 40.996837,
-    "lng": -74.5170319
+    "lat": 40.996781920481574,
+    "lng": -74.51709970325771
    },
    "h4": {
     "lat": 40.9968517,
@@ -6588,7 +6588,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1785698573544,
+ "_ts": 1785699660199,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
