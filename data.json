@@ -6341,6 +6341,56 @@
      0
     ]
    }
+  },
+  "msbuditirj5w": {
+   "임동안": {
+    "scores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "players": [
+     "임동안",
+     "김현유"
+    ]
+   },
+   "김현유": {
+    "scores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
   }
  },
  "greens": {
@@ -6492,7 +6542,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1785694610164,
+ "_ts": 1785694637592,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
