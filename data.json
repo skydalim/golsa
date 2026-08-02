@@ -6366,10 +6366,33 @@
     ],
     "players": [
      "임동안",
-     "김현유"
+     "김현유",
+     "양준홍"
     ]
    },
    "김현유": {
+    "scores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "양준홍": {
     "scores": [
      0,
      0,
@@ -6542,7 +6565,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1785694637592,
+ "_ts": 1785694650345,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
