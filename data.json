@@ -5936,6 +5936,15 @@
    "date": "2026-08-02",
    "amount": 100,
    "balance": 477.72
+  },
+  {
+   "id": "msbt614dw3e9",
+   "year": 2026,
+   "type": "후반기 참가비",
+   "desc": "장홍연",
+   "date": "2026-08-02",
+   "amount": 100,
+   "balance": 577.72
   }
  ],
  "board": [
@@ -6405,7 +6414,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1785637872007,
+ "_ts": 1785675633713,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
