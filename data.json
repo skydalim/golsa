@@ -6377,7 +6377,7 @@
      0,
      -1,
      0,
-     0,
+     -1,
      0,
      0,
      0,
@@ -6588,7 +6588,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1785699660199,
+ "_ts": 1785699661581,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
