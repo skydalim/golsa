@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#2e7d32">
-<title>골사|부모 ⛳</title>
+<title>골사부모 ⛳</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#eef5ee;--card:#fff;--dark:#14261a;--nav:#256d29;--pri:#2e7d32;--pri2:#388e3c;--pri3:#ddefdb;--acc:#d4a017;--acc2:#fff8e1;--txt:#212121;--txt2:#6b7b6b;--brd:#c8dcc8;--err:#d32f2f;--err2:#ffebee;--ok:#2e7d32;--ok2:#e8f5e9;--sh:0 2px 12px rgba(30,70,30,.07);--r:14px;--rs:10px}
@@ -485,38 +485,28 @@ t+='<tr><td class="'+rc+'">'+md+r+'</td><td>'+n+'</td><td>'+getH(n,le.year,le.ty
 t+='</tbody></table>';$('homeRank').innerHTML=t;foundRank=true}}}
 if(!foundRank)$('homeRank').innerHTML='<span style="font-size:11px;color:var(--txt2)">스코어 미입력</span>';
 
-// 4. Next tournament prize
+// 4. Next tournament prize - use the most recent event with penalties
 var prizeH='';
-// Find current period events (this year, most recent type)
-var curTypes=['전반기','후반기','정기'];
-var curPeriod=null;
-for(var ti=0;ti<curTypes.length;ti++){
-var pEvs=allEvs.filter(function(e){return e.year===yr&&e.type===curTypes[ti]&&!e.noPenalty});
-if(pEvs.length){curPeriod={type:curTypes[ti],evs:pEvs};break}}
-if(curPeriod){
-// Sort period events by date descending (most recent first)
-curPeriod.evs.sort(function(a,b){return b.date.localeCompare(a.date)});
-// Use the FIRST event that has scores (= most recent played event)
+var allYrEvs=allEvs.filter(function(e){return e.year===yr&&!e.noPenalty});
+allYrEvs.sort(function(a,b){return b.date.localeCompare(a.date)});
 var lastEv=null;
-for(var li=0;li<curPeriod.evs.length;li++){
-var les=asc[curPeriod.evs[li].id]||{};
-var hasPen=false;
-Object.values(les).forEach(function(s){if(s.penalty>0)hasPen=true});
-if(hasPen){lastEv=curPeriod.evs[li];break}}
+for(var li=0;li<allYrEvs.length;li++){
+var les=asc[allYrEvs[li].id]||{};
+var hasPen=false;Object.values(les).forEach(function(s){if(s.penalty>0)hasPen=true});
+if(hasPen){lastEv=allYrEvs[li];break}}
 if(lastEv){
 var lastEs=asc[lastEv.id]||{};
-var totalPen=0;
-Object.values(lastEs).forEach(function(s){if(s.penalty)totalPen+=s.penalty});
+var totalPen=0;Object.values(lastEs).forEach(function(s){if(s.penalty)totalPen+=s.penalty});
 if(totalPen>0){
 var designated=Math.ceil(totalPen*0.25/5)*5;
 var firstPlace=totalPen-designated;
-prizeH='<div class="cd"><div class="cd-t">🏆 다음 대회 상금</div>';
+prizeH='<div class="cd"><div class="cd-t">\uD83C\uDFC6 \uB2E4\uC74C \uB300\uD68C \uC0C1\uAE08</div>';
 prizeH+='<div style="display:flex;gap:10px;justify-content:center;margin:8px 0">';
-prizeH+='<div style="text-align:center;padding:10px 16px;background:var(--acc2);border-radius:10px"><div style="font-size:10px;color:var(--txt2)">1등 상금</div><div style="font-size:24px;font-weight:900;color:var(--pri)">$'+firstPlace+'</div></div>';
-prizeH+='<div style="text-align:center;padding:10px 16px;background:#fff3e0;border-radius:10px"><div style="font-size:10px;color:var(--txt2)">지정 상금</div><div style="font-size:24px;font-weight:900;color:var(--acc)">$'+designated+'</div></div>';
+prizeH+='<div style="text-align:center;padding:10px 16px;background:var(--acc2);border-radius:10px"><div style="font-size:10px;color:var(--txt2)">1\uB4F1 \uC0C1\uAE08</div><div style="font-size:24px;font-weight:900;color:var(--pri)">$'+firstPlace+'</div></div>';
+prizeH+='<div style="text-align:center;padding:10px 16px;background:#fff3e0;border-radius:10px"><div style="font-size:10px;color:var(--txt2)">\uC9C0\uC815 \uC0C1\uAE08</div><div style="font-size:24px;font-weight:900;color:var(--acc)">$'+designated+'</div></div>';
 prizeH+='</div>';
-prizeH+='<div style="text-align:center;font-size:10px;color:var(--txt2)">이전 대회 ('+lastEv.name+') 벌금: $'+totalPen+'</div>';
-prizeH+='</div>'}}}
+prizeH+='<div style="text-align:center;font-size:10px;color:var(--txt2)">\uC774\uC804 \uB300\uD68C ('+lastEv.name+') \uBC8C\uAE08: $'+totalPen+'</div>';
+prizeH+='</div>'}}
 $('homePrize').innerHTML=prizeH;
 }
 
@@ -799,9 +789,10 @@ presets.forEach(function(pr){
 var sel=sc===pr.v;
 h+='<button onclick="scSet(this)" data-idx="'+pi+'" data-v="'+pr.v+'" style="padding:5px 8px;border-radius:8px;font-size:11px;font-weight:'+(sel?'800':'500')+';border:2px solid '+(sel?pr.c:'var(--brd)')+';background:'+(sel?pr.c:'#fff')+';color:'+(sel?'#fff':pr.c)+'">'+pr.l+'</button>'});
 // Also +/- for fine tuning
-h+='<button onclick="scBtnClick(this)" data-idx="'+pi+'" data-d="-1" style="padding:5px 7px;border-radius:8px;font-size:13px;border:2px solid var(--brd);background:#fff;color:var(--err)">-</button>';
-h+='<span style="font-size:16px;font-weight:900;min-width:28px;text-align:center" id="scV_'+pi+'">'+sc+'</span>';
-h+='<button onclick="scBtnClick(this)" data-idx="'+pi+'" data-d="1" style="padding:5px 7px;border-radius:8px;font-size:13px;border:2px solid var(--brd);background:#fff;color:var(--pri)">+</button>';
+h+='<span style="width:12px"></span>';
+h+='<button onclick="scBtnClick(this)" data-idx="'+pi+'" data-d="-1" style="padding:5px 9px;border-radius:8px;font-size:15px;font-weight:700;border:2px solid var(--err);background:#fff;color:var(--err)">-</button>';
+h+='<span style="font-size:18px;font-weight:900;min-width:32px;text-align:center" id="scV_'+pi+'">'+sc+'</span>';
+h+='<button onclick="scBtnClick(this)" data-idx="'+pi+'" data-d="1" style="padding:5px 9px;border-radius:8px;font-size:15px;font-weight:700;border:2px solid var(--pri);background:#fff;color:var(--pri)">+</button>';
 h+='</div></div>'});
 
 h+='</div></div>';
