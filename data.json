@@ -3605,9 +3605,8 @@
     "score": 0,
     "attended": "N",
     "diff": 0,
-    "penalty": 0,
+    "penalty": 15,
     "penaltyPaid": false,
-    "guest": true,
     "rank": 0
    },
    "양준홍": {
@@ -3616,7 +3615,6 @@
     "diff": 0.07,
     "penalty": 0,
     "penaltyPaid": false,
-    "guest": false,
     "rank": 4
    },
    "오정헌": {
@@ -3625,7 +3623,6 @@
     "diff": 30,
     "penalty": 15,
     "penaltyPaid": false,
-    "guest": false,
     "rank": 7
    },
    "임동안": {
@@ -3634,7 +3631,6 @@
     "diff": -8.72,
     "penalty": 0,
     "penaltyPaid": false,
-    "guest": false,
     "rank": 2
    },
    "장홍연": {
@@ -3643,7 +3639,6 @@
     "diff": -1.42,
     "penalty": 0,
     "penaltyPaid": false,
-    "guest": false,
     "rank": 3
    },
    "최석문": {
@@ -3652,7 +3647,6 @@
     "diff": 4.26,
     "penalty": 15,
     "penaltyPaid": true,
-    "guest": false,
     "rank": 5
    },
    "황인호": {
@@ -3661,7 +3655,6 @@
     "diff": 10.14,
     "penalty": 15,
     "penaltyPaid": false,
-    "guest": false,
     "rank": 6
    },
    "김현유": {
@@ -3670,7 +3663,6 @@
     "diff": -10.72,
     "penalty": 0,
     "penaltyPaid": false,
-    "guest": false,
     "rank": 1
    }
   }
@@ -6662,7 +6654,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1786045933906,
+ "_ts": 1786045999430,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
