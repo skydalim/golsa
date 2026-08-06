@@ -702,10 +702,16 @@ if(hasCardData){h+=`<div style="margin-bottom:10px;padding:8px;background:var(--
 <span style="font-size:11px">\uD83D\uDCCB \uC2A4\uCF54\uC5B4\uCE74\uB4DC \uB370\uC774\uD130\uAC00 \uC788\uC2B5\uB2C8\uB2E4</span>
 <button class="bt bt-a bt-s" onclick="importFromCard('${eid}')">\uD83D\uDCE5 \uCE74\uB4DC\uC5D0\uC11C \uAC00\uC838\uC624\uAE30</button></div>`}
 ms.forEach(m=>{const s=es[m.name]||{};const hdc=getH(m.name,ev.year,ev.type);
-h+=`<div class="sc-row" style="gap:5px;padding:8px 0"><span style="font-size:16px;font-weight:700;min-width:50px">${m.name}</span><span style="font-size:10px;color:var(--txt2);min-width:28px">H${hdc}</span>
-<input type="number" id="si_${m.name}" value="${s.score||''}" placeholder="\uC810\uC218" style="width:62px;font-size:16px;padding:8px 6px;font-weight:700;border-radius:8px;border:1.5px solid var(--brd)">
-<select id="ai_${m.name}" style="width:54px;font-size:14px;padding:6px;border-radius:8px;border:1.5px solid var(--brd)"><option value="Y" ${s.attended!=='N'?'selected':''}>\uCC38</option><option value="N" ${s.attended==='N'?'selected':''}>\uBD88\uCC38</option></select>
-<label style="font-size:11px;display:flex;align-items:center;gap:3px;padding:4px 6px;border:1.5px solid var(--acc);border-radius:6px;background:#fff3e0"><input type="checkbox" id="gi_${m.name}" ${s.guest?'checked':''}style="width:16px;height:16px">\uAC8C\uC2A4\uD2B8</label></div>`});
+h+=`<div style="padding:10px 0;border-bottom:1.5px solid var(--brd)">
+<div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+<span style="font-size:18px;font-weight:800">${m.name}</span>
+<span style="font-size:11px;color:var(--txt2)">H${hdc}</span>
+<label style="font-size:12px;display:flex;align-items:center;gap:4px;padding:4px 8px;border:1.5px solid var(--acc);border-radius:8px;background:#fff3e0;margin-left:auto"><input type="checkbox" id="gi_${m.name}" ${s.guest?'checked':''}style="width:18px;height:18px">\uAC8C\uC2A4\uD2B8</label>
+</div>
+<div style="display:flex;align-items:center;gap:8px">
+<input type="number" id="si_${m.name}" value="${s.score||''}" placeholder="\uC810\uC218" style="flex:1;font-size:20px;padding:10px;font-weight:700;border-radius:10px;border:2px solid var(--brd);text-align:center">
+<select id="ai_${m.name}" style="font-size:18px;padding:10px 8px;border-radius:10px;border:2px solid var(--brd);min-width:70px"><option value="Y" ${s.attended!=='N'?'selected':''}>\uCC38\uC11D</option><option value="N" ${s.attended==='N'?'selected':''}>\uBD88\uCC38</option></select>
+</div></div>`});
 h+=`<div class="bg"><button class="bt bt-p" onclick="saveSc('${eid}')">\uD83D\uDCBE \uC800\uC7A5</button></div></div>`;$('scContent').innerHTML=h}
 function importFromCard(eid){
 const cards=D.go('scorecards');const ec=cards[eid]||{};const ms=mems();
