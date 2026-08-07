@@ -3602,12 +3602,12 @@
   },
   "msbuditirj5w": {
    "김정모": {
-    "score": 15,
+    "score": 0,
     "attended": "N",
     "diff": 0,
-    "penalty": 0,
+    "penalty": 15,
     "penaltyPaid": false,
-    "guest": true,
+    "guest": false,
     "rank": 0
    },
    "양준홍": {
@@ -6662,7 +6662,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1786109872286,
+ "_ts": 1786109890137,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
