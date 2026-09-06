@@ -1091,6 +1091,20 @@
    "noHandicapCalc": false,
    "lat": 41.0030734,
    "lng": -74.5115395
+  },
+  {
+   "id": "mtqdeyvl1p2r",
+   "year": 2026,
+   "type": "후반기",
+   "name": "2026 후반기 9/7",
+   "date": "2026-09-07",
+   "course": "Fox Hollow Golf Club",
+   "address": "59 Fox Chase Run, Branchburg, NJ 08876",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false,
+   "lat": 51.0745647,
+   "lng": -114.0311775
   }
  ],
  "scores": {
@@ -6511,6 +6525,56 @@
      2
     ]
    }
+  },
+  "mtqdeyvl1p2r": {
+   "임동안": {
+    "scores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "players": [
+     "임동안",
+     "임동안2"
+    ]
+   },
+   "임동안2": {
+    "scores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
   }
  },
  "greens": {
@@ -6659,10 +6723,16 @@
     "lat": 41.0063535,
     "lng": -74.5154786
    }
+  },
+  "Fox Hollow Golf Club": {
+   "_center": {
+    "lat": 51.0745647,
+    "lng": -114.0311775
+   }
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1788732684536,
+ "_ts": 1788733019901,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
