@@ -6550,10 +6550,32 @@
     ],
     "players": [
      "임동안",
-     "임동안2"
+     "김정모"
     ]
    },
    "임동안2": {
+    "scores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "김정모": {
     "scores": [
      0,
      0,
@@ -6732,7 +6754,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1788733019901,
+ "_ts": 1788733035469,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
