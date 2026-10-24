@@ -72,7 +72,9 @@
    "email": "ihhwang61@gmail.com",
    "phone": "973-970-8061",
    "role": "user",
-   "pwd": "1234"
+   "pwd": "1234",
+   "group": "골사부모 남성",
+   "active": "N"
   },
   {
    "id": "방인태",
@@ -1105,6 +1107,20 @@
    "noHandicapCalc": false,
    "lat": 51.0745647,
    "lng": -114.0311775
+  },
+  {
+   "id": "mvmv6i6j7fxt",
+   "year": 2026,
+   "type": "전반기",
+   "name": "2026 전반기 10/24",
+   "date": "2026-10-24",
+   "course": "Sunset Valley Golf Course",
+   "address": "Sunset Valley Golf Course, 1390, Sunset Road, Highland Park, Lake County, Illinois, 60035, United States Highland Park Illinois",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false,
+   "lat": 42.1759552,
+   "lng": -87.8110253
   }
  ],
  "scores": {
@@ -3760,6 +3776,71 @@
     "penaltyPaid": false,
     "guest": false,
     "rank": 1
+   }
+  },
+  "mvmv6i6j7fxt": {
+   "김정모": {
+    "score": 0,
+    "attended": "N",
+    "diff": 0,
+    "penalty": 15,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 0
+   },
+   "양준홍": {
+    "score": 20,
+    "attended": "Y",
+    "diff": -5.93,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 1
+   },
+   "오정헌": {
+    "score": 0,
+    "attended": "Y",
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 0
+   },
+   "임동안": {
+    "score": 21,
+    "attended": "Y",
+    "diff": 4.28,
+    "penalty": 15,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 2
+   },
+   "장홍연": {
+    "score": 0,
+    "attended": "Y",
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 0
+   },
+   "최석문": {
+    "score": 0,
+    "attended": "Y",
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 0
+   },
+   "김현유": {
+    "score": 0,
+    "attended": "Y",
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 0
    }
   }
  },
@@ -6833,10 +6914,16 @@
     "lat": 51.0745647,
     "lng": -114.0311775
    }
+  },
+  "Sunset Valley Golf Course": {
+   "_center": {
+    "lat": 42.1759552,
+    "lng": -87.8110253
+   }
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1792497958314,
+ "_ts": 1792874560466,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
