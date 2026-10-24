@@ -14,7 +14,9 @@
    "email": "icdental03@gmail.com",
    "phone": "973-980-4422",
    "role": "user",
-   "pwd": "1234"
+   "pwd": "1234",
+   "group": "골사부모 남성",
+   "active": "N"
   },
   {
    "id": "양준홍",
@@ -6923,7 +6925,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1792874763183,
+ "_ts": 1792885337121,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
