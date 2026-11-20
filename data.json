@@ -3870,22 +3870,22 @@
     "rank": 2
    },
    "오정헌": {
-    "score": 2,
+    "score": 3,
     "attended": "Y",
-    "diff": -32,
+    "diff": -31,
     "penalty": 0,
     "penaltyPaid": false,
     "guest": false,
     "rank": 1
    },
    "임동안": {
-    "score": 3,
+    "score": 2,
     "attended": "Y",
-    "diff": -13.72,
+    "diff": -14.72,
     "penalty": 0,
     "penaltyPaid": false,
     "guest": false,
-    "rank": 5
+    "rank": 4
    },
    "장홍연": {
     "score": 0,
@@ -3912,7 +3912,7 @@
     "penalty": 0,
     "penaltyPaid": false,
     "guest": false,
-    "rank": 4
+    "rank": 5
    }
   }
  },
@@ -7003,7 +7003,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1795190475259,
+ "_ts": 1795190540540,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
