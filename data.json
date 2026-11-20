@@ -1123,6 +1123,20 @@
    "noHandicapCalc": false,
    "lat": 0,
    "lng": 0
+  },
+  {
+   "id": "mwp5wklzlvst",
+   "year": 2026,
+   "type": "후반기",
+   "name": "2026 후반기 11/21",
+   "date": "2026-11-21",
+   "course": "Flanders Valley Golf Course",
+   "address": "Flanders Valley Golf Course, 81, Pleasant Hill Road, Flanders, Mount Olive, Morris County, New Jersey, 07836, United States Mount Olive New Jersey",
+   "note": "",
+   "noPenalty": false,
+   "noHandicapCalc": false,
+   "lat": 40.8301249,
+   "lng": -74.6910149
   }
  ],
  "scores": {
@@ -3843,6 +3857,62 @@
     "penaltyPaid": false,
     "guest": false,
     "rank": 2
+   }
+  },
+  "mwp5wklzlvst": {
+   "양준홍": {
+    "score": 0,
+    "attended": "Y",
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 0
+   },
+   "오정헌": {
+    "score": 0,
+    "attended": "Y",
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 0
+   },
+   "임동안": {
+    "score": 0,
+    "attended": "Y",
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 0
+   },
+   "장홍연": {
+    "score": 0,
+    "attended": "N",
+    "diff": 0,
+    "penalty": 15,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 0
+   },
+   "최석문": {
+    "score": 0,
+    "attended": "Y",
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 0
+   },
+   "김현유": {
+    "score": 0,
+    "attended": "Y",
+    "diff": 0,
+    "penalty": 0,
+    "penaltyPaid": false,
+    "guest": false,
+    "rank": 0
    }
   }
  },
@@ -6933,7 +7003,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1795190081312,
+ "_ts": 1795190245595,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
