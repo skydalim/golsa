@@ -3879,9 +3879,9 @@
     "rank": 1
    },
    "임동안": {
-    "score": 5,
+    "score": 3,
     "attended": "Y",
-    "diff": -11.72,
+    "diff": -13.72,
     "penalty": 0,
     "penaltyPaid": false,
     "guest": false,
@@ -7003,7 +7003,7 @@
   }
  },
  "_group": "골사부모 남성",
- "_ts": 1795190455128,
+ "_ts": 1795190475259,
  "_sync": {
   "t": "AAYYGxQAKh0ORm8DBCUmNikjVSRdO3NESgQROwAjVxQBMlhjeEEDNVwjRCYSQQ5YVl1dfSgmCSoHMQZbOXp7VVYpXxpLNSUEWRZZR2RgJT0oKiI6ODcgfkN7dwwO",
   "u": "skydalim",
